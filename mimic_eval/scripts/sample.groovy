@@ -6,11 +6,11 @@ def train = []
 def test = []
 
 entries.each {
-  def g = r.nextInt(2)
+  def g = r.nextInt(5)
   if(g == 0) {
-    train << it
-  } else {
     test << it
+  } else {
+    train << it
   }
 }
 
