@@ -1,0 +1,1 @@
+klarigi --data data/pp_conv_test.tsv -o ../hp.owl --verbose --threads 6 --output-scores --group OMIM:616900 --output-type=latex --resnik-ic --reclassify --classify-with-variables data/klarigi_multivariate_results.txt -ecm > klarigi_outputs/test_classify.out 

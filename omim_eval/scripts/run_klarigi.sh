@@ -1,0 +1,1 @@
+klarigi --data data/pp_conv_train.tsv -o ../hp.owl --verbose --threads 6 --output-scores --group OMIM:616900 --output-type=latex --resnik-ic --min-power=0.2 --reclassify -ecm > klarigi_outputs/train_ecm.out 
