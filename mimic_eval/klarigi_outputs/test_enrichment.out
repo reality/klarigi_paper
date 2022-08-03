@@ -1,0 +1,144 @@
+Done loading dataset
+Done loading the ontology
+Done loading IC values
+pulmonary embolism: Scoring completed. Candidates: 475
+pneumonia: Scoring completed. Candidates: 891
+\begin{tabular}{p{5cm}|l|l|l|l}
+{\bf pneumonia (147 members)} & {\bf r-score} & {\bf Inclusion} & {\bf Exclusion} & {\bf IC} \\
+Pulmonary edema ({\tt HP:0100598}) & 0.24 & 0.28 & 0.22 & 1.0 \\
+Respiratory insufficiency ({\tt HP:0002093}) & 0.24 & 0.29 & 0.2 & 0.81 \\
+Respiratory distress ({\tt HP:0002098}) & 0.23 & 0.37 & 0.17 & 0.92 \\
+Airway obstruction ({\tt HP:0006536}) & 0.23 & 0.36 & 0.17 & 0.87 \\
+Chronic pulmonary obstruction ({\tt HP:0006510}) & 0.23 & 0.35 & 0.17 & 1.0 \\
+Respiratory tract infection ({\tt HP:0011947}) & 0.22 & 0.26 & 0.19 & 0.73 \\
+Productive cough ({\tt HP:0031245}) & 0.21 & 0.2 & 0.22 & 1.0 \\
+Aspiration ({\tt HP:0002835}) & 0.21 & 0.24 & 0.19 & 1.0 \\
+Respiratory failure ({\tt HP:0002878}) & 0.2 & 0.23 & 0.18 & 1.0 \\
+Leukocytosis ({\tt HP:0001974}) & 0.18 & 0.22 & 0.15 & 0.89 \\
+Congestive heart failure ({\tt HP:0001635}) & 0.17 & 0.33 & 0.12 & 0.95 \\
+Emphysema ({\tt HP:0002097}) & 0.16 & 0.14 & 0.2 & 0.85 \\
+Abnormality of temperature regulation ({\tt HP:0004370}) & 0.16 & 0.62 & 0.09 & 0.77 \\
+Nonproductive cough ({\tt HP:0031246}) & 0.16 & 0.11 & 0.29 & 1.0 \\
+Abnormal blood monovalent inorganic cation concentration ({\tt HP:0010930}) & 0.16 & 0.15 & 0.17 & 0.89 \\
+Fever ({\tt HP:0001945}) & 0.16 & 0.61 & 0.09 & 0.83 \\
+Pneumonia ({\tt HP:0002090}) & 0.15 & 0.13 & 0.19 & 0.89 \\
+Tachypnea ({\tt HP:0002789}) & 0.15 & 0.12 & 0.23 & 1.0 \\
+Abnormal granulocyte count ({\tt HP:0032309}) & 0.15 & 0.12 & 0.23 & 0.74 \\
+Obstructive sleep apnea ({\tt HP:0002870}) & 0.15 & 0.12 & 0.23 & 1.0 \\
+Scarring ({\tt HP:0100699}) & 0.15 & 0.14 & 0.16 & 0.83 \\
+Anxiety ({\tt HP:0000739}) & 0.15 & 0.2 & 0.12 & 1.0 \\
+Abnormal fear/anxiety-related behavior ({\tt HP:0100852}) & 0.15 & 0.2 & 0.12 & 0.87 \\
+Recurrent respiratory infections ({\tt HP:0002205}) & 0.15 & 0.1 & 0.29 & 0.77 \\
+Abnormal neutrophil count ({\tt HP:0011991}) & 0.15 & 0.11 & 0.23 & 0.81 \\
+Abnormality of neutrophils ({\tt HP:0001874}) & 0.15 & 0.11 & 0.23 & 0.72 \\
+Abnormal blood cation concentration ({\tt HP:0010929}) & 0.15 & 0.16 & 0.14 & 0.72 \\
+Sepsis ({\tt HP:0100806}) & 0.15 & 0.18 & 0.13 & 1.0 \\
+Apnea ({\tt HP:0002104}) & 0.15 & 0.14 & 0.16 & 0.85 \\
+Impairment in personality functioning ({\tt HP:0031466}) & 0.14 & 0.36 & 0.09 & 0.72 \\
+Cardiomegaly ({\tt HP:0001640}) & 0.14 & 0.12 & 0.18 & 1.0 \\
+Wheezing ({\tt HP:0030828}) & 0.14 & 0.47 & 0.08 & 1.0 \\
+Abnormal blood sodium concentration ({\tt HP:0010931}) & 0.13 & 0.11 & 0.18 & 0.95 \\
+Pneumothorax ({\tt HP:0002107}) & 0.13 & 0.24 & 0.09 & 0.92 \\
+Dehydration ({\tt HP:0001944}) & 0.13 & 0.1 & 0.17 & 1.0 \\
+Cardiac conduction abnormality ({\tt HP:0031546}) & 0.13 & 0.09 & 0.21 & 0.77 \\
+Heart block ({\tt HP:0012722}) & 0.13 & 0.09 & 0.21 & 0.78 \\
+Acute respiratory distress syndrome ({\tt HP:0033677}) & 0.13 & 0.09 & 0.21 & 1.0 \\
+Respiratory failure requiring assisted ventilation ({\tt HP:0004887}) & 0.13 & 0.09 & 0.21 & 0.95 \\
+Sleep apnea ({\tt HP:0010535}) & 0.13 & 0.12 & 0.14 & 0.95 \\
+Cough ({\tt HP:0012735}) & 0.13 & 0.8 & 0.07 & 0.87 \\
+Abnormal emotion/affect behavior ({\tt HP:0100851}) & 0.12 & 0.29 & 0.08 & 0.7 \\
+Osteoporosis ({\tt HP:0000939}) & 0.12 & 0.1 & 0.16 & 0.92 \\
+Acute coronary syndrome ({\tt HP:0033678}) & 0.12 & 0.19 & 0.09 & 1.0 \\
+Hyponatremia ({\tt HP:0002902}) & 0.12 & 0.08 & 0.21 & 1.0 \\
+Confusion ({\tt HP:0001289}) & 0.11 & 0.14 & 0.09 & 1.0 \\
+Hypoxemia ({\tt HP:0012418}) & 0.11 & 0.09 & 0.15 & 0.95 \\
+Flushing ({\tt HP:0031284}) & 0.11 & 0.09 & 0.15 & 1.0 \\
+Myocardial infarction ({\tt HP:0001658}) & 0.11 & 0.18 & 0.08 & 1.0 \\
+Reduced bone mineral density ({\tt HP:0004349}) & 0.11 & 0.1 & 0.12 & 0.8 \\
+Stage 5 chronic kidney disease ({\tt HP:0003774}) & 0.11 & 0.1 & 0.12 & 1.0 \\
+Hypercapnia ({\tt HP:0012416}) & 0.11 & 0.07 & 0.29 & 1.0 \\
+Recurrent pneumonia ({\tt HP:0006532}) & 0.11 & 0.07 & 0.29 & 1.0 \\
+Recurrent lower respiratory tract infections ({\tt HP:0002783}) & 0.11 & 0.07 & 0.29 & 0.95 \\
+Abnormal blood carbon dioxide level ({\tt HP:0500164}) & 0.11 & 0.07 & 0.29 & 0.95 \\
+Malaise ({\tt HP:0033834}) & 0.11 & 0.07 & 0.2 & 1.0 \\
+Depression ({\tt HP:0000716}) & 0.1 & 0.22 & 0.07 & 1.0 \\
+Bundle branch block ({\tt HP:0011710}) & 0.1 & 0.07 & 0.2 & 0.89 \\
+Colitis ({\tt HP:0002583}) & 0.1 & 0.07 & 0.2 & 0.87 \\
+Glaucoma ({\tt HP:0000501}) & 0.1 & 0.07 & 0.2 & 0.85 \\
+Inflammation of the large intestine ({\tt HP:0002037}) & 0.1 & 0.07 & 0.2 & 0.85 \\
+{\em Overall} & - & 100.0 & - & - \\ 
+\hline
+\end{tabular}
+\begin{tabular}{p{5cm}|l|l|l|l}
+{\bf pulmonary embolism (59 members)} & {\bf r-score} & {\bf Inclusion} & {\bf Exclusion} & {\bf IC} \\
+Hemoptysis ({\tt HP:0002105}) & 0.29 & 0.29 & 0.3 & 1.0 \\
+Abnormal sputum ({\tt HP:0032016}) & 0.27 & 0.29 & 0.26 & 0.89 \\
+Syncope ({\tt HP:0001279}) & 0.27 & 0.19 & 0.5 & 0.89 \\
+Bloody diarrhea ({\tt HP:0025085}) & 0.26 & 0.25 & 0.27 & 0.92 \\
+Melena ({\tt HP:0002249}) & 0.25 & 0.2 & 0.31 & 1.0 \\
+Deep venous thrombosis ({\tt HP:0002625}) & 0.22 & 0.19 & 0.26 & 1.0 \\
+Venous thrombosis ({\tt HP:0004936}) & 0.22 & 0.22 & 0.21 & 0.83 \\
+Abnormal thrombosis ({\tt HP:0001977}) & 0.21 & 0.24 & 0.2 & 0.75 \\
+Gastrointestinal hemorrhage ({\tt HP:0002239}) & 0.21 & 0.22 & 0.2 & 0.87 \\
+Hematochezia ({\tt HP:0002573}) & 0.19 & 0.14 & 0.33 & 1.0 \\
+Hypercoagulability ({\tt HP:0100724}) & 0.18 & 0.1 & 0.71 & 1.0 \\
+Hepatosplenomegaly ({\tt HP:0001433}) & 0.18 & 0.14 & 0.25 & 1.0 \\
+Epithelial neoplasm ({\tt HP:0031492}) & 0.17 & 0.1 & 0.46 & 0.85 \\
+Carcinoma ({\tt HP:0030731}) & 0.17 & 0.1 & 0.46 & 1.0 \\
+Vascular dilatation ({\tt HP:0002617}) & 0.17 & 0.14 & 0.21 & 0.74 \\
+Abnormal pericardium morphology ({\tt HP:0001697}) & 0.17 & 0.37 & 0.11 & 0.76 \\
+Pericardial effusion ({\tt HP:0001698}) & 0.16 & 0.36 & 0.1 & 0.92 \\
+Visceromegaly ({\tt HP:0003271}) & 0.16 & 0.17 & 0.15 & 0.92 \\
+Abnormality of the spleen ({\tt HP:0001743}) & 0.16 & 0.15 & 0.16 & 0.76 \\
+Splenomegaly ({\tt HP:0001744}) & 0.16 & 0.15 & 0.16 & 1.0 \\
+Abnormal spleen morphology ({\tt HP:0025408}) & 0.16 & 0.15 & 0.16 & 0.77 \\
+Hepatomegaly ({\tt HP:0002240}) & 0.16 & 0.15 & 0.16 & 1.0 \\
+Left ventricular hypertrophy ({\tt HP:0001712}) & 0.16 & 0.19 & 0.14 & 1.0 \\
+Abnormal left ventricle morphology ({\tt HP:0001711}) & 0.16 & 0.19 & 0.14 & 0.83 \\
+Anemia of inadequate production ({\tt HP:0010972}) & 0.16 & 0.14 & 0.18 & 0.75 \\
+Ventricular hypertrophy ({\tt HP:0001714}) & 0.15 & 0.19 & 0.12 & 0.92 \\
+Abnormal rectum morphology ({\tt HP:0002034}) & 0.15 & 0.08 & 0.55 & 0.78 \\
+Abnormal cardiac atrium morphology ({\tt HP:0005120}) & 0.14 & 0.12 & 0.18 & 0.71 \\
+Abnormality of the gallbladder ({\tt HP:0005264}) & 0.14 & 0.15 & 0.12 & 0.77 \\
+Palpitations ({\tt HP:0001962}) & 0.14 & 0.32 & 0.09 & 1.0 \\
+Glucose intolerance ({\tt HP:0001952}) & 0.14 & 0.32 & 0.09 & 0.83 \\
+Diabetes mellitus ({\tt HP:0000819}) & 0.14 & 0.32 & 0.09 & 0.84 \\
+Atherosclerosis ({\tt HP:0002621}) & 0.14 & 0.08 & 0.34 & 0.74 \\
+Arteriosclerosis ({\tt HP:0002634}) & 0.14 & 0.08 & 0.34 & 0.73 \\
+Gout ({\tt HP:0001997}) & 0.13 & 0.08 & 0.27 & 1.0 \\
+Jaundice ({\tt HP:0000952}) & 0.13 & 0.08 & 0.27 & 0.95 \\
+Cholestasis ({\tt HP:0001396}) & 0.13 & 0.08 & 0.27 & 0.85 \\
+Hypochromic anemia ({\tt HP:0001931}) & 0.13 & 0.1 & 0.18 & 0.95 \\
+Iron deficiency anemia ({\tt HP:0001891}) & 0.13 & 0.1 & 0.18 & 1.0 \\
+Conjunctival icterus ({\tt HP:0032106}) & 0.12 & 0.08 & 0.21 & 1.0 \\
+Hemorrhoids ({\tt HP:0032551}) & 0.12 & 0.07 & 0.51 & 1.0 \\
+Abnormal circulating nitrogen compound concentration ({\tt HP:0004364}) & 0.12 & 0.1 & 0.14 & 0.73 \\
+Abnormality of the uterus ({\tt HP:0000130}) & 0.12 & 0.07 & 0.38 & 0.7 \\
+Abnormal atrial septum morphology ({\tt HP:0011994}) & 0.11 & 0.08 & 0.17 & 0.84 \\
+Atrial septal defect ({\tt HP:0001631}) & 0.11 & 0.08 & 0.17 & 0.85 \\
+Lower limb pain ({\tt HP:0012514}) & 0.11 & 0.08 & 0.17 & 0.89 \\
+Limb pain ({\tt HP:0009763}) & 0.11 & 0.08 & 0.17 & 0.84 \\
+Pleuritic chest pain ({\tt HP:0033771}) & 0.11 & 0.15 & 0.09 & 1.0 \\
+Insomnia ({\tt HP:0100785}) & 0.11 & 0.14 & 0.09 & 0.92 \\
+Pallor ({\tt HP:0000980}) & 0.11 & 0.07 & 0.29 & 1.0 \\
+Neoplasm of the liver ({\tt HP:0002896}) & 0.11 & 0.07 & 0.29 & 0.89 \\
+Cholecystitis ({\tt HP:0001082}) & 0.11 & 0.1 & 0.11 & 1.0 \\
+Abnormal gallbladder physiology ({\tt HP:0012438}) & 0.11 & 0.1 & 0.11 & 0.95 \\
+Sudden death ({\tt HP:0001699}) & 0.1 & 0.07 & 0.21 & 0.95 \\
+Scoliosis ({\tt HP:0002650}) & 0.1 & 0.07 & 0.21 & 0.85 \\
+Male reproductive system neoplasm ({\tt HP:0033019}) & 0.1 & 0.08 & 0.13 & 0.8 \\
+Prostate cancer ({\tt HP:0012125}) & 0.1 & 0.08 & 0.13 & 1.0 \\
+Abnormal conjunctiva morphology ({\tt HP:0000502}) & 0.1 & 0.08 & 0.13 & 0.72 \\
+Prostate neoplasm ({\tt HP:0100787}) & 0.1 & 0.08 & 0.13 & 1.0 \\
+Abnormal abdomen morphology ({\tt HP:0001438}) & 0.1 & 0.22 & 0.06 & 0.78 \\
+Abnormality of the lymph nodes ({\tt HP:0002733}) & 0.1 & 0.27 & 0.06 & 0.77 \\
+Lymphadenopathy ({\tt HP:0002716}) & 0.1 & 0.27 & 0.06 & 0.84 \\
+{\em Overall} & - & 98.31 & - & - \\ 
+\hline
+\end{tabular}
+Classifying 'pneumonia' using candidate set with OI: 95.2380952400
+Classifying 'pulmonary embolism' using candidate set with OI: 10.1694915300
+Reclassification:
+pneumonia AUC: 0.8315461777931512
+pulmonary embolism AUC: 0.6029055690072639
+

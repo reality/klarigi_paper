@@ -7,22 +7,20 @@ HP:0009763	pulmonary embolism
 HP:0033771	pulmonary embolism
 HP:0004324	pulmonary embolism
 HP:0011703	pulmonary embolism
-HP:0001659	pulmonary embolism
-HP:0001698	pulmonary embolism
-HP:0004323	pulmonary embolism
-HP:0001697	pulmonary embolism
 HP:0001513	pulmonary embolism
-HP:0011702	pulmonary embolism
-HP:0005180	pulmonary embolism
-HP:0031651	pulmonary embolism
-HP:0031652	pulmonary embolism
-HP:0001634	pulmonary embolism
-HP:0004307	pulmonary embolism
-HP:0001671	pulmonary embolism
-HP:0001649	pulmonary embolism
+HP:0025276	pulmonary embolism
+HP:0000975	pulmonary embolism
+HP:0007550	pulmonary embolism
+HP:0033747	pulmonary embolism
+HP:0003474	pulmonary embolism
+HP:0001279	pulmonary embolism
+HP:0001907	pulmonary embolism
+HP:0002036	pulmonary embolism
+HP:0033748	pulmonary embolism
 HP:0000083	pneumonia
 HP:0006536	pneumonia
 HP:0005110	pneumonia
+HP:0100598	pneumonia
 HP:0002093	pneumonia
 HP:0006510	pneumonia
 HP:0002098	pneumonia
@@ -30,7 +28,6 @@ HP:0001635	pneumonia
 HP:0002835	pneumonia
 HP:0002878	pneumonia
 HP:0031245	pneumonia
-HP:0030828	pneumonia
 HP:0012622	pneumonia
 HP:0001692	pneumonia
 HP:0030831	pneumonia
@@ -38,11 +35,13 @@ HP:0003774	pneumonia
 HP:0001289	pneumonia
 HP:0011947	pneumonia
 HP:0100806	pneumonia
-HP:0005115	pneumonia
 HP:0000600	pneumonia
-HP:0012735	pneumonia
 HP:0033050	pneumonia
 HP:0033152	pneumonia
-HP:0004372	pneumonia
-HP:0001919	pneumonia
+HP:0002090	pneumonia
 HP:0031246	pneumonia
+HP:0031258	pneumonia
+HP:0025426	pneumonia
+HP:0033834	pneumonia
+HP:0012115	pneumonia
+HP:0004298	pneumonia
