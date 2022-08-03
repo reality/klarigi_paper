@@ -1,1 +1,1 @@
-time klarigi --data data/train.tsv -o ../hp.owl --verbose --threads 6 --output-type=latex --exclude-classes="HP:0100598;HP:0002090" --output-scores -ecm --reclassify --resnik-ic --min-inclusion=0.1 > klarigi_outputs/overall/main_ecm_withp.out
+time klarigi --data data/train.tsv -o ../hp.owl --verbose --threads 6 --output-type=latex --exclude-classes="HP:0100598;HP:0002090" --output-scores -ecm --reclassify --min-power=0.125 --resnik-ic > klarigi_outputs/overall/main_ecm_withp.out
