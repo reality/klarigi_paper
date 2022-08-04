@@ -11,7 +11,7 @@ entries.each {
   def g = r.nextInt(5)
 
   it = it.split('\t')
-  it[1] = it[1].split(';').findAll { i -> !STRIP.contains(i) }.join(';')
+  it[1] = it[1].split(';').collect { 'HP:' + it.split('_').last() }.findAll { i -> !STRIP.contains(i) }.join(';')
   it = it.join('\t')
 
   if(g == 0) {
