@@ -52,7 +52,7 @@ new File('data/binomial.sigResults_enriched.tsv').withReader { reader ->
     handle(pr, 'binomial', record)
   }
 }
-new File(dataDir, 'data/fisher.sigResults_enriched.tsv').withReader { reader ->
+new File('data/fisher.sigResults_enriched.tsv').withReader { reader ->
   CSVParser csv = new CSVParser(reader, TDF.withHeader())
   for(record in csv.iterator()) {
     handle(pr, 'fisher', record)
