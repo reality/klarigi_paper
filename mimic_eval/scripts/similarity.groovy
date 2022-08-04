@@ -121,7 +121,8 @@ def icConf = new IC_Conf_Corpus(SMConstants.FLAG_IC_ANNOT_RESNIK_1995)
 def smConfPairwise = new SMconf(SMConstants.FLAG_SIM_PAIRWISE_DAG_NODE_RESNIK_1995, icConf)
 //def smConfPairwise = new SMconf(SMConstants.FLAG_SIM_PAIRWISE_DAG_NODE_LIN_1998, icConf)
 //def smConfGroupwise = new SMconf(SMConstants.FLAG_SIM_GROUPWISE_AVERAGE, icConf)
-def smConfGroupwise = new SMconf(SMConstants.FLAG_SIM_GROUPWISE_AVERAGE, icConf)
+def smConfGroupwise = new SMconf(SMConstants.FLAG_SIM_GROUPWISE_BMA, icConf)
+//def smConfGroupwise = new SMconf(SMConstants.FLAG_SIM_GROUPWISE_AVERAGE, icConf)
 // FLAG_SIM_GROUPWISE_AVERAGE_NORMALIZED_GOSIM
 
 //def smConfPairwise = new SMconf(SMConstants.FLAG_SIM_PAIRWISE_DAG_NODE_JIANG_CONRATH_1997_NORM , icConf)
@@ -139,8 +140,8 @@ def getURIfromTerm = { term ->
 def sims = []
 def out = ["pesim\tpnsim\tmatch1\tmatch2"]
 new File('data/test.tsv').splitEachLine('\t') {
-def pesim = engine.compare(smConfGroupwise, smConfPairwise, enrichment['pulmonary embolism'].collect { getURIfromTerm(it) }.toSet(), it[1].split(';').collect { it = 'HP:' + it.split('_')[1] ; getURIfromTerm(it) }.findAll { graph.containsVertex(it) }.toSet())
-def pnsim = engine.compare(smConfGroupwise, smConfPairwise, enrichment['pneumonia'].collect { getURIfromTerm(it) }.toSet(), it[1].split(';').collect { it = 'HP:' + it.split('_')[1] ; getURIfromTerm(it) }.findAll { graph.containsVertex(it) }.toSet())
+def pesim = engine.compare(smConfGroupwise, smConfPairwise, enrichment['pulmonary embolism'].collect { getURIfromTerm(it) }.toSet(), it[1].split(';').collect { getURIfromTerm(it) }.findAll { graph.containsVertex(it) }.toSet())
+def pnsim = engine.compare(smConfGroupwise, smConfPairwise, enrichment['pneumonia'].collect { getURIfromTerm(it) }.toSet(), it[1].split(';').collect { getURIfromTerm(it) }.findAll { graph.containsVertex(it) }.toSet())
 def match1 = it[2] == 'pulmonary embolism'
 def match2 = it[2] == 'pneumonia'
   out << "$pesim\t$pnsim\t$match1\t$match2"
@@ -150,8 +151,8 @@ new File('data/sim/enrichment_sim_class.tsv').text = out.join('\n')
 out = ["pesim\tpnsim\tmatch1\tmatch2"]
 
 new File('data/test.tsv').splitEachLine('\t') {
-def pesim = engine.compare(smConfGroupwise, smConfPairwise, multivariate['pulmonary embolism'].collect { getURIfromTerm(it) }.toSet(), it[1].split(';').collect { it = 'HP:' + it.split('_')[1] ; getURIfromTerm(it) }.findAll { graph.containsVertex(it) }.toSet())
-def pnsim = engine.compare(smConfGroupwise, smConfPairwise, multivariate['pneumonia'].collect { getURIfromTerm(it) }.toSet(), it[1].split(';').collect { it = 'HP:' + it.split('_')[1] ; getURIfromTerm(it) }.findAll { graph.containsVertex(it) }.toSet())
+def pesim = engine.compare(smConfGroupwise, smConfPairwise, multivariate['pulmonary embolism'].collect { getURIfromTerm(it) }.toSet(), it[1].split(';').collect { getURIfromTerm(it) }.findAll { graph.containsVertex(it) }.toSet())
+def pnsim = engine.compare(smConfGroupwise, smConfPairwise, multivariate['pneumonia'].collect { getURIfromTerm(it) }.toSet(), it[1].split(';').collect { getURIfromTerm(it) }.findAll { graph.containsVertex(it) }.toSet())
 def match1 = it[2] == 'pulmonary embolism'
 def match2 = it[2] == 'pneumonia'
   out << "$pesim\t$pnsim\t$match1\t$match2"
@@ -161,8 +162,8 @@ new File('data/sim/multivariate_sim_class.tsv').text = out.join('\n')
 out = ["pesim\tpnsim\tmatch1\tmatch2"]
 
 new File('data/test.tsv').splitEachLine('\t') {
-def pesim = engine.compare(smConfGroupwise, smConfPairwise, univariate['pulmonary embolism'].collect { getURIfromTerm(it) }.toSet(), it[1].split(';').collect { it = 'HP:' + it.split('_')[1] ; getURIfromTerm(it) }.findAll { graph.containsVertex(it) }.toSet())
-def pnsim = engine.compare(smConfGroupwise, smConfPairwise, univariate['pneumonia'].collect { getURIfromTerm(it) }.toSet(), it[1].split(';').collect { it = 'HP:' + it.split('_')[1] ; getURIfromTerm(it) }.findAll { graph.containsVertex(it) }.toSet())
+def pesim = engine.compare(smConfGroupwise, smConfPairwise, univariate['pulmonary embolism'].collect { getURIfromTerm(it) }.toSet(), it[1].split(';').collect { getURIfromTerm(it) }.findAll { graph.containsVertex(it) }.toSet())
+def pnsim = engine.compare(smConfGroupwise, smConfPairwise, univariate['pneumonia'].collect { getURIfromTerm(it) }.toSet(), it[1].split(';').collect { getURIfromTerm(it) }.findAll { graph.containsVertex(it) }.toSet())
 def match1 = it[2] == 'pulmonary embolism'
 def match2 = it[2] == 'pneumonia'
   out << "$pesim\t$pnsim\t$match1\t$match2"

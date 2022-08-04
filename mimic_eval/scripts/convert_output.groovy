@@ -1,5 +1,5 @@
 // this is so stupid
-def tables = new File('klarigi_outputs/overall/main_ecm_withp.out').text.split('tabular')
+def tables = new File('klarigi_outputs/main_ecm_nop.out').text.split('tabular')
 
 def uv_pe = (tables[1] =~ /.*(HP\:.......).*/).collect { it[1] + "\tpulmonary embolism" }.join('\n')
 def uv_pn = (tables[3] =~ /.*(HP\:.......).*/).collect { it[1] + "\tpneumonia" }.join('\n')

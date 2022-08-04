@@ -2,17 +2,17 @@ Done loading dataset
 Done loading the ontology
 Done loading IC values
 pulmonary embolism: Scoring completed. Candidates: 475
-pneumonia: Scoring completed. Candidates: 891
+pneumonia: Scoring completed. Candidates: 889
 \begin{tabular}{p{5cm}|l|l|l|l}
 {\bf pneumonia (147 members)} & {\bf r-score} & {\bf Inclusion} & {\bf Exclusion} & {\bf IC} \\
-Pulmonary edema ({\tt HP:0100598}) & 0.24 & 0.28 & 0.22 & 1.0 \\
+\hline \hline
 Respiratory insufficiency ({\tt HP:0002093}) & 0.24 & 0.29 & 0.2 & 0.81 \\
 Respiratory distress ({\tt HP:0002098}) & 0.23 & 0.37 & 0.17 & 0.92 \\
 Airway obstruction ({\tt HP:0006536}) & 0.23 & 0.36 & 0.17 & 0.87 \\
 Chronic pulmonary obstruction ({\tt HP:0006510}) & 0.23 & 0.35 & 0.17 & 1.0 \\
-Respiratory tract infection ({\tt HP:0011947}) & 0.22 & 0.26 & 0.19 & 0.73 \\
 Productive cough ({\tt HP:0031245}) & 0.21 & 0.2 & 0.22 & 1.0 \\
 Aspiration ({\tt HP:0002835}) & 0.21 & 0.24 & 0.19 & 1.0 \\
+Respiratory tract infection ({\tt HP:0011947}) & 0.21 & 0.2 & 0.22 & 0.73 \\
 Respiratory failure ({\tt HP:0002878}) & 0.2 & 0.23 & 0.18 & 1.0 \\
 Leukocytosis ({\tt HP:0001974}) & 0.18 & 0.22 & 0.15 & 0.89 \\
 Congestive heart failure ({\tt HP:0001635}) & 0.17 & 0.33 & 0.12 & 0.95 \\
@@ -21,7 +21,6 @@ Abnormality of temperature regulation ({\tt HP:0004370}) & 0.16 & 0.62 & 0.09 & 
 Nonproductive cough ({\tt HP:0031246}) & 0.16 & 0.11 & 0.29 & 1.0 \\
 Abnormal blood monovalent inorganic cation concentration ({\tt HP:0010930}) & 0.16 & 0.15 & 0.17 & 0.89 \\
 Fever ({\tt HP:0001945}) & 0.16 & 0.61 & 0.09 & 0.83 \\
-Pneumonia ({\tt HP:0002090}) & 0.15 & 0.13 & 0.19 & 0.89 \\
 Tachypnea ({\tt HP:0002789}) & 0.15 & 0.12 & 0.23 & 1.0 \\
 Abnormal granulocyte count ({\tt HP:0032309}) & 0.15 & 0.12 & 0.23 & 0.74 \\
 Obstructive sleep apnea ({\tt HP:0002870}) & 0.15 & 0.12 & 0.23 & 1.0 \\
@@ -59,6 +58,7 @@ Stage 5 chronic kidney disease ({\tt HP:0003774}) & 0.11 & 0.1 & 0.12 & 1.0 \\
 Hypercapnia ({\tt HP:0012416}) & 0.11 & 0.07 & 0.29 & 1.0 \\
 Recurrent pneumonia ({\tt HP:0006532}) & 0.11 & 0.07 & 0.29 & 1.0 \\
 Recurrent lower respiratory tract infections ({\tt HP:0002783}) & 0.11 & 0.07 & 0.29 & 0.95 \\
+Pneumonia ({\tt HP:0002090}) & 0.11 & 0.07 & 0.29 & 0.89 \\
 Abnormal blood carbon dioxide level ({\tt HP:0500164}) & 0.11 & 0.07 & 0.29 & 0.95 \\
 Malaise ({\tt HP:0033834}) & 0.11 & 0.07 & 0.2 & 1.0 \\
 Depression ({\tt HP:0000716}) & 0.1 & 0.22 & 0.07 & 1.0 \\
@@ -66,11 +66,12 @@ Bundle branch block ({\tt HP:0011710}) & 0.1 & 0.07 & 0.2 & 0.89 \\
 Colitis ({\tt HP:0002583}) & 0.1 & 0.07 & 0.2 & 0.87 \\
 Glaucoma ({\tt HP:0000501}) & 0.1 & 0.07 & 0.2 & 0.85 \\
 Inflammation of the large intestine ({\tt HP:0002037}) & 0.1 & 0.07 & 0.2 & 0.85 \\
-{\em Overall} & - & 100.0 & - & - \\ 
 \hline
+{\em Overall} & 100.0 & - & - \\ 
 \end{tabular}
 \begin{tabular}{p{5cm}|l|l|l|l}
 {\bf pulmonary embolism (59 members)} & {\bf r-score} & {\bf Inclusion} & {\bf Exclusion} & {\bf IC} \\
+\hline \hline
 Hemoptysis ({\tt HP:0002105}) & 0.29 & 0.29 & 0.3 & 1.0 \\
 Abnormal sputum ({\tt HP:0032016}) & 0.27 & 0.29 & 0.26 & 0.89 \\
 Syncope ({\tt HP:0001279}) & 0.27 & 0.19 & 0.5 & 0.89 \\
@@ -133,12 +134,12 @@ Prostate neoplasm ({\tt HP:0100787}) & 0.1 & 0.08 & 0.13 & 1.0 \\
 Abnormal abdomen morphology ({\tt HP:0001438}) & 0.1 & 0.22 & 0.06 & 0.78 \\
 Abnormality of the lymph nodes ({\tt HP:0002733}) & 0.1 & 0.27 & 0.06 & 0.77 \\
 Lymphadenopathy ({\tt HP:0002716}) & 0.1 & 0.27 & 0.06 & 0.84 \\
-{\em Overall} & - & 98.31 & - & - \\ 
 \hline
+{\em Overall} & 98.31 & - & - \\ 
 \end{tabular}
-Classifying 'pneumonia' using candidate set with OI: 95.2380952400
+Classifying 'pneumonia' using candidate set with OI: 93.8775510200
 Classifying 'pulmonary embolism' using candidate set with OI: 10.1694915300
 Reclassification:
-pneumonia AUC: 0.8315461777931512
+pneumonia AUC: 0.8190937391905915
 pulmonary embolism AUC: 0.6029055690072639
 
