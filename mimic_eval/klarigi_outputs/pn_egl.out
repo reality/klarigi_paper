@@ -1,0 +1,21 @@
+Done loading dataset
+Done loading the ontology
+Done loading IC values
+pneumonia: Scoring completed. Candidates: 1741
+\begin{tabular}{p{5cm}|l|l}
+{\bf pneumonia (552 members)} & {\bf Inclusion} & {\bf IC} \\
+\hline \hline
+Dyspnea ({\tt HP:0002094}) & 0.89 & 0.83 \\
+Abnormal breath sound ({\tt HP:0030829}) & 0.81 & 0.8 \\
+Cough ({\tt HP:0012735}) & 0.78 & 0.87 \\
+Abnormal systemic blood pressure ({\tt HP:0030972}) & 0.76 & 0.76 \\
+Chest pain ({\tt HP:0100749}) & 0.64 & 0.95 \\
+Increased blood pressure ({\tt HP:0032263}) & 0.64 & 0.83 \\
+Hypertension ({\tt HP:0000822}) & 0.64 & 0.89 \\
+Abnormality of temperature regulation ({\tt HP:0004370}) & 0.63 & 0.77 \\
+Fever ({\tt HP:0001945}) & 0.62 & 0.83 \\
+Crackles ({\tt HP:0030830}) & 0.62 & 0.92 \\
+\hline
+{\em Overall} & 99.28 \\ 
+\end{tabular}
+Skipping classification options because in EGL mode.
