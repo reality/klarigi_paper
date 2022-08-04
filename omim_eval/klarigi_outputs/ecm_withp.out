@@ -18189,3 +18189,57 @@ Tip: Don't use p-values produced by this process to inform hyperparameter optimi
 800
 900
 1000
+1100
+1200
+1300
+1400
+1500
+1600
+1700
+1800
+1900
+2000
+\begin{tabular}{p{5cm}|l|l|l|l}
+{\bf OMIM:616900 (19 members)} & {\bf r-score} & {\bf Inclusion} & {\bf Exclusion} & {\bf IC} \\
+\hline \hline
+Severe muscular hypotonia ({\tt HP:0006829}) & 0.8 & 0.68 (p=0.001) & 0.95 (p=0.014) & 1.0 \\
+Developmental regression ({\tt HP:0002376}) & 0.63 & 0.58 (p=0.001) & 0.68 (p=0.013) & 1.0 \\
+Severe global developmental delay ({\tt HP:0011344}) & 0.5 & 0.42 (p=0.001) & 0.62 (p=0.011) & 1.0 \\
+Abnormality of upper lip vermillion ({\tt HP:0011339}) & 0.46 & 0.47 (p=0.001) & 0.45 (p=0.009) & 0.83 \\
+Respiratory insufficiency ({\tt HP:0002093}) & 0.42 & 0.42 (p=0.001) & 0.42 (p=0.044) & 0.81 \\
+Reduced tendon reflexes ({\tt HP:0001315}) & 0.42 & 0.53 (p=0.001) & 0.35 (p=0.015) & 0.82 \\
+Small basal ganglia ({\tt HP:0012697}) & 0.41 & 0.26 (p=0.001) & 0.95 (p=0.008) & 1.0 \\
+Exaggerated cupid's bow ({\tt HP:0002263}) & 0.41 & 0.26 (p=0.001) & 0.95 (p=0.011) & 1.0 \\
+Macroglossia ({\tt HP:0000158}) & 0.39 & 0.26 (p=0.001) & 0.78 (p=0.013) & 0.95 \\
+Areflexia ({\tt HP:0001284}) & 0.39 & 0.32 (p=0.001) & 0.5 (p=0.012) & 0.89 \\
+Profound global developmental delay ({\tt HP:0012736}) & 0.36 & 0.26 (p=0.001) & 0.58 (p=0.012) & 1.0 \\
+Prominent nasal bridge ({\tt HP:0000426}) & 0.36 & 0.26 (p=0.001) & 0.58 (p=0.011) & 1.0 \\
+Skeletal muscle hypertrophy ({\tt HP:0003712}) & 0.35 & 0.26 (p=0.001) & 0.51 (p=0.017) & 0.78 \\
+Sloping forehead ({\tt HP:0000340}) & 0.34 & 0.21 (p=0.001) & 0.95 (p=0.009) & 1.0 \\
+Aplasia/Hypoplasia of the cerebellar vermis ({\tt HP:0006817}) & 0.33 & 0.26 (p=0.001) & 0.45 (p=0.042) & 0.87 \\
+Highly arched eyebrow ({\tt HP:0002553}) & 0.33 & 0.26 (p=0.001) & 0.45 (p=0.041) & 1.0 \\
+Cerebellar vermis hypoplasia ({\tt HP:0001320}) & 0.33 & 0.26 (p=0.001) & 0.45 (p=0.042) & 0.95 \\
+Tented upper lip vermilion ({\tt HP:0010804}) & 0.31 & 0.21 (p=0.001) & 0.62 (p=0.011) & 1.0 \\
+Coarse facial features ({\tt HP:0000280}) & 0.29 & 0.26 (p=0.001) & 0.34 (p=0.047) & 1.0 \\
+Small forehead ({\tt HP:0000350}) & 0.29 & 0.26 (p=0.001) & 0.34 (p=0.05) & 1.0 \\
+Narrow forehead ({\tt HP:0000341}) & 0.29 & 0.26 (p=0.001) & 0.34 (p=0.05) & 1.0 \\
+Aplasia/Hypoplasia of the corpus callosum ({\tt HP:0007370}) & 0.29 & 0.37 (p=0.001) & 0.24 (p=0.088) & 0.95 \\
+Aplasia/Hypoplasia of the cerebral white matter ({\tt HP:0012429}) & 0.29 & 0.37 (p=0.001) & 0.24 (p=0.088) & 0.95 \\
+Hypoplasia of the corpus callosum ({\tt HP:0002079}) & 0.29 & 0.32 (p=0.001) & 0.27 (p=0.088) & 1.0 \\
+Cerebral white matter hypoplasia ({\tt HP:0012430}) & 0.29 & 0.32 (p=0.001) & 0.27 (p=0.088) & 1.0 \\
+Brachycephaly ({\tt HP:0000248}) & 0.29 & 0.21 (p=0.001) & 0.45 (p=0.039) & 0.95 \\
+Absent speech ({\tt HP:0001344}) & 0.28 & 0.37 (p=0.001) & 0.23 (p=0.083) & 1.0 \\
+Abnormality of the cerebellar vermis ({\tt HP:0002334}) & 0.27 & 0.26 (p=0.001) & 0.28 (p=0.04) & 0.8 \\
+Diffuse cerebellar atrophy ({\tt HP:0100275}) & 0.27 & 0.16 (p=0.002) & 0.95 (p=0.012) & 1.0 \\
+Global brain atrophy ({\tt HP:0002283}) & 0.27 & 0.16 (p=0.002) & 0.95 (p=0.012) & 1.0 \\
+Global developmental delay ({\tt HP:0001263}) & 0.26 & 0.95 (p=0.001) & 0.15 (p=0.062) & 0.89 \\
+Open mouth ({\tt HP:0000194}) & 0.26 & 0.16 (p=0.002) & 0.7 (p=0.011) & 1.0 \\
+Diffuse cerebral atrophy ({\tt HP:0002506}) & 0.26 & 0.16 (p=0.005) & 0.7 (p=0.002) & 1.0 \\
+Visual impairment ({\tt HP:0000505}) & 0.25 & 0.21 (p=0.001) & 0.31 (p=0.052) & 0.87 \\
+\hline
+{\em Overall} & 100.0 & - & - \\ 
+\end{tabular}
+Classifying 'OMIM:616900' using candidate set with OI: 100
+Reclassification:
+OMIM:616900 AUC: 0.9669790915645278
+
