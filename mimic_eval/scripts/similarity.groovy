@@ -92,7 +92,7 @@ println 'done'*/
 
 URIFactory factory = URIFactoryMemory.getSingleton()
 
-def ontoFile = '../hp.owl'
+def ontoFile = 'data/hp.owl'
 def graphURI = factory.getURI('http://HP/')
 factory.loadNamespacePrefix("HP", graphURI.toString());
 
