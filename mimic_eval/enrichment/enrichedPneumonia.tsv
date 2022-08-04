@@ -1,0 +1,680 @@
+name	nAnno	nOverlap	fc	zscore	pvalue	adjp	or	CIl	CIu	groupTested	TermID
+Cough	550	432	1.06	7.49	2.1e-13	1.4e-10	1.26	0.776	2.09	pneumonia	HP:0012735
+Abnormal breath sound	588	448	1.08	5.94	5.8e-09	3.9e-06	2.78	1.94	3.98	pneumonia	HP:0030829
+Respiratory distress	244	204	0.474	5.48	1.2e-08	7.9e-06	0.206	0.045	0.779	pneumonia	HP:0002098
+Airway obstruction	222	188	1.14	5.41	1.5e-08	1e-05	1.7	0.336	16.6	pneumonia	HP:0006536
+Congestive heart failure	206	174	0.547	5.1	9.3e-08	6.3e-05	0.258	0.0657	0.906	pneumonia	HP:0001635
+Pulmonary edema	185	158	1.2	4.98	1.6e-07	0.00011	2.98	1.89	4.84	pneumonia	HP:0100598
+Respiratory insufficiency	153	133	1.23	4.92	1.7e-07	0.00011	3.31	1.99	5.77	pneumonia	HP:0002093
+Aspiration	187	159	0.994	4.94	2.1e-07	0.00014	0.975	0.624	1.55	pneumonia	HP:0002835
+Renal insufficiency	253	216	1.07	4.98	2.9e-06	0.002	4.35	2.26	8.38	pneumonia	HP:0000083
+Productive cough	102	94	1.18	3.71	5.5e-05	0.038	3.72	1.32	14.5	pneumonia	HP:0031245
+Malaise	47	44	1	3.61	6.2e-05	0.042	0	0	Inf	pneumonia	HP:0033834
+Abnormal renal physiology	316	252	1	4.1	6.4e-05	0.043	1.01	0.163	11.1	pneumonia	HP:0012211
+Supraventricular arrhythmia	203	164	0.921	3.8	6.8e-05	0.046	0.728	0.454	1.18	pneumonia	HP:0005115
+Abnormal lung morphology	548	412	1.16	4	8.2e-05	0.056	1.87	0.383	18	pneumonia	HP:0002088
+Abnormality of the immune system	635	466	1.11	3.92	9.1e-05	0.062	1.5	0.575	4.6	pneumonia	HP:0002715
+Pharyngalgia	71	63	1.04	3.57	0.00011	0.077	3.22	0.712	13.4	pneumonia	HP:0033050
+Abnormality of temperature regulation	454	345	1.07	3.59	0.00024	0.16	1.97	0.448	12.2	pneumonia	HP:0004370
+Abnormality of the upper respiratory tract	94	81	0.945	3.3	0.00041	0.28	0.724	0.379	1.39	pneumonia	HP:0002087
+Wheezing	284	234	1.08	3.41	0.00043	0.29	1.97	1.31	2.98	pneumonia	HP:0030828
+Abnormality of the genitourinary system	546	404	1.01	3.44	0.00044	0.3	1.15	0.274	4.73	pneumonia	HP:0000119
+Sepsis	109	93	1.16	3.16	0.00076	0.52	2.46	1.37	4.66	pneumonia	HP:0100806
+Reduced consciousness/confusion	187	149	0.854	3.28	0.0011	0.72	0.629	0.197	2.17	pneumonia	HP:0004372
+Atrial arrhythmia	189	158	1.16	3.72	0.0012	0.8	2.34	0.525	21.5	pneumonia	HP:0001692
+Abnormal leukocyte morphology	210	165	1.12	3.07	0.0012	0.81	1.78	1.22	2.66	pneumonia	HP:0001881
+Shivering	37	34	1.31	2.94	0.0013	0.86	5.04	1.56	25.9	pneumonia	HP:0025144
+Atrial fibrillation	176	151	1	2.99	0.009	1	1.02	0.328	3.72	pneumonia	HP:0005110
+Fever	449	344	0.991	2.94	0.013	1	0.676	0.0646	3.86	pneumonia	HP:0001945
+Abnormal tracheobronchial morphology	67	58	0.992	2.8	0.0026	1	0.973	0.276	4.31	pneumonia	HP:0005607
+Confusion	119	102	0.996	2.71	0.0064	1	0	0	407	pneumonia	HP:0001289
+Respiratory tract infection	127	107	0.905	2.7	0.0039	1	0.737	0.185	3.47	pneumonia	HP:0011947
+Abnormal blood gas level	80	67	1.26	2.7	0.0036	1	3.34	0.993	17.5	pneumonia	HP:0012415
+Rhonchi	180	150	0.992	2.7	0.0041	1	0.851	0.0733	5.79	pneumonia	HP:0030831
+Abnormal blood monovalent inorganic cation concentration	105	84	0.976	2.69	0.013	1	0.892	0.537	1.5	pneumonia	HP:0010930
+Abnormality of metabolism/homeostasis	767	544	0.965	2.65	0.011	1	0.372	0.0667	1.37	pneumonia	HP:0001939
+Nonproductive cough	54	50	0.924	2.65	0.0037	1	0	0	0.851	pneumonia	HP:0031246
+Asterixis	16	16	0.992	2.63	0.0033	1	0	0	67.4	pneumonia	HP:0012164
+Unusual infection	141	115	1.11	2.57	0.0061	1	1.86	1.13	3.13	pneumonia	HP:0032101
+Chills	385	287	1.06	2.57	0.0064	1	1.5	1.09	2.07	pneumonia	HP:0025143
+Recurrent lower respiratory tract infections	25	25	0.87	2.54	0.053	1	0.621	0.147	3.07	pneumonia	HP:0002783
+Abnormality of thyroid physiology	116	93	0.968	2.52	0.019	1	0.738	0.0444	12.2	pneumonia	HP:0002926
+Recurrent pneumonia	25	25	0.86	2.47	0.0097	1	0.562	0.39	0.811	pneumonia	HP:0006532
+Abnormality of the urinary system physiology	372	288	0.98	2.47	0.0099	1	0.926	0.597	1.46	pneumonia	HP:0011277
+Rigors	36	33	1.23	2.47	0.0071	1	4.1	1.24	21.4	pneumonia	HP:0025145
+Hypoglycemia	20	19	0.989	2.38	0.014	1	0.775	0.438	1.33	pneumonia	HP:0001943
+Type I diabetes mellitus	15	15	1	2.32	0.011	1	0	0	Inf	pneumonia	HP:0100651
+Abnormal central motor function	98	80	1.03	2.31	0.012	1	1.43	0.88	2.31	pneumonia	HP:0011442
+Recurrent respiratory infections	33	31	0.986	2.31	0.013	1	0.941	0.64	1.4	pneumonia	HP:0002205
+Diarrhea	352	262	0.569	2.29	0.013	1	0.277	0.057	1.18	pneumonia	HP:0002014
+Arterial stenosis	33	29	1.25	2.26	0.015	1	3.18	1.1	12.6	pneumonia	HP:0100545
+Hernia of the abdominal wall	42	36	1.22	2.25	0.015	1	2.64	1.08	7.78	pneumonia	HP:0004299
+Weakness due to upper motor neuron dysfunction	23	20	1.04	2.24	0.17	1	Inf	0.128	Inf	pneumonia	HP:0010549
+Stage 5 chronic kidney disease	76	72	1.04	2.23	0.039	1	4.42	0.863	24.5	pneumonia	HP:0003774
+Abnormality of the abdominal wall	42	36	1.21	2.2	0.017	1	2.59	1.06	7.66	pneumonia	HP:0004298
+Abnormal respiratory system morphology	661	476	1	2.16	0.021	1	0	0	Inf	pneumonia	HP:0012252
+Acute coronary syndrome	99	79	1.07	2.13	0.02	1	3.46	0.0341	351	pneumonia	HP:0033678
+Abnormality of the peripheral nervous system	23	21	0.983	2.13	0.021	1	0.936	0.607	1.46	pneumonia	HP:0410008
+Chronic kidney disease	101	92	1.07	2.09	0.026	1	2.3	0.996	5.82	pneumonia	HP:0012622
+Pneumonia	72	62	1.12	2.08	0.023	1	2.11	1.01	4.83	pneumonia	HP:0002090
+Abnormal endocardium morphology	26	23	1	2.06	0.026	1	0	0	Inf	pneumonia	HP:0004306
+Esophagitis	16	15	1.11	2.06	0.034	1	1.72	0.647	5.17	pneumonia	HP:0100633
+Cardiac conduction abnormality	52	43	1	2.03	0.027	1	0	0	Inf	pneumonia	HP:0031546
+Fatigue	145	112	1.1	2.03	0.025	1	1.55	1	2.44	pneumonia	HP:0012378
+Abnormality of the respiratory system	780	550	1.01	1.99	0.081	1	1.06	0.533	2.06	pneumonia	HP:0002086
+Abnormality of the endocrine system	269	201	1.06	1.96	0.029	1	1.39	0.989	1.97	pneumonia	HP:0000818
+Unusual CNS infection	15	14	1.02	1.96	0.038	1	1.19	0.194	13.1	pneumonia	HP:0011450
+Hepatitis	57	48	1.14	1.94	0.034	1	2.07	0.958	4.99	pneumonia	HP:0012115
+Pulmonary infiltrates	22	20	0.876	1.93	0.038	1	0.672	0.192	2.64	pneumonia	HP:0002113
+Abnormal pulmonary interstitial morphology	46	40	1.06	1.93	0.034	1	1.26	0.743	2.21	pneumonia	HP:0006530
+Abnormality of the pharynx	76	68	0.821	1.9	0.07	1	0.565	0.238	1.38	pneumonia	HP:0000600
+Tachypnea	90	71	0.982	1.9	0.035	1	0	0	194	pneumonia	HP:0002789
+Abnormality of the nervous system	659	472	1.01	1.89	0.039	1	1.07	0.396	3.36	pneumonia	HP:0000707
+Abnormal inflammatory response	360	273	1.03	1.87	0.04	1	1.47	0.958	2.25	pneumonia	HP:0012647
+Pain in head and neck region	24	21	1.25	1.87	0.043	1	3.03	0.893	16	pneumonia	HP:0046506
+Orthostatic hypotension	19	17	1	1.85	0.047	1	0	0	Inf	pneumonia	HP:0001278
+Nasal congestion	20	18	0.993	1.83	0.058	1	0	0	146	pneumonia	HP:0001742
+Abnormal posterior eye segment morphology	49	41	0.985	1.82	0.051	1	0.933	0.657	1.33	pneumonia	HP:0004329
+Left ventricular systolic dysfunction	31	26	1.07	1.82	0.1	1	4.9	0.509	48.8	pneumonia	HP:0025169
+Abnormality of the upper urinary tract	346	266	1.01	1.78	0.048	1	1.35	0.271	5.61	pneumonia	HP:0010935
+Abnormal glucose homeostasis	182	139	0.996	1.78	0.044	1	0	0	6.79	pneumonia	HP:0011014
+Pruritus	33	28	0.907	1.75	0.058	1	0	0	1.01	pneumonia	HP:0000989
+Unusual fungal infection	12	12	1.01	1.72	0.077	1	1.04	0.55	2.04	pneumonia	HP:0020100
+Abnormal immune system morphology	249	192	0.998	1.7	0.053	1	0.989	0.243	5.79	pneumonia	HP:0032251
+Abdominal distention	22	19	1.06	1.65	0.073	1	1.31	0.357	6.04	pneumonia	HP:0003270
+Bloodstream infectious agent	40	33	1.16	1.65	0.065	1	1.99	0.849	5.42	pneumonia	HP:0031863
+Abnormality of the cardiovascular system	762	539	0.808	1.64	0.084	1	0.506	0.285	0.904	pneumonia	HP:0001626
+Dehydration	53	43	1	1.64	0.065	1	0	0	Inf	pneumonia	HP:0001944
+Abnormality of bone marrow cell morphology	12	11	1.05	1.63	0.087	1	1.37	0.417	4.77	pneumonia	HP:0005561
+Abnormality of head or neck	170	128	0.981	1.62	0.063	1	0.919	0.306	3.13	pneumonia	HP:0000152
+Chronic lung disease	12	11	1.3	1.61	0.092	1	4.62	0.665	200	pneumonia	HP:0006528
+Reduced visual acuity	12	11	1.15	1.56	0.15	1	5.95	0.372	376	pneumonia	HP:0007663
+Hallucinations	17	15	0.976	1.56	0.093	1	0.893	0.634	1.26	pneumonia	HP:0000738
+Endocarditis	26	23	1.17	1.56	0.087	1	2.57	0.748	13.7	pneumonia	HP:0100584
+Arteriosclerosis	21	18	1.19	1.55	0.096	1	2.71	0.7	15.6	pneumonia	HP:0002634
+Pulmonary opacity	28	24	0.883	1.55	0.087	1	0.682	0.299	1.63	pneumonia	HP:0031457
+Impairment in personality functioning	268	198	0.99	1.54	0.078	1	0.954	0.663	1.38	pneumonia	HP:0031466
+Abnormal erythrocyte morphology	270	199	1.05	1.52	0.075	1	1.29	0.918	1.82	pneumonia	HP:0001877
+Opportunistic fungal infection	11	11	1	1.52	0.21	1	0	0	Inf	pneumonia	HP:0032255
+Sinus bradycardia	11	10	0.98	1.51	0.12	1	0	0	47.2	pneumonia	HP:0001688
+Abnormal respiratory system physiology	775	548	1.17	1.5	0.16	1	2.41	0.844	8.52	pneumonia	HP:0002795
+Abnormal blood ion concentration	122	94	1.02	1.49	0.084	1	1.06	0.369	3.5	pneumonia	HP:0003111
+Carotid artery stenosis	14	13	1.15	1.47	0.15	1	4.69	0.473	241	pneumonia	HP:0100546
+Abnormal circulating nitrogen compound concentration	39	32	0.853	1.46	0.098	1	0.583	0.229	1.57	pneumonia	HP:0004364
+Emphysema	77	63	0.987	1.45	0.092	1	0.941	0.659	1.35	pneumonia	HP:0002097
+Peptic ulcer	29	24	1.12	1.45	0.11	1	2.16	0.683	7.71	pneumonia	HP:0004398
+Abnormal renal pelvis morphology	33	27	1.03	1.44	0.11	1	1.1	0.658	1.9	pneumonia	HP:0010944
+Renal cyst	11	10	1.11	1.42	0.14	1	2.62	0.286	130	pneumonia	HP:0000107
+Encephalopathy	43	35	1.13	1.42	0.1	1	1.76	0.782	4.49	pneumonia	HP:0001298
+Serositis	24	21	0.942	1.38	0.13	1	0.642	0.384	1.07	pneumonia	HP:0045073
+Abnormal urine metabolite level	10	9	1.05	1.37	0.15	1	1.76	1.26	2.46	pneumonia	HP:0033354
+Abnormality of coordination	16	15	1.03	1.36	0.15	1	1.18	0.817	1.71	pneumonia	HP:0011443
+Ptosis	11	10	1.23	1.34	0.16	1	3.81	0.503	172	pneumonia	HP:0000508
+Skin ulcer	19	16	1.2	1.34	0.14	1	2.29	0.647	12.4	pneumonia	HP:0200042
+Abnormal homeostasis	759	540	0.911	1.31	0.18	1	0.604	0.199	1.85	pneumonia	HP:0012337
+Abnormality of the neck	17	15	1.12	1.3	0.16	1	1.87	0.583	7.2	pneumonia	HP:0000464
+Abnormality of the ear	27	22	1.2	1.3	0.14	1	2.35	0.507	22	pneumonia	HP:0000598
+Abnormality of the peritoneum	10	9	0.974	1.3	0.17	1	0.895	0.272	3.46	pneumonia	HP:0002585
+Abnormality of the gastric mucosa	39	31	1.13	1.29	0.13	1	1.68	0.739	4.29	pneumonia	HP:0004295
+Pericarditis	14	12	1.07	1.27	0.16	1	1.38	0.922	2.08	pneumonia	HP:0001701
+Ventricular tachycardia	14	12	1.22	1.27	0.16	1	2.57	0.565	23.8	pneumonia	HP:0004756
+Abnormal cellular immune system morphology	210	165	1	1.27	0.14	1	0	0	Inf	pneumonia	HP:0010987
+Pulmonary hemorrhage	11	10	1.22	1.26	0.18	1	3.48	0.488	152	pneumonia	HP:0040223
+Anorectal anomaly	28	23	0.987	1.25	0.15	1	0.941	0.663	1.34	pneumonia	HP:0012732
+Unusual infection by anatomical site	15	14	1.14	1.24	0.19	1	3.44	0.479	152	pneumonia	HP:0032158
+Splenomegaly	18	15	1.04	1.23	0.17	1	1.17	0.577	2.54	pneumonia	HP:0001744
+Abnormal skull morphology	22	18	1.02	1.2	0.17	1	1.56	1.01	2.39	pneumonia	HP:0000929
+Abnormal gallbladder morphology	45	36	1.05	1.2	0.2	1	2.19	0.46	9.73	pneumonia	HP:0012437
+Limitation of joint mobility	14	12	1.09	1.18	0.27	1	3.66	0.192	72.5	pneumonia	HP:0001376
+Abnormal esophagus morphology	23	19	0.995	1.17	0.18	1	0.508	0.0923	1.86	pneumonia	HP:0002031
+Nephropathy	38	33	0.84	1.16	0.17	1	0.477	0.0852	2.67	pneumonia	HP:0000112
+Cirrhosis	35	28	1.01	1.16	0.17	1	1.07	0.402	2.94	pneumonia	HP:0001394
+Nephritis	16	14	1.05	1.15	0.2	1	4.59	1.18	18.5	pneumonia	HP:0000123
+Abnormal cardiac ventricular function	38	30	1.12	1.15	0.17	1	1.59	0.696	4.07	pneumonia	HP:0030872
+Abnormal adipose tissue morphology	13	11	0.928	1.14	0.21	1	0.787	0.308	2.18	pneumonia	HP:0009124
+Abnormality of the voice	13	11	0.979	1.14	0.21	1	0.802	0.108	4.66	pneumonia	HP:0001608
+Abnormal myeloid leukocyte morphology	61	51	0.949	1.14	0.17	1	0.842	0.313	2.5	pneumonia	HP:0010974
+Abnormal rectum morphology	26	21	1.02	1.14	0.19	1	1.26	0.397	4.09	pneumonia	HP:0002034
+Skin rash	129	96	1	1.12	0.15	1	3.61	0.411	43.5	pneumonia	HP:0000988
+Pleural effusion	294	215	1.12	1.12	0.15	1	2.03	1.19	3.63	pneumonia	HP:0002202
+Insomnia	70	54	1.2	1.12	0.18	1	2.9	1.86	4.67	pneumonia	HP:0100785
+Abnormality of the eye	213	156	0.983	1.11	0.15	1	0	0	8.32	pneumonia	HP:0000478
+Lethargy	42	36	0.821	1.1	0.19	1	0.55	0.143	2.3	pneumonia	HP:0001254
+Abnormality of blood volume homeostasis	37	29	1.22	1.1	0.18	1	2.71	0.782	14.5	pneumonia	HP:0011104
+Pallor	33	26	0.983	1.09	0.19	1	0.0738	0.0018	0.451	pneumonia	HP:0000980
+Abnormality of acid-base homeostasis	80	61	1.01	1.06	0.18	1	3.48	1.18	10.9	pneumonia	HP:0004360
+Myocardial infarction	97	78	0.847	1.05	0.36	1	0.502	0.357	0.706	pneumonia	HP:0001658
+Opportunistic infection	20	18	1.02	1.05	0.24	1	1.24	0.198	7.83	pneumonia	HP:0031690
+Abnormality of the urinary system	510	380	1.01	1.04	0.2	1	1.46	0.646	3.14	pneumonia	HP:0000079
+Bradycardia	44	34	0.949	1.04	0.19	1	0.843	0.259	3.18	pneumonia	HP:0001662
+Abdominal pain	294	213	0	1.03	0.17	1	0	0	0.14	pneumonia	HP:0002027
+Abnormal nervous system physiology	635	457	1	1.01	0.21	1	1.54	0.583	3.83	pneumonia	HP:0012638
+Abnormal intestine morphology	134	100	0.998	1.01	0.2	1	0.938	0.478	1.76	pneumonia	HP:0002242
+Benign prostatic hyperplasia	13	11	1.15	1.01	0.26	1	2.27	0.415	23.5	pneumonia	HP:0008711
+Urinary tract neoplasm	18	15	0.994	1.01	0.24	1	0	0	67.6	pneumonia	HP:0010786
+Osteomyelitis	13	11	0.978	1	0.25	1	0.544	0.154	1.56	pneumonia	HP:0002754
+Left bundle branch block	13	11	0.909	0.988	0.28	1	0.728	0.399	1.36	pneumonia	HP:0011713
+Abnormal blood carbon dioxide level	28	25	1.01	0.979	0.26	1	1.55	0.0242	26.6	pneumonia	HP:0500164
+Abnormality of the musculature	105	78	0.84	0.964	0.2	1	0.572	0.35	0.943	pneumonia	HP:0003011
+Centrilobular emphysema	12	11	1.11	0.956	0.31	1	1.54	0.595	4.71	pneumonia	HP:0032966
+	12	11	1.12	0.953	0.31	1	2.69	0.345	123	pneumonia	HP:0003470
+Abnormal heart sound	28	22	1	0.932	0.24	1	0	0	Inf	pneumonia	HP:0031657
+Respiratory failure requiring assisted ventilation	17	16	1.05	0.93	0.31	1	1.19	0.399	4.27	pneumonia	HP:0004887
+Schizophrenia	12	10	1.12	0.923	0.29	1	1.63	0.511	6.86	pneumonia	HP:0100753
+Abnormality of higher mental function	268	198	0.932	0.916	0.2	1	0.789	0.4	1.62	pneumonia	HP:0011446
+Peripheral neuropathy	25	20	1.26	0.911	0.25	1	3.63	1.69	8.91	pneumonia	HP:0009830
+Coronary artery atherosclerosis	11	10	0.938	0.893	0.34	1	0.518	0.19	1.31	pneumonia	HP:0001677
+Arthralgia	86	64	0.627	0.889	0.22	1	0.231	0.0721	0.739	pneumonia	HP:0002829
+Abnormality of the gallbladder	59	45	1.04	0.879	0.26	1	1.49	0.554	3.98	pneumonia	HP:0005264
+Anemia of inadequate production	60	47	1.05	0.876	0.24	1	1.25	0.374	5.39	pneumonia	HP:0010972
+Abnormal coronary artery morphology	20	16	0.993	0.871	0.28	1	0	0	3.82	pneumonia	HP:0006704
+Ectopic calcification	27	21	0.934	0.867	0.26	1	0.792	0.449	1.43	pneumonia	HP:0010766
+Cardiovascular calcification	27	21	0.984	0.867	0.26	1	0.935	0.626	1.41	pneumonia	HP:0011915
+Mania	20	16	1.27	0.866	0.28	1	3.67	0.861	33	pneumonia	HP:0100754
+Abnormal thrombocyte morphology	64	48	1.07	0.861	0.24	1	1.29	0.703	2.5	pneumonia	HP:0001872
+Tremor	38	30	1.04	0.86	0.31	1	1.85	0.324	9.4	pneumonia	HP:0001337
+Stomach cancer	10	8	1.07	0.856	0.45	1	3.46	0.0341	351	pneumonia	HP:0012126
+Red eye	10	8	0.906	0.856	0.45	1	0.483	0.0322	5.44	pneumonia	HP:0025337
+Abnormality of the adrenal glands	27	22	1.09	0.851	0.28	1	1.55	0.54	5.45	pneumonia	HP:0000834
+Abnormality of vision	38	30	1.07	0.847	0.27	1	1.48	0.555	4.31	pneumonia	HP:0000504
+Myalgia	11	9	1.16	0.843	0.32	1	1.89	0.385	18.1	pneumonia	HP:0003326
+Abnormal leukocyte count	189	150	1.01	0.839	0.28	1	1.53	0.457	4.54	pneumonia	HP:0011893
+Abnormality of joint mobility	19	15	0.901	0.836	0.29	1	0.641	0.163	2.8	pneumonia	HP:0011729
+Feeding difficulties	11	9	0.916	0.822	0.33	1	0.743	0.437	1.28	pneumonia	HP:0011968
+Gastroparesis	11	9	1	0.811	0.33	1	0	0	Inf	pneumonia	HP:0002578
+Neck pain	20	18	1.09	0.811	0.44	1	1.57	0.834	3.15	pneumonia	HP:0030833
+Ventral hernia	13	12	1.33	0.808	0.38	1	6.64	2.1	33.8	pneumonia	HP:0002933
+Abnormality of the thyroid gland	130	100	1.03	0.802	0.25	1	1.25	0.696	2.27	pneumonia	HP:0000820
+Abnormality of the digestive system	694	491	1	0.797	0.25	1	0.985	0.432	2.1	pneumonia	HP:0025031
+Abnormal nasal mucus secretion	111	82	1	0.791	0.25	1	0	0	Inf	pneumonia	HP:0031416
+Abnormality of skin physiology	182	132	1.05	0.756	0.25	1	1.22	0.694	2.24	pneumonia	HP:0011122
+Abnormal pulmonary thoracic imaging finding	333	244	0.952	0.727	0.26	1	0.819	0.557	1.21	pneumonia	HP:0031983
+Photophobia	11	9	0.433	0.726	0.37	1	0.175	0.06	0.457	pneumonia	HP:0000613
+Abnormality of the small intestine	12	10	0.418	0.724	0.37	1	0.154	0.0764	0.295	pneumonia	HP:0002244
+Hematological neoplasm	73	54	1.15	0.724	0.28	1	2.33	0.67	12.5	pneumonia	HP:0004377
+Respiratory failure	137	120	1	0.71	0.35	1	1	0.101	9.94	pneumonia	HP:0002878
+Hypoventilation	18	14	1	0.704	0.34	1	1.12	0.0982	7.37	pneumonia	HP:0002791
+Chronic pain	33	25	1.11	0.703	0.31	1	1.49	0.462	6.29	pneumonia	HP:0012532
+Anemia	265	196	1.17	0.701	0.39	1	2.31	0.763	9.44	pneumonia	HP:0001903
+Constipation	316	227	0.965	0.691	0.27	1	0.852	0.598	1.22	pneumonia	HP:0002019
+Abnormal bone ossification	83	61	1.05	0.677	0.29	1	1.19	0.701	2.1	pneumonia	HP:0011849
+Xerostomia	10	8	1	0.676	0.39	1	0	0	Inf	pneumonia	HP:0000217
+Abnormal cornea morphology	10	8	1	0.676	0.39	1	0	0	Inf	pneumonia	HP:0000481
+Dilated cardiomyopathy	10	8	0.711	0.676	0.39	1	0.418	0.0952	1.84	pneumonia	HP:0001644
+Abnormal circulating metabolite concentration	362	261	1.02	0.676	0.28	1	1.11	0.805	1.54	pneumonia	HP:0032180
+Peripheral edema	30	23	1.08	0.665	0.33	1	1.34	0.545	3.75	pneumonia	HP:0012398
+Depression	192	144	0.992	0.662	0.3	1	0	0	10.2	pneumonia	HP:0000716
+Gastrointestinal inflammation	56	43	1.02	0.636	0.32	1	1.13	0.796	1.62	pneumonia	HP:0004386
+Abnormal eye morphology	127	95	1.02	0.625	0.32	1	1.22	0.626	2.35	pneumonia	HP:0012372
+Hyperkalemia	32	27	0.721	0.616	0.43	1	0	0	0.424	pneumonia	HP:0002153
+Abnormality of the male genitalia	68	50	1.12	0.613	0.32	1	1.61	0.315	15.8	pneumonia	HP:0010461
+Psychosis	10	8	1.14	0.605	0.42	1	1.7	0.336	16.6	pneumonia	HP:0000709
+Anorexia	25	19	1.01	0.603	0.36	1	1.47	0.0229	25.3	pneumonia	HP:0002039
+Chronic constipation	10	8	0.984	0.582	0.43	1	0	0	13.9	pneumonia	HP:0012450
+Abnormality of male internal genitalia	64	47	1.04	0.576	0.34	1	1.18	0.65	2.25	pneumonia	HP:0000022
+Lymphoma	31	24	0.996	0.573	0.38	1	0.971	0.264	3.81	pneumonia	HP:0002665
+Abnormality of digestive system morphology	216	156	1.15	0.573	0.32	1	3.88	0.522	175	pneumonia	HP:0025033
+Orthopnea	92	67	0.948	0.568	0.33	1	0.761	0.438	1.34	pneumonia	HP:0012764
+Hematemesis	17	13	0.944	0.564	0.4	1	0.828	0.253	3.14	pneumonia	HP:0002248
+Vascular calcification	17	13	1.14	0.564	0.4	1	1.94	0.606	8.18	pneumonia	HP:0004934
+Abnormality of pancreas physiology	28	21	1	0.556	0.37	1	0	0	Inf	pneumonia	HP:0012091
+Asthma	114	83	0.995	0.532	0.34	1	0	0	4.76	pneumonia	HP:0002099
+Paroxysmal atrial fibrillation	35	31	1.03	0.524	0.41	1	1.35	0.413	5.82	pneumonia	HP:0004757
+Immunologic hypersensitivity	167	125	1.02	0.518	0.34	1	1.12	0.722	1.75	pneumonia	HP:0100326
+Abnormality of the gastrointestinal tract	407	291	1.01	0.516	0.33	1	1.09	0.772	1.54	pneumonia	HP:0011024
+Jaundice	42	31	0.984	0.514	0.37	1	0.781	0.523	1.15	pneumonia	HP:0000952
+Abnormal cerebral ventricle morphology	24	18	1.06	0.5	0.41	1	1.28	0.452	4.2	pneumonia	HP:0002118
+Abnormal blood potassium concentration	40	33	1.01	0.5	0.41	1	1.62	0.269	6.82	pneumonia	HP:0011042
+Sleep disturbance	130	95	1.02	0.496	0.35	1	1.13	0.689	1.86	pneumonia	HP:0002360
+Gout	63	46	1.27	0.495	0.37	1	4.3	1.03	38.2	pneumonia	HP:0001997
+Abnormal muscle physiology	85	64	0.977	0.485	0.41	1	0.839	0.317	2.21	pneumonia	HP:0011804
+Neoplasm of the respiratory system	74	54	0.926	0.48	0.37	1	0.736	0.506	1.08	pneumonia	HP:0100606
+Involuntary movements	50	38	1.18	0.465	0.39	1	2.29	1.22	4.62	pneumonia	HP:0004305
+Acidosis	66	51	0.87	0.464	0.44	1	0.619	0.399	0.97	pneumonia	HP:0001941
+Flushing	45	33	1.12	0.461	0.39	1	1.6	0.663	4.43	pneumonia	HP:0031284
+Anxiety	125	90	1.04	0.458	0.37	1	1.25	0.307	6.23	pneumonia	HP:0000739
+Abnormal granulocyte count	54	44	1	0.454	0.41	1	0	0	Inf	pneumonia	HP:0032309
+Generalized edema	13	10	1.08	0.453	0.46	1	1.35	0.343	7.7	pneumonia	HP:0007430
+Delirium	62	54	0.724	0.448	0.42	1	0.272	0.114	0.643	pneumonia	HP:0031258
+Cardiomegaly	104	75	0.861	0.439	0.38	1	0.575	0.252	1.36	pneumonia	HP:0001640
+Abnormal systemic arterial morphology	104	75	0.773	0.439	0.38	1	0.435	0.0941	2.08	pneumonia	HP:0011004
+Abnormal carotid artery morphology	17	13	0.974	0.436	0.46	1	0.908	0.533	1.58	pneumonia	HP:0005344
+Abnormality of the abdominal organs	234	168	1	0.432	0.37	1	1.02	0.736	1.42	pneumonia	HP:0002012
+Pleural thickening	17	13	1	0.422	0.46	1	0	0	Inf	pneumonia	HP:0031944
+Pulmonary fibrosis	19	17	1.1	0.421	0.52	1	1.47	0.693	3.39	pneumonia	HP:0002206
+Neurodevelopmental abnormality	17	13	1.03	0.419	0.46	1	6.7	1.89	25.2	pneumonia	HP:0012759
+Gastrointestinal obstruction	31	23	1.04	0.399	0.43	1	1.19	0.489	3.19	pneumonia	HP:0004796
+Abnormal bone structure	86	62	0.975	0.39	0.4	1	0	0	3.64	pneumonia	HP:0003330
+Aortic dissection	23	17	1.05	0.387	0.45	1	1.2	0.446	3.78	pneumonia	HP:0002647
+Abnormality of the cerebrospinal fluid	20	15	1	0.386	0.46	1	0	0	Inf	pneumonia	HP:0002921
+Abnormality of fluid regulation	721	514	0.996	0.38	0.41	1	0.986	0.425	2.49	pneumonia	HP:0011032
+Bipolar affective disorder	18	14	1.06	0.38	0.48	1	1.56	0.69	3.82	pneumonia	HP:0007302
+Abnormality of the integument	529	374	1.01	0.369	0.39	1	1.06	0.756	1.49	pneumonia	HP:0001574
+Neoplasm of the stomach	12	9	0.98	0.36	0.5	1	0.92	0.364	2.49	pneumonia	HP:0006753
+Abnormality of the vasculature of the eye	12	9	0.975	0.36	0.5	1	0	0	18.6	pneumonia	HP:0008047
+Abnormal ear physiology	23	19	0.988	0.355	0.58	1	0.959	0.446	2.2	pneumonia	HP:0031704
+Diabetes mellitus	143	108	1.01	0.35	0.42	1	1.1	0.617	1.97	pneumonia	HP:0000819
+Respiratory acidosis	20	16	1.07	0.346	0.5	1	1.27	0.314	7.37	pneumonia	HP:0005972
+Morphological abnormality of the gastrointestinal tract	216	156	0.681	0.343	0.41	1	0.35	0.112	1.09	pneumonia	HP:0012718
+Nausea	337	239	1.02	0.34	0.4	1	1.13	0.784	1.63	pneumonia	HP:0002018
+Left axis deviation	19	14	0.994	0.328	0.48	1	0.258	0.00584	1.89	pneumonia	HP:0033568
+Sinusitis	19	15	1	0.325	0.5	1	0	0	Inf	pneumonia	HP:0000246
+Cellulitis	54	39	1.19	0.323	0.44	1	4.89	1.15	44	pneumonia	HP:0100658
+Dysphagia	45	33	0.992	0.321	0.45	1	0	0	291	pneumonia	HP:0002015
+Abnormal conjunctiva morphology	47	34	1.03	0.318	0.45	1	1.11	0.559	2.34	pneumonia	HP:0000502
+Abnormality of the biliary system	100	73	1.01	0.316	0.44	1	1.1	0.58	2.1	pneumonia	HP:0004297
+Stroke	109	78	1.02	0.315	0.42	1	1.07	0.676	1.74	pneumonia	HP:0001297
+Epithelial neoplasm	40	29	0.872	0.315	0.45	1	0.526	0.379	0.731	pneumonia	HP:0031492
+Hemorrhoids	22	18	1.19	0.312	0.6	1	4.1	0.78	41.7	pneumonia	HP:0032551
+Peritonitis	10	9	1.17	0.306	0.63	1	2.03	0.423	19.3	pneumonia	HP:0002586
+Abnormality of the nose	61	46	1.04	0.301	0.46	1	1.2	0.75	1.97	pneumonia	HP:0000366
+Retinopathy	19	16	0.711	0.295	0.54	1	0.417	0.11	1.58	pneumonia	HP:0000488
+Increased circulating immature neutrophil count	24	20	0.902	0.282	0.54	1	0.393	0.0324	2.8	pneumonia	HP:0032236
+Abnormal eye physiology	119	88	1.01	0.263	0.46	1	1.08	0.562	2.09	pneumonia	HP:0012373
+Pneumothorax	186	135	1.01	0.261	0.44	1	1.06	0.655	1.72	pneumonia	HP:0002107
+Bronchiectasis	31	27	0.848	0.257	0.54	1	0	0	3.26	pneumonia	HP:0002110
+Upper motor neuron dysfunction	24	20	1.14	0.246	0.54	1	1.87	0.777	5.21	pneumonia	HP:0002493
+Hypochromic anemia	34	27	1.05	0.23	0.53	1	1.38	0.939	2.03	pneumonia	HP:0001931
+Renal neoplasm	10	8	1.04	0.223	0.59	1	1.19	0.232	11.8	pneumonia	HP:0009726
+Allergy	70	53	1.01	0.218	0.49	1	1.08	0.503	2.37	pneumonia	HP:0012393
+Bronchomalacia	16	14	1	0.206	0.6	1	0	0	Inf	pneumonia	HP:0002780
+Functional abnormality of the gastrointestinal tract	339	241	1.03	0.189	0.46	1	1.13	0.268	6.67	pneumonia	HP:0012719
+Abnormality of the liver	214	154	1.02	0.186	0.52	1	1.12	0.494	2.61	pneumonia	HP:0001392
+Abnormal nephron morphology	16	12	0.992	0.183	0.56	1	0.965	0.257	4.51	pneumonia	HP:0012575
+Male reproductive system neoplasm	52	37	1.01	0.183	0.54	1	1.12	0.259	4.28	pneumonia	HP:0033019
+Mitral valve calcification	11	8	0.708	0.179	0.58	1	0	0	1.25	pneumonia	HP:0004382
+Cardiac valve calcification	11	8	1.16	0.179	0.58	1	2.05	0.737	7.1	pneumonia	HP:0005146
+Hyponatremia	44	35	NA	0.176	0.54	1	NA	NA	NA	pneumonia	HP:0002902
+Bronchial wall thickening	23	20	1	0.174	0.59	1	0	0	Inf	pneumonia	HP:0033542
+Abnormal liver morphology	141	102	1.2	0.171	0.49	1	2.71	1.45	5.45	pneumonia	HP:0410042
+Visual impairment	20	16	1.01	0.166	0.59	1	1.14	0.176	7.38	pneumonia	HP:0000505
+Neoplasm of the genitourinary tract	81	60	0.995	0.166	0.49	1	0.498	0.0103	4.59	pneumonia	HP:0007379
+Cholestasis	42	31	1	0.154	0.53	1	0	0	Inf	pneumonia	HP:0001396
+Localized skin lesion	35	25	1.02	0.152	0.52	1	1.06	0.482	2.52	pneumonia	HP:0011355
+Osteoporosis	65	48	0.907	0.137	0.55	1	0	0	7.63	pneumonia	HP:0000939
+Cardiomyopathy	44	31	1.07	0.137	0.66	1	1.27	0.314	7.37	pneumonia	HP:0001638
+Pancreatitis	26	20	1.13	0.135	0.55	1	2.35	0.351	27.4	pneumonia	HP:0001733
+Abnormality of neutrophils	44	36	1	0.132	0.6	1	1.12	0.0982	7.37	pneumonia	HP:0001874
+Abnormal neutrophil count	44	36	1.12	0.132	0.6	1	1.6	0.503	6.7	pneumonia	HP:0011991
+Alkalosis	22	17	1.09	0.132	0.57	1	1.78	0.649	6.08	pneumonia	HP:0001948
+Abnormal metabolism	11	8	0.983	0.132	0.6	1	0.927	0.301	3.22	pneumonia	HP:0032245
+Restlessness	61	44	1.18	0.125	0.52	1	2.11	0.99	5	pneumonia	HP:0000711
+Vomiting	302	213	1.06	0.121	0.48	1	1.44	1.04	2	pneumonia	HP:0002013
+Abnormal peripheral nervous system morphology	22	16	1.2	0.12	0.56	1	2.96	1.95	4.58	pneumonia	HP:0000759
+Abnormality of esophagus physiology	209	149	1.2	0.103	0.51	1	2.71	1.3	6.36	pneumonia	HP:0025270
+Limb muscle weakness	14	10	1.02	0.0948	0.59	1	1.06	0.301	4.67	pneumonia	HP:0003690
+Abnormality of the musculature of the limbs	14	10	1.23	0.0948	0.59	1	3.1	0.702	28.4	pneumonia	HP:0009127
+Knee pain	14	10	1.01	0.0948	0.59	1	1.03	0.468	2.38	pneumonia	HP:0030839
+Abnormality of binocular vision	10	8	1.01	0.0939	0.65	1	1.09	0.149	13.2	pneumonia	HP:0011514
+Addictive behavior	11	8	1.02	0.0939	0.61	1	1.07	0.25	6.36	pneumonia	HP:0030858
+Abnormal blood glucose concentration	56	43	0.999	0.087	0.55	1	0.955	0.211	3.41	pneumonia	HP:0011015
+Prostate neoplasm	51	37	1.03	0.0823	0.59	1	1.11	0.689	1.82	pneumonia	HP:0100787
+Abnormality of the lens	64	45	1	0.0772	0.59	1	1.05	0.211	4.37	pneumonia	HP:0000517
+Urinary retention	23	17	1.01	0.0658	0.58	1	1.03	0.367	3.35	pneumonia	HP:0000016
+Abnormal ventricular axis	24	17	1.08	0.0601	0.58	1	2.59	0.358	115	pneumonia	HP:0033566
+Leukopenia	10	8	1.01	0.0508	0.66	1	1.04	0.196	10.5	pneumonia	HP:0001882
+Abnormal gallbladder physiology	34	26	1	0.0416	0.6	1	1.03	0.249	4.04	pneumonia	HP:0012438
+Neoplasm by anatomical site	307	216	0.916	0.0382	0.52	1	0.516	0.122	2.6	pneumonia	HP:0011793
+Abdominal aortic aneurysm	17	12	1.15	0.028	0.61	1	2.11	1.41	3.2	pneumonia	HP:0005112
+Osteopenia	19	14	1.04	0.0213	0.62	1	1.15	0.695	1.96	pneumonia	HP:0000938
+Abnormal trachea morphology	15	13	0.915	0.0127	0.68	1	0.41	0.00637	6.83	pneumonia	HP:0002778
+Small cell lung carcinoma	15	11	1	0.00918	0.63	1	1.01	0.246	5	pneumonia	HP:0030357
+Melena	74	52	0.913	0.00672	0.58	1	0.736	0.375	1.49	pneumonia	HP:0002249
+Abnormal nervous system morphology	208	149	1	0.00423	0.54	1	1	0.686	1.47	pneumonia	HP:0012639
+All	784	551	1.09	0	1	1	1.84	1.16	3	pneumonia	HP:0000001
+Inguinal hernia	21	18	1	0	0.67	1	1	0.118	8.51	pneumonia	HP:0000023
+Abnormal oral morphology	11	8	0.976	0	0.68	1	0.907	0.537	1.57	pneumonia	HP:0031816
+Hydrocephalus	20	15	1	0	0.71	1	7.15	0.571	376	pneumonia	HP:0000238
+Abnormal oral physiology	11	8	0.884	0	0.68	1	0.505	0.168	1.72	pneumonia	HP:0031815
+Abnormality of immune system physiology	526	386	1.16	-0.00225	0.54	1	1.92	0.392	18.4	pneumonia	HP:0010978
+Edema	714	509	1.04	-0.00815	0.64	1	1.16	0.634	2.2	pneumonia	HP:0000969
+Abnormal myocardium morphology	47	33	1	-0.0105	0.58	1	1.19	0.0188	24.7	pneumonia	HP:0001637
+Granuloma	13	10	0.927	-0.0163	0.66	1	0.766	0.467	1.27	pneumonia	HP:0032252
+Abnormal uterus morphology	10	7	0.996	-0.0195	0.66	1	0.987	0.223	5.96	pneumonia	HP:0031105
+Urticaria	10	7	0.996	-0.0195	0.66	1	0.987	0.223	5.96	pneumonia	HP:0001025
+Neoplasm of the colon	30	21	0.889	-0.0343	0.6	1	0.697	0.281	1.83	pneumonia	HP:0100273
+Bronchitis	44	37	0.998	-0.0361	0.62	1	0.982	0.329	3.17	pneumonia	HP:0012387
+Abnormality of digestive system physiology	656	464	1.13	-0.0422	0.58	1	1.88	1.08	3.45	pneumonia	HP:0025032
+Abnormal morphology of the great vessels	50	35	0.874	-0.0448	0.59	1	0.559	0.367	0.854	pneumonia	HP:0030962
+Abnormal cranial nerve physiology	14	10	1	-0.0454	0.65	1	0	0	Inf	pneumonia	HP:0031910
+Ascites	60	42	0.996	-0.0495	0.58	1	0.986	0.541	1.86	pneumonia	HP:0001541
+Hypernatremia	28	22	0.991	-0.0499	0.64	1	0.689	0.158	2.33	pneumonia	HP:0003228
+Abnormality of eye movement	15	11	1.03	-0.0579	0.66	1	1.18	0.85	1.65	pneumonia	HP:0000496
+Intestinal obstruction	31	23	0.994	-0.063	0.62	1	0.971	0.362	2.83	pneumonia	HP:0005214
+Abnormal macular morphology	22	18	0.939	-0.0686	0.68	1	0.591	0.418	0.83	pneumonia	HP:0001103
+Retinal degeneration	22	18	0.995	-0.0686	0.68	1	0.948	0.152	5.93	pneumonia	HP:0000546
+Abnormality of the face	143	106	1	-0.0756	0.63	1	0	0	Inf	pneumonia	HP:0000271
+Facial palsy	13	9	0.919	-0.0835	0.66	1	0.737	0.476	1.15	pneumonia	HP:0010628
+Ventricular arrhythmia	13	9	1	-0.0835	0.66	1	0	0	Inf	pneumonia	HP:0004308
+Abnormality of the seventh cranial nerve	13	9	0.985	-0.0835	0.66	1	0.951	0.262	4.27	pneumonia	HP:0010827
+Cervical lymphadenopathy	46	32	0.971	-0.109	0.62	1	0.818	0.316	2.1	pneumonia	HP:0025289
+Abnormality of the curvature of the vertebral column	36	25	0.968	-0.112	0.63	1	0.431	0.0427	2.26	pneumonia	HP:0010674
+Abnormal EKG	36	25	0.972	-0.112	0.63	1	0.863	0.601	1.25	pneumonia	HP:0003115
+Erythema	116	81	1	-0.116	0.59	1	1.06	0.207	4.48	pneumonia	HP:0010783
+Abnormality of forebrain morphology	13	9	0.98	-0.116	0.68	1	0.93	0.245	4.33	pneumonia	HP:0100547
+Abnormality of facial musculature	14	10	0.982	-0.125	0.69	1	0.918	0.205	4.85	pneumonia	HP:0000301
+Abnormal cardiovascular system physiology	744	526	0.999	-0.14	0.64	1	0.928	0.256	2.82	pneumonia	HP:0011025
+Lacrimation abnormality	22	16	1	-0.144	0.67	1	1.03	0.613	1.7	pneumonia	HP:0000632
+Abnormality of the mouth	22	16	1.17	-0.162	0.67	1	3.82	1.78	9.39	pneumonia	HP:0000153
+Abnormal cardiac test	36	25	0.854	-0.174	0.65	1	0.627	0.232	1.79	pneumonia	HP:0500015
+Conjunctival icterus	39	28	1.03	-0.183	0.72	1	2.83	0.0382	73.2	pneumonia	HP:0032106
+Asthenia	175	122	0.992	-0.186	0.61	1	0.966	0.661	1.42	pneumonia	HP:0025406
+Glaucoma	33	24	0.983	-0.187	0.67	1	0.917	0.344	2.59	pneumonia	HP:0000501
+Eczema	30	21	0.328	-0.191	0.67	1	0.122	0.0215	0.481	pneumonia	HP:0000964
+Abnormality of facial soft tissue	18	13	1.03	-0.197	0.7	1	1.48	0.0667	98.1	pneumonia	HP:0011799
+Abnormality of the spleen	66	46	1.19	-0.204	0.64	1	2.14	0.598	11.7	pneumonia	HP:0001743
+Abdominal symptom	599	423	1.12	-0.208	0.63	1	1.77	0.349	17.5	pneumonia	HP:0011458
+Abnormal internal genitalia	90	63	0.997	-0.213	0.76	1	0.78	0.0143	10.2	pneumonia	HP:0000812
+Nausea and vomiting	367	258	0.976	-0.215	0.62	1	0.914	0.573	1.48	pneumonia	HP:0002017
+Abnormality of blood circulation	204	143	0.992	-0.221	0.62	1	0.961	0.667	1.39	pneumonia	HP:0011028
+Eosinophilia	12	9	0.966	-0.227	0.73	1	0.854	0.197	5.2	pneumonia	HP:0001880
+Hernia	104	72	0.985	-0.251	0.65	1	0.944	0.593	1.53	pneumonia	HP:0100790
+Apnea	61	42	0.98	-0.254	0.66	1	0.929	0.515	1.73	pneumonia	HP:0002104
+Abnormality of the lymph nodes	197	137	1.02	-0.262	0.64	1	1.11	0.767	1.62	pneumonia	HP:0002733
+Meningitis	14	13	0.969	-0.267	1	1	0.661	0.276	1.49	pneumonia	HP:0001287
+Abnormal vertebral morphology	12	8	0.949	-0.276	0.73	1	0.844	0.223	3.87	pneumonia	HP:0003468
+Neoplasm of the gastrointestinal tract	51	35	1.01	-0.278	0.67	1	1.05	0.602	1.88	pneumonia	HP:0007378
+Clubbing	210	146	1.23	-0.28	0.65	1	Inf	0.648	Inf	pneumonia	HP:0001217
+Scoliosis	25	17	0.971	-0.28	0.75	1	0.846	0.365	2	pneumonia	HP:0002650
+Hearing abnormality	10	8	1.06	-0.283	0.8	1	1.28	0.383	5.51	pneumonia	HP:0000364
+Myoclonus	11	8	0.957	-0.285	0.76	1	0.804	0.148	5.68	pneumonia	HP:0001336
+Arterial calcification	13	9	0.953	-0.293	0.74	1	0.829	0.207	4.02	pneumonia	HP:0003207
+Blindness	11	10	0.947	-0.302	1	1	0	0	7.2	pneumonia	HP:0000618
+Abnormality of movement	180	128	0.988	-0.302	0.66	1	0.943	0.634	1.41	pneumonia	HP:0100022
+Abnormality of the ovary	15	10	1.01	-0.309	0.73	1	1.21	0.73	1.97	pneumonia	HP:0000137
+Basal cell carcinoma	15	10	0.949	-0.309	0.73	1	0.843	0.259	3.18	pneumonia	HP:0002671
+Abnormal autonomic nervous system physiology	22	20	0.83	-0.309	1	1	0.587	0.159	2.37	pneumonia	HP:0012332
+Abnormal left ventricle morphology	123	85	0.941	-0.31	0.66	1	0.513	0.352	0.738	pneumonia	HP:0001711
+Ventricular hypertrophy	123	85	1.09	-0.31	0.66	1	1.38	0.421	5.88	pneumonia	HP:0001714
+Gastroesophageal reflux	175	124	0.947	-0.314	0.69	1	0	0	10.9	pneumonia	HP:0002020
+Abnormal cerebral vascular morphology	166	115	1.03	-0.318	0.66	1	1.47	0.185	18	pneumonia	HP:0100659
+Abnormal enzyme/coenzyme activity	12	8	0.94	-0.327	0.75	1	0.817	0.216	3.75	pneumonia	HP:0012379
+Hypotension	267	186	0.99	-0.336	0.67	1	0.941	0.649	1.36	pneumonia	HP:0002615
+Malnutrition	15	10	1	-0.34	0.74	1	1	0.412	2.39	pneumonia	HP:0004395
+Abnormal vascular morphology	149	103	1.11	-0.342	0.67	1	Inf	0.211	Inf	pneumonia	HP:0025015
+Abnormality of limb bone morphology	222	154	0.995	-0.351	0.67	1	0	0	541	pneumonia	HP:0002813
+Abnormal digit morphology	212	147	1.19	-0.351	0.67	1	2.83	1.91	4.27	pneumonia	HP:0011297
+Abnormality of limb bone	222	154	1.11	-0.351	0.67	1	3.43	2.43	4.85	pneumonia	HP:0040068
+Falls	119	82	0.989	-0.356	0.68	1	0.952	0.667	1.37	pneumonia	HP:0002527
+Behavioral abnormality	396	283	1.05	-0.364	0.67	1	1.19	0.665	2.22	pneumonia	HP:0000708
+Limitation of neck motion	16	14	0.995	-0.365	1	1	0.961	0.657	1.4	pneumonia	HP:0005986
+Generalized muscle weakness	21	14	1	-0.367	0.73	1	0.999	0.603	1.62	pneumonia	HP:0003324
+Night sweats	99	68	1	-0.371	0.69	1	0	0	Inf	pneumonia	HP:0030166
+Visceromegaly	76	52	0.976	-0.373	0.7	1	0	0	9.21	pneumonia	HP:0003271
+Headache	214	152	0.987	-0.376	0.68	1	0.933	0.638	1.37	pneumonia	HP:0002315
+Hypothyroidism	109	87	0.996	-0.378	0.8	1	0.661	0.0137	5.9	pneumonia	HP:0000821
+Seizure	84	59	0.919	-0.379	0.7	1	0.747	0.448	1.27	pneumonia	HP:0001250
+Abnormal circulating cholesterol concentration	102	70	1.01	-0.391	0.7	1	1.06	0.765	1.46	pneumonia	HP:0003107
+Abnormal skeletal muscle morphology	51	37	0.936	-0.394	0.73	1	0.805	0.388	1.75	pneumonia	HP:0011805
+Abnormal systemic blood pressure	587	413	0.963	-0.395	0.69	1	0	0	61.2	pneumonia	HP:0030972
+Abnormality of connective tissue	221	153	0.99	-0.403	0.69	1	0.965	0.489	2	pneumonia	HP:0003549
+Abnormal blood sodium concentration	71	56	0.776	-0.415	0.75	1	0.491	0.229	1.07	pneumonia	HP:0010931
+Neoplasm of the lung	71	52	0.974	-0.416	0.72	1	0.887	0.492	1.66	pneumonia	HP:0100526
+Abnormality of cardiovascular system electrophysiology	514	361	1	-0.417	0.69	1	0	0	Inf	pneumonia	HP:0030956
+Abnormal appendicular skeleton morphology	224	155	0.985	-0.42	0.7	1	0.93	0.656	1.33	pneumonia	HP:0011844
+Abnormality of the orbital region	50	36	1.01	-0.424	0.74	1	1.2	0.231	6.74	pneumonia	HP:0000315
+Neutropenia	19	15	0.965	-0.426	0.8	1	0.72	0.114	4.53	pneumonia	HP:0001875
+Internal hemorrhage	174	120	0.981	-0.43	0.7	1	0.923	0.632	1.36	pneumonia	HP:0011029
+Pressure ulcer	18	15	0.99	-0.433	1	1	0	0	207	pneumonia	HP:0012399
+Abnormal abdomen morphology	123	85	1.03	-0.441	0.71	1	1.11	0.582	2.21	pneumonia	HP:0001438
+Abnormal duodenum morphology	11	9	0.996	-0.447	1	1	0.986	0.512	1.98	pneumonia	HP:0002246
+Hematochezia	50	34	1	-0.452	0.74	1	1	0.0159	16.3	pneumonia	HP:0002573
+Abnormality of the lower urinary tract	258	190	0.885	-0.454	0.71	1	0.519	0.133	2.13	pneumonia	HP:0010936
+Abnormal aortic morphology	50	35	1	-0.461	0.75	1	0	0	Inf	pneumonia	HP:0001679
+Gastrointestinal hemorrhage	110	76	0.986	-0.464	0.72	1	0.802	0.229	2.49	pneumonia	HP:0002239
+Azotemia	38	31	1	-0.468	1	1	0	0	Inf	pneumonia	HP:0002157
+Abnormal reproductive system morphology	94	66	1.01	-0.475	0.8	1	1.08	0.304	4.44	pneumonia	HP:0012243
+Abnormality of adrenal physiology	26	21	0.928	-0.477	1	1	0.787	0.308	2.18	pneumonia	HP:0011733
+Abnormality of the uterus	11	7	0.977	-0.485	0.8	1	0.909	0.586	1.43	pneumonia	HP:0000130
+Hypertension	498	347	0.991	-0.486	0.71	1	0.924	0.661	1.29	pneumonia	HP:0000822
+Macrocytic anemia	11	8	0.801	-0.495	0.82	1	0.421	0.13	1.45	pneumonia	HP:0001972
+Aphasia	14	9	0.915	-0.495	0.79	1	0.757	0.225	2.91	pneumonia	HP:0002381
+Neoplasm	336	233	1.3	-0.496	0.72	1	4.72	0.679	204	pneumonia	HP:0002664
+Neoplasm of the large intestine	31	21	0.95	-0.511	0.77	1	0.793	0.301	2.19	pneumonia	HP:0100834
+Abnormal left ventricular function	37	29	0.985	-0.516	1	1	0.941	0.508	1.79	pneumonia	HP:0005162
+Epistaxis	23	15	1.06	-0.539	0.78	1	1.36	0.661	2.95	pneumonia	HP:0000421
+Aortic aneurysm	23	15	1.02	-0.539	0.78	1	1.06	0.301	4.67	pneumonia	HP:0004942
+Stiff neck	14	12	0.569	-0.553	1	1	0.277	0.057	1.18	pneumonia	HP:0025258
+Abnormal gastrointestinal motility	11	7	0.895	-0.554	0.82	1	0.704	0.174	3.36	pneumonia	HP:0030895
+Intracranial hemorrhage	64	43	0.922	-0.565	0.76	1	0.666	0.481	0.924	pneumonia	HP:0002170
+Pedal edema	33	22	1	-0.606	0.79	1	0.993	0.0939	6.13	pneumonia	HP:0010741
+Dermatological manifestations of systemic disorders	260	179	1.11	-0.619	0.76	1	1.5	0.575	4.6	pneumonia	HP:0001005
+Macular purpura	73	49	0.955	-0.619	0.78	1	0.85	0.497	1.49	pneumonia	HP:0031365
+Obstructive sleep apnea	38	25	1	-0.621	0.79	1	0	0	Inf	pneumonia	HP:0002870
+Cranial nerve paralysis	13	9	0.969	-0.632	1	1	0	0	97.4	pneumonia	HP:0006824
+Abnormality of brain morphology	184	130	1.16	-0.636	0.82	1	1.9	0.689	6.49	pneumonia	HP:0012443
+Purpura	76	51	1	-0.637	0.78	1	0	0	Inf	pneumonia	HP:0000979
+Low back pain	41	27	0.937	-0.637	0.79	1	0.806	0.399	1.7	pneumonia	HP:0003419
+Morphological central nervous system abnormality	202	144	1.01	-0.644	0.87	1	1.08	0.753	1.56	pneumonia	HP:0002011
+Abnormal eosinophil morphology	12	9	0.92	-0.649	0.86	1	0.606	0.108	4.35	pneumonia	HP:0001879
+Abnormal eosinophil count	12	9	0.952	-0.649	0.86	1	0.768	0.422	1.43	pneumonia	HP:0020064
+Bacteremia	38	31	0.989	-0.66	1	1	0	0	26.3	pneumonia	HP:0031864
+Leukemia	25	18	1.08	-0.669	0.82	1	2.55	1.39	4.7	pneumonia	HP:0001909
+Cyanosis	239	164	1.02	-0.674	0.78	1	1.1	0.712	1.74	pneumonia	HP:0000961
+Hemiparesis	15	12	1.03	-0.676	1	1	1.29	0.432	4.2	pneumonia	HP:0001269
+Rheumatoid arthritis	16	10	0.889	-0.688	0.83	1	0.7	0.227	2.37	pneumonia	HP:0001370
+Dyspnea	698	489	0.998	-0.689	0.84	1	0.638	0.113	2.45	pneumonia	HP:0002094
+Abnormal bronchus morphology	64	55	0.993	-0.693	1	1	0	0	16.6	pneumonia	HP:0025426
+Increased susceptibility to fractures	13	8	1.01	-0.695	0.84	1	1.11	0.282	4.09	pneumonia	HP:0002659
+Glucose intolerance	150	113	1.02	-0.713	0.83	1	1.63	0.693	3.64	pneumonia	HP:0001952
+Recurrent fractures	10	6	0.527	-0.715	0.86	1	0.148	0.0961	0.227	pneumonia	HP:0002757
+Ovarian neoplasm	10	6	1.03	-0.715	0.86	1	1.09	0.26	6.46	pneumonia	HP:0100615
+Multiple myeloma	15	10	0.993	-0.718	0.85	1	0.737	0.375	1.38	pneumonia	HP:0006775
+Kyphosis	23	15	1.2	-0.722	0.87	1	2.35	0.507	22	pneumonia	HP:0002808
+Abnormal vascular physiology	44	29	1.01	-0.724	0.82	1	1.08	0.684	1.7	pneumonia	HP:0030163
+Respiratory alkalosis	10	7	0.964	-0.726	0.89	1	0.694	0.488	0.979	pneumonia	HP:0001950
+Gastritis	37	29	0.986	-0.728	1	1	0	0	21.4	pneumonia	HP:0005263
+Neurodevelopmental delay	10	7	0.944	-0.729	0.91	1	0	0	15.6	pneumonia	HP:0012758
+Presyncope	13	8	1.03	-0.732	0.85	1	1.15	0.787	1.71	pneumonia	HP:0031972
+Hepatomegaly	11	7	1	-0.734	0.86	1	1.01	0.286	4.14	pneumonia	HP:0002240
+Ground-glass opacification	25	21	0.98	-0.735	1	1	0	0	16.9	pneumonia	HP:0025179
+Heart murmur	26	20	1	-0.753	1	1	0	0	Inf	pneumonia	HP:0030148
+Dementia	92	58	0.963	-0.759	1	1	0.716	0.273	1.8	pneumonia	HP:0000726
+Breast carcinoma	70	44	1	-0.76	1	1	0	0	Inf	pneumonia	HP:0003002
+Genital neoplasm	68	48	1	-0.775	0.84	1	0	0	Inf	pneumonia	HP:0010787
+Migraine	13	8	0.946	-0.776	0.86	1	0.769	0.524	1.13	pneumonia	HP:0002076
+Abnormal pharynx physiology	71	63	0.994	-0.788	1	1	0.876	0.336	2.11	pneumonia	HP:0033152
+Abnormality of reproductive system physiology	13	8	0.868	-0.789	0.87	1	0.619	0.16	2.64	pneumonia	HP:0000080
+Systolic heart murmur	24	18	1.42	-0.791	1	1	Inf	1.66	Inf	pneumonia	HP:0031664
+Abnormal circulating calcium concentration	17	10	1.02	-0.798	1	1	1.16	0.315	5.42	pneumonia	HP:0004363
+Abnormal circulating albumin concentration	17	10	0.963	-0.798	1	1	0	0	61.2	pneumonia	HP:0012116
+Abnormality of the genital system	103	73	0.958	-0.8	0.82	1	0.824	0.501	1.38	pneumonia	HP:0000078
+Functional abnormality of the inner ear	13	10	0.931	-0.802	0.92	1	0.386	0.00637	5.86	pneumonia	HP:0011389
+Abnormality of body weight	176	106	0.731	-0.809	1	1	0.406	0.243	0.68	pneumonia	HP:0004323
+Psoriasiform dermatitis	13	8	0.851	-0.819	0.87	1	0.468	0.096	2.6	pneumonia	HP:0003765
+Abnormality of the lymphatic system	228	159	0.987	-0.827	0.82	1	0.941	0.663	1.34	pneumonia	HP:0100763
+Impairment of activities of daily living	24	15	1.16	-0.847	0.86	1	2.33	0.95	6.87	pneumonia	HP:0031058
+Neoplasm by histology	64	42	1	-0.85	0.84	1	2.46	0.454	13.3	pneumonia	HP:0011792
+Abnormality of facial skeleton	19	15	0.965	-0.858	1	1	0	0	12.4	pneumonia	HP:0011821
+Abnormal fear/anxiety-related behavior	126	90	0.967	-0.859	0.84	1	0.788	0.439	1.41	pneumonia	HP:0100852
+Abscess	43	31	1	-0.859	0.86	1	1.15	0.516	2.41	pneumonia	HP:0025615
+Mediastinal lymphadenopathy	36	23	1.03	-0.859	0.85	1	1.12	0.289	5.4	pneumonia	HP:0100721
+Chest tightness	18	11	0.87	-0.861	0.87	1	0.658	0.23	2.03	pneumonia	HP:0031352
+Abnormality of the thoracic cavity	39	25	0.854	-0.865	0.85	1	0.631	0.148	3.07	pneumonia	HP:0045027
+Ecchymosis	67	44	0.978	-0.876	0.92	1	0.387	0.00776	3.76	pneumonia	HP:0031364
+Flank pain	15	9	0.992	-0.879	0.88	1	0	0	426	pneumonia	HP:0030157
+Abnormality of the parathyroid gland	21	14	0.892	-0.883	0.87	1	0.654	0.234	2	pneumonia	HP:0000828
+Tracheomalacia	11	9	0.949	-0.885	1	1	0.527	0.24	1.13	pneumonia	HP:0002779
+Abnormal ocular adnexa morphology	48	34	1.05	-0.891	1	1	1.23	0.399	4.55	pneumonia	HP:0030669
+Abnormality of limbs	261	178	1.29	-0.9	0.84	1	4.28	0.603	187	pneumonia	HP:0040064
+Abnormal renal morphology	82	60	1.06	-0.91	0.86	1	2.83	1.64	4.85	pneumonia	HP:0012210
+Abnormal retinal morphology	45	37	1.16	-0.912	1	1	1.93	0.627	7.94	pneumonia	HP:0000479
+Abnormality of the upper limb	12	7	0.98	-0.912	0.89	1	0.903	0.646	1.27	pneumonia	HP:0002817
+Episodic pain	12	7	0.83	-0.912	0.89	1	0.587	0.159	2.37	pneumonia	HP:0032148
+Abnormal cranial nerve morphology	15	10	0.917	-0.913	0.93	1	0.349	0.00606	4.37	pneumonia	HP:0001291
+Abnormal axial skeleton morphology	208	141	0.939	-0.917	0.84	1	0.571	0.0784	3.19	pneumonia	HP:0009121
+Hypovolemia	34	26	0.956	-0.936	1	1	0.855	0.483	1.56	pneumonia	HP:0011106
+Dysuria	216	156	0.985	-0.942	0.87	1	0.672	0.252	1.6	pneumonia	HP:0100518
+Poor appetite	45	29	1.03	-0.945	0.87	1	1.13	0.268	6.67	pneumonia	HP:0004396
+Abnormal morphology of female internal genitalia	27	17	1.07	-0.948	0.88	1	1.42	0.953	2.14	pneumonia	HP:0000008
+Increased blood pressure	500	348	1.14	-0.963	0.86	1	1.8	0.867	4.09	pneumonia	HP:0032263
+Abnormality of the female genitalia	27	17	0.993	-0.97	0.89	1	0.936	0.641	1.36	pneumonia	HP:0010460
+Ileus	11	7	0.858	-0.98	0.92	1	0.45	0.0624	3.17	pneumonia	HP:0002595
+Neoplasm of the skin	29	18	1.13	-0.985	0.88	1	1.76	0.356	17	pneumonia	HP:0008069
+Hemoptysis	97	64	0.939	-0.99	0.87	1	0.797	0.498	1.29	pneumonia	HP:0002105
+Abnormal pattern of respiration	712	500	0.872	-0.997	0.87	1	0.645	0.367	1.15	pneumonia	HP:0002793
+Nephrolithiasis	30	20	1	-1	0.9	1	1.01	0.727	1.4	pneumonia	HP:0000787
+Neoplasm of the central nervous system	12	7	0.935	-1	0.91	1	0.723	0.328	1.68	pneumonia	HP:0100006
+Abnormal ST segment	12	7	1	-1.01	0.92	1	0	0	Inf	pneumonia	HP:0012249
+Abnormal paranasal sinus morphology	19	15	1	-1.02	0.91	1	0	0	Inf	pneumonia	HP:0000245
+Osteoarthritis	56	36	1.03	-1.02	0.88	1	5.11	1.31	19.5	pneumonia	HP:0002758
+Abnormality of urine homeostasis	89	59	1.07	-1.02	0.87	1	1.47	0.866	2.53	pneumonia	HP:0003110
+Paresthesia	20	12	1.25	-1.02	0.89	1	3.66	0.49	164	pneumonia	HP:0003401
+Bloody diarrhea	95	67	1	-1.02	0.88	1	1.08	0.263	3.89	pneumonia	HP:0025085
+Abnormality of the parathyroid physiology	19	12	0.909	-1.03	1	1	0.737	0.351	1.62	pneumonia	HP:0011767
+Thrombocytopenia	55	40	0.97	-1.03	0.94	1	0.338	0.00705	2.9	pneumonia	HP:0001873
+Functional abnormality of the bladder	255	187	1.02	-1.04	1	1	1.06	0.301	4.67	pneumonia	HP:0000009
+Abnormal stomach morphology	85	58	1.04	-1.05	0.89	1	2.32	1.49	3.6	pneumonia	HP:0002577
+Chronic pulmonary obstruction	216	182	0.899	-1.05	1	1	0.632	0.219	1.86	pneumonia	HP:0006510
+Gait disturbance	132	91	0.835	-1.06	0.9	1	0.581	0.304	1.13	pneumonia	HP:0001288
+Abnormal circulating protein concentration	18	11	0.848	-1.06	0.91	1	0.592	0.202	1.86	pneumonia	HP:0010876
+Hyperlipidemia	160	107	1.01	-1.06	0.88	1	4.03	0.0497	325	pneumonia	HP:0003077
+Abnormal blood oxygen level	58	47	0.931	-1.06	0.93	1	0.729	0.27	2.19	pneumonia	HP:0500165
+Stasis dermatitis	19	12	1.11	-1.06	0.94	1	1.59	0.308	15.6	pneumonia	HP:0033564
+Abnormality of the skin	512	360	0.519	-1.07	0.92	1	0.168	0.111	0.253	pneumonia	HP:0000951
+Abnormal venous morphology	14	8	0.813	-1.08	0.91	1	0.558	0.168	1.97	pneumonia	HP:0002624
+Hemiplegia/hemiparesis	17	14	0.786	-1.08	1	1	0.497	0.16	1.61	pneumonia	HP:0004374
+Metabolic acidosis	19	13	1.24	-1.08	0.92	1	9.21	1.17	426	pneumonia	HP:0001942
+Abnormal bleeding	244	165	0.985	-1.09	0.88	1	0.951	0.262	4.27	pneumonia	HP:0001892
+Normocytic anemia	12	8	0.987	-1.09	0.93	1	0.925	0.671	1.28	pneumonia	HP:0001897
+Shock	56	36	0.897	-1.1	0.89	1	0.628	0.22	1.83	pneumonia	HP:0031273
+Hyperparathyroidism	17	10	0.931	-1.11	1	1	0	0	9.25	pneumonia	HP:0000843
+Subcutaneous hemorrhage	86	56	0.876	-1.11	0.89	1	0.662	0.326	1.39	pneumonia	HP:0001933
+Abnormal blood cation concentration	118	90	0.854	-1.11	1	1	0.631	0.148	3.07	pneumonia	HP:0010929
+Abnormal urine cytology	71	45	0.956	-1.15	0.93	1	0.498	0.108	1.81	pneumonia	HP:0012614
+Abnormal cardiac atrium morphology	73	47	1.22	-1.16	0.9	1	2.57	0.565	23.8	pneumonia	HP:0005120
+Sudden death	22	13	0.988	-1.16	0.92	1	0.912	0.6	1.39	pneumonia	HP:0001699
+Abnormal large intestine morphology	96	69	1.06	-1.16	0.92	1	1.28	0.821	2.03	pneumonia	HP:0002250
+Abnormality of the breast	79	51	1.07	-1.17	0.9	1	1.28	0.515	3.61	pneumonia	HP:0000769
+Abnormality of pulmonary circulation	34	21	0.873	-1.17	0.91	1	0.656	0.307	1.45	pneumonia	HP:0030875
+Right bundle branch block	22	15	1.02	-1.17	0.95	1	1.47	0.96	2.23	pneumonia	HP:0011712
+Inflammatory abnormality of the eye	10	6	0.793	-1.17	0.93	1	0.474	0.11	2.33	pneumonia	HP:0100533
+Inflammation of the large intestine	42	29	1.08	-1.18	0.92	1	1.33	0.5	4.15	pneumonia	HP:0002037
+Leukocytosis	152	118	0.99	-1.19	0.93	1	0	0	5.14	pneumonia	HP:0001974
+Generalized abnormality of skin	417	286	0.991	-1.2	0.93	1	0.546	0.157	1.54	pneumonia	HP:0011354
+Abnormal ventricular septum morphology	39	24	1.04	-1.22	0.92	1	2.07	1.41	3.05	pneumonia	HP:0010438
+Tracheobronchomalacia	10	8	1.03	-1.22	1	1	1.36	0.708	2.61	pneumonia	HP:0002786
+Abnormality of the vertebral column	188	125	0.986	-1.23	0.94	1	0.706	0.22	1.94	pneumonia	HP:0000925
+Abnormal granulocyte morphology	54	44	1	-1.23	1	1	0	0	Inf	pneumonia	HP:0001911
+Abnormality of the head	159	118	0.968	-1.24	0.96	1	0.835	0.353	1.99	pneumonia	HP:0000234
+Pulmonary nodule	24	15	1.32	-1.24	0.93	1	Inf	1.26	Inf	pneumonia	HP:0033608
+Abnormality of the vasculature	511	354	0.979	-1.26	0.91	1	0.805	0.564	1.14	pneumonia	HP:0002597
+Supraventricular tachycardia	14	8	0.795	-1.26	0.94	1	0.505	0.149	1.82	pneumonia	HP:0004755
+Scarring	78	50	1.12	-1.26	0.92	1	1.67	0.963	3	pneumonia	HP:0100699
+Gonadal neoplasm	11	6	1.12	-1.27	0.95	1	1.98	0.475	12	pneumonia	HP:0010785
+Abnormality of the musculoskeletal system	606	419	1.17	-1.29	0.92	1	2.64	0.574	24.8	pneumonia	HP:0033127
+Sleep apnea	52	35	0.913	-1.33	0.94	1	0.595	0.256	1.39	pneumonia	HP:0010535
+Atrial flutter	23	17	1	-1.33	0.94	1	1	0.101	9.94	pneumonia	HP:0004749
+Abnormality of skin morphology	442	306	0.947	-1.34	0.93	1	0.765	0.55	1.07	pneumonia	HP:0011121
+Weight loss	108	70	0.922	-1.34	0.93	1	0.747	0.478	1.18	pneumonia	HP:0001824
+Spinal canal stenosis	41	25	0.868	-1.34	0.93	1	0.645	0.324	1.32	pneumonia	HP:0003416
+Abnormal involuntary eye movements	11	7	0.918	-1.36	1	1	0.592	0.223	1.57	pneumonia	HP:0012547
+Arrhythmia	504	352	1.04	-1.38	0.97	1	3.99	1.08	14.8	pneumonia	HP:0011675
+Pericardial effusion	268	163	1	-1.38	1	1	0	0	Inf	pneumonia	HP:0001698
+Abnormal sputum	101	67	1.31	-1.38	0.93	1	6.1	0.887	264	pneumonia	HP:0032016
+Neoplasm of the nervous system	16	9	0.985	-1.38	0.95	1	0.667	0.344	1.23	pneumonia	HP:0004375
+Atelectasis	276	198	0.982	-1.39	0.94	1	0.937	0.436	2.15	pneumonia	HP:0100750
+Vascular skin abnormality	194	129	1.04	-1.4	0.93	1	1.71	1.09	2.69	pneumonia	HP:0011276
+Sudden cardiac death	10	5	0.995	-1.41	0.96	1	0.948	0.152	5.93	pneumonia	HP:0001645
+Elevated pulmonary artery pressure	31	18	1.03	-1.41	1	1	1.21	0.858	1.7	pneumonia	HP:0004890
+Sciatica	10	5	0.711	-1.41	0.96	1	0.418	0.0952	1.84	pneumonia	HP:0011868
+Neurological speech impairment	33	21	1.14	-1.43	0.95	1	1.7	0.336	16.6	pneumonia	HP:0002167
+Decreased body weight	113	73	1.24	-1.43	0.94	1	4.15	0.528	191	pneumonia	HP:0004325
+Abnormal cardiac ventricle morphology	157	103	0.983	-1.43	0.94	1	0.936	0.607	1.46	pneumonia	HP:0001713
+Abnormality of the pancreas	40	25	0.909	-1.43	0.95	1	0.367	0.0316	2.44	pneumonia	HP:0001732
+Abnormality of the coagulation cascade	26	15	1.02	-1.43	0.95	1	1.77	0.137	14.7	pneumonia	HP:0003256
+Abnormal anterior eye segment morphology	77	54	1.12	-1.5	0.96	1	2.26	0.872	6.45	pneumonia	HP:0004328
+Abnormal renal tubule morphology	11	7	1.01	-1.51	1	1	1.14	0.214	7.82	pneumonia	HP:0000091
+Hepatosplenomegaly	49	32	0.94	-1.51	0.96	1	0	0	3.88	pneumonia	HP:0001433
+Rhinitis	12	7	0.774	-1.52	0.97	1	0.366	0.0787	1.79	pneumonia	HP:0012384
+Mental deterioration	93	59	1	-1.54	0.95	1	0	0	Inf	pneumonia	HP:0001268
+Crackles	455	340	0.981	-1.54	0.95	1	0.685	0.404	1.13	pneumonia	HP:0030830
+Bruising susceptibility	12	6	0.955	-1.55	0.96	1	0.849	0.501	1.47	pneumonia	HP:0000978
+Neoplasm of the breast	71	45	0.896	-1.55	0.95	1	0.644	0.355	1.18	pneumonia	HP:0100013
+Lower limb pain	57	25	0.921	-1.55	1	1	0.536	0.226	1.24	pneumonia	HP:0012514
+Recurrent infections	108	85	0.995	-1.58	0.97	1	0.924	0.61	1.39	pneumonia	HP:0002719
+Type II diabetes mellitus	69	48	0.935	-1.59	0.96	1	0.795	0.361	1.85	pneumonia	HP:0005978
+Atrial septal defect	62	38	0.994	-1.61	0.96	1	0	0	178	pneumonia	HP:0001631
+Vascular dilatation	60	37	0.892	-1.61	0.96	1	0.563	0.261	1.21	pneumonia	HP:0002617
+Abnormal atrial septum morphology	62	38	0.963	-1.61	0.96	1	0.579	0.192	1.56	pneumonia	HP:0011994
+Abnormality of skeletal morphology	484	330	0.97	-1.63	0.96	1	0.766	0.548	1.07	pneumonia	HP:0011842
+Abnormal blood inorganic cation concentration	18	11	1.17	-1.64	0.97	1	2.14	0.456	20.2	pneumonia	HP:0010927
+Abnormal mitral valve physiology	269	179	0.87	-1.65	0.96	1	0.658	0.187	2.59	pneumonia	HP:0031481
+Abnormal joint morphology	169	110	0.913	-1.67	0.96	1	0.601	0.432	0.837	pneumonia	HP:0001367
+Bone fracture	14	7	0.971	-1.67	0.97	1	0	0	28.1	pneumonia	HP:0020110
+Abnormal emotion/affect behavior	17	9	0.741	-1.73	0.97	1	0.432	0.144	1.32	pneumonia	HP:0100851
+Aortic valve stenosis	196	128	1	-1.76	0.97	1	1.03	0.729	1.46	pneumonia	HP:0001650
+Abnormality of the lower limb	46	27	0.947	-1.77	0.97	1	0.546	0.308	0.941	pneumonia	HP:0002814
+Muscle weakness	55	38	0.918	-1.78	0.98	1	0.348	0.0764	1.24	pneumonia	HP:0001324
+Acute kidney injury	116	94	1.06	-1.79	0.98	1	1.27	0.386	5.43	pneumonia	HP:0001919
+Inflammatory abnormality of the skin	168	120	0.97	-1.81	0.97	1	0.863	0.618	1.21	pneumonia	HP:0011123
+Back pain	120	76	0.901	-1.81	0.97	1	0.688	0.45	1.06	pneumonia	HP:0003418
+Arthritis	157	101	1.12	-1.82	0.97	1	2.72	0.335	127	pneumonia	HP:0001369
+Recurrent urinary tract infections	75	53	0.9	-1.83	0.97	1	0.591	0.325	1.1	pneumonia	HP:0000010
+Storage in hepatocytes	17	9	0.732	-1.9	0.98	1	0.378	0.118	1.23	pneumonia	HP:0031137
+Non-small cell lung carcinoma	18	10	0.759	-1.95	0.99	1	0.333	0.0909	1.22	pneumonia	HP:0030358
+Urinary incontinence	20	11	0.747	-1.97	0.98	1	0.405	0.144	1.16	pneumonia	HP:0000020
+Cardiac arrest	33	18	1	-2.02	0.98	1	0	0	Inf	pneumonia	HP:0001695
+Drowsiness	29	19	0.822	-2.06	0.99	1	0.412	0.161	1.1	pneumonia	HP:0002329
+Constitutional symptom	723	501	0.986	-2.08	0.99	1	0.497	0.229	0.99	pneumonia	HP:0025142
+Allergic rhinitis	10	5	0.655	-2.1	0.99	1	0.246	0.0477	1.25	pneumonia	HP:0003193
+Decreased urine output	10	4	1	-2.11	0.99	1	0	0	Inf	pneumonia	HP:0011037
+Thyroid nodule	10	4	1.03	-2.11	0.99	1	1.12	0.548	2.43	pneumonia	HP:0025388
+Overweight	10	4	1.14	-2.11	0.99	1	1.9	0.66	6.72	pneumonia	HP:0025502
+Hyperglycemia	38	26	0.854	-2.13	1	1	0.585	0.378	0.911	pneumonia	HP:0003074
+Autoimmunity	16	8	0.929	-2.15	0.99	1	0.735	0.514	1.06	pneumonia	HP:0002960
+Abnormality of the skeletal system	518	351	0.981	-2.15	0.99	1	0.498	0.116	1.63	pneumonia	HP:0000924
+Hypercalcemia	12	5	0.977	-2.16	1	1	0.917	0.571	1.5	pneumonia	HP:0003072
+Palpitations	180	115	1	-2.17	0.99	1	0	0	Inf	pneumonia	HP:0001962
+Bundle branch block	36	27	0.871	-2.18	1	1	0.596	0.276	1.32	pneumonia	HP:0011710
+Melanoma	19	9	0.674	-2.21	0.99	1	0.371	0.131	1.03	pneumonia	HP:0002861
+Abnormal atrioventricular valve morphology	108	66	0.841	-2.24	0.99	1	0.602	0.234	1.62	pneumonia	HP:0006705
+Abnormal circulating lipid concentration	243	166	1.08	-2.29	0.99	1	2.67	1.22	5.93	pneumonia	HP:0003119
+Hypoesthesia	39	21	0.766	-2.3	0.99	1	0.474	0.235	0.964	pneumonia	HP:0033748
+Aspiration pneumonia	49	39	0.928	-2.32	1	1	0.688	0.131	4.76	pneumonia	HP:0011951
+Abnormality of blood and blood-forming tissues	578	393	0.967	-2.35	0.99	1	0.646	0.437	0.943	pneumonia	HP:0001871
+Abnormal cardiac septum morphology	83	49	0.996	-2.37	0.99	1	0	0	59.6	pneumonia	HP:0001671
+Loss of consciousness	23	14	0.764	-2.39	0.99	1	0.337	0.122	0.971	pneumonia	HP:0007185
+Mitral valve prolapse	97	58	0.979	-2.41	0.99	1	0	0	20.5	pneumonia	HP:0001634
+Abnormal pleura morphology	364	262	0.957	-2.44	1	1	0.583	0.364	0.916	pneumonia	HP:0002103
+Abnormality of musculoskeletal physiology	105	63	0.854	-2.48	0.99	1	0.588	0.377	0.923	pneumonia	HP:0011843
+Abnormal tricuspid valve physiology	76	44	0.892	-2.48	0.99	1	0.584	0.42	0.812	pneumonia	HP:0031651
+Abnormality of skin adnexa physiology	63	36	0.922	-2.52	1	1	0.573	0.413	0.792	pneumonia	HP:0025276
+Cardiogenic shock	13	5	0.999	-2.53	1	1	0.997	0.507	2.06	pneumonia	HP:0030149
+Abnormal heart valve morphology	110	66	0.61	-2.54	1	1	0.306	0.112	0.805	pneumonia	HP:0001654
+Abnormal atrioventricular valve physiology	287	186	0.824	-2.55	1	1	0.546	0.328	0.916	pneumonia	HP:0031650
+Syncope	48	26	0.986	-2.6	1	1	0.289	0.00648	2.15	pneumonia	HP:0001279
+Autoimmune antibody positivity	11	3	0.545	-2.61	1	1	0	0	0.755	pneumonia	HP:0030057
+Cognitive impairment	99	64	0.875	-2.63	1	1	0.479	0.264	0.866	pneumonia	HP:0100543
+Tachycardia	186	116	1.11	-2.79	1	1	1.58	0.565	5.48	pneumonia	HP:0001649
+Patent foramen ovale	21	9	1.05	-2.79	1	1	1.24	0.625	2.6	pneumonia	HP:0001655
+Shoulder pain	12	4	1.03	-2.82	1	1	1.13	0.712	1.82	pneumonia	HP:0030834
+Somatic sensory dysfunction	48	26	0.753	-2.85	1	1	0.428	0.226	0.818	pneumonia	HP:0003474
+Abnormal electrophysiology of sinoatrial node origin	154	94	0.819	-2.85	1	1	0.501	0.338	0.747	pneumonia	HP:0011702
+Abnormal thyroid morphology	18	9	0.933	-2.91	1	1	0.762	0.518	1.13	pneumonia	HP:0011772
+Neoplasm of the pancreas	16	6	0.532	-2.97	1	1	0.232	0.067	0.728	pneumonia	HP:0002894
+Abnormality of renal excretion	16	8	1.16	-3.03	1	1	Inf	1.35	Inf	pneumonia	HP:0011036
+Obesity	67	36	0.765	-3.1	1	1	0.456	0.266	0.785	pneumonia	HP:0001513
+Abnormal heart valve physiology	313	202	0.915	-3.14	1	1	0.71	0.483	1.05	pneumonia	HP:0031653
+Abnormality of cardiovascular system morphology	453	301	0.893	-3.15	1	1	0.576	0.383	0.867	pneumonia	HP:0030680
+Elevated circulating creatinine concentration	17	10	0.872	-3.21	1	1	0.645	0.367	1.15	pneumonia	HP:0003259
+Growth abnormality	177	107	0.569	-3.25	1	1	0.277	0.057	1.18	pneumonia	HP:0001507
+Abnormal circulating creatinine concentration	17	10	0.717	-3.28	1	1	0	0	0.403	pneumonia	HP:0012100
+Pain	693	472	1.08	-3.32	1	1	1.34	0.573	3.48	pneumonia	HP:0012531
+Hiatus hernia	40	21	0.868	-3.34	1	1	0	0	4.31	pneumonia	HP:0002036
+Abnormal aortic valve physiology	268	168	1.03	-3.35	1	1	1.14	0.653	2.06	pneumonia	HP:0031652
+Hematuria	63	40	0.801	-3.45	1	1	0.352	0.184	0.682	pneumonia	HP:0000790
+Abnormal heart morphology	409	265	1	-3.51	1	1	0	0	Inf	pneumonia	HP:0001627
+Sinus tachycardia	139	80	1.09	-3.62	1	1	1.38	0.421	5.88	pneumonia	HP:0011703
+Increased body weight	74	38	0.985	-3.74	1	1	0.951	0.262	4.27	pneumonia	HP:0004324
+Chest pain	534	353	1	-3.74	1	1	0	0	Inf	pneumonia	HP:0100749
+Thrombophlebitis	13	3	0.958	-3.75	1	1	0	0	4.45	pneumonia	HP:0004418
+Abnormal pericardium morphology	271	166	1.11	-4.02	1	1	1.69	0.477	7.63	pneumonia	HP:0001697
+Pleuritic chest pain	66	32	0.69	-4.05	1	1	0.361	0.21	0.622	pneumonia	HP:0033771
+Aortic regurgitation	225	134	1	-4.17	1	1	1.89	0.155	16.8	pneumonia	HP:0001659
+Thromboembolism	23	7	1.07	-4.24	1	1	1.78	1.28	2.48	pneumonia	HP:0001907
+Limb pain	59	27	0.651	-4.28	1	1	0.324	0.182	0.574	pneumonia	HP:0009763
+Abnormality of coagulation	51	15	0.912	-6.6	1	1	0.731	0.437	1.24	pneumonia	HP:0001928
+Deep venous thrombosis	121	44	0.517	-8.87	1	1	0.176	0.114	0.271	pneumonia	HP:0002625
+Venous thrombosis	137	50	1.05	-9.52	1	1	1.2	0.576	2.7	pneumonia	HP:0004936
+Abnormal thrombosis	148	53	0.915	-9.72	1	1	0.745	0.409	1.39	pneumonia	HP:0001977
