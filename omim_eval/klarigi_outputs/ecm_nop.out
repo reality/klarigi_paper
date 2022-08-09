@@ -3,7 +3,73 @@ Phenopackets loaded. Also saving a converted copy to pp_conv.tsv
 Done loading dataset
 Done loading the ontology
 Done loading IC values
-OMIM:616900: Scoring completed. Candidates: 139
+OMIM:616900: Scoring completed. Candidates: 62
+\begin{tabular}
+{\bf Class} & {\bf r-score} & {\bf Inclusion} & & {\bf Exclusion} & {\bf IC} \\
+\hline \hline
+Severe muscular hypotonia ({\tt HP:0006829}) & 0.8 & 0.68 & 0.95 & 1.0 \\
+Developmental regression ({\tt HP:0002376}) & 0.63 & 0.58 & 0.68 & 1.0 \\
+Severe global developmental delay ({\tt HP:0011344}) & 0.5 & 0.42 & 0.62 & 1.0 \\
+Abnormality of upper lip vermillion ({\tt HP:0011339}) & 0.46 & 0.47 & 0.45 & 0.83 \\
+Respiratory insufficiency ({\tt HP:0002093}) & 0.42 & 0.42 & 0.42 & 0.81 \\
+Reduced tendon reflexes ({\tt HP:0001315}) & 0.42 & 0.53 & 0.35 & 0.82 \\
+Small basal ganglia ({\tt HP:0012697}) & 0.41 & 0.26 & 0.95 & 1.0 \\
+Exaggerated cupid's bow ({\tt HP:0002263}) & 0.41 & 0.26 & 0.95 & 1.0 \\
+Macroglossia ({\tt HP:0000158}) & 0.39 & 0.26 & 0.78 & 0.95 \\
+Areflexia ({\tt HP:0001284}) & 0.39 & 0.32 & 0.5 & 0.89 \\
+Abnormality of the basal ganglia ({\tt HP:0002134}) & 0.38 & 0.26 & 0.66 & 0.69 \\
+Profound global developmental delay ({\tt HP:0012736}) & 0.36 & 0.26 & 0.58 & 1.0 \\
+Prominent nasal bridge ({\tt HP:0000426}) & 0.36 & 0.26 & 0.58 & 1.0 \\
+Skeletal muscle hypertrophy ({\tt HP:0003712}) & 0.35 & 0.26 & 0.51 & 0.78 \\
+Sloping forehead ({\tt HP:0000340}) & 0.34 & 0.21 & 0.95 & 1.0 \\
+Aplasia/Hypoplasia of the cerebellar vermis ({\tt HP:0006817}) & 0.33 & 0.26 & 0.45 & 0.87 \\
+Highly arched eyebrow ({\tt HP:0002553}) & 0.33 & 0.26 & 0.45 & 1.0 \\
+Cerebellar vermis hypoplasia ({\tt HP:0001320}) & 0.33 & 0.26 & 0.45 & 0.95 \\
+Tented upper lip vermilion ({\tt HP:0010804}) & 0.31 & 0.21 & 0.62 & 1.0 \\
+Coarse facial features ({\tt HP:0000280}) & 0.29 & 0.26 & 0.34 & 1.0 \\
+Small forehead ({\tt HP:0000350}) & 0.29 & 0.26 & 0.34 & 1.0 \\
+Narrow forehead ({\tt HP:0000341}) & 0.29 & 0.26 & 0.34 & 1.0 \\
+Aplasia/Hypoplasia of the corpus callosum ({\tt HP:0007370}) & 0.29 & 0.37 & 0.24 & 0.95 \\
+Aplasia/Hypoplasia of the cerebral white matter ({\tt HP:0012429}) & 0.29 & 0.37 & 0.24 & 0.95 \\
+EEG abnormality ({\tt HP:0002353}) & 0.29 & 0.32 & 0.27 & 0.58 \\
+Hypoplasia of the corpus callosum ({\tt HP:0002079}) & 0.29 & 0.32 & 0.27 & 1.0 \\
+Abnormality of muscle size ({\tt HP:0030236}) & 0.29 & 0.32 & 0.27 & 0.63 \\
+Cerebral white matter hypoplasia ({\tt HP:0012430}) & 0.29 & 0.32 & 0.27 & 1.0 \\
+Brachycephaly ({\tt HP:0000248}) & 0.29 & 0.21 & 0.45 & 0.95 \\
+Absent speech ({\tt HP:0001344}) & 0.28 & 0.37 & 0.23 & 1.0 \\
+Abnormality of the cerebellar vermis ({\tt HP:0002334}) & 0.27 & 0.26 & 0.28 & 0.8 \\
+Diffuse cerebellar atrophy ({\tt HP:0100275}) & 0.27 & 0.16 & 0.95 & 1.0 \\
+Global brain atrophy ({\tt HP:0002283}) & 0.27 & 0.16 & 0.95 & 1.0 \\
+Abnormality of central nervous system electrophysiology ({\tt HP:0030178}) & 0.27 & 0.32 & 0.24 & 0.56 \\
+Global developmental delay ({\tt HP:0001263}) & 0.26 & 0.95 & 0.15 & 0.89 \\
+Open mouth ({\tt HP:0000194}) & 0.26 & 0.16 & 0.7 & 1.0 \\
+Diffuse cerebral atrophy ({\tt HP:0002506}) & 0.26 & 0.16 & 0.7 & 1.0 \\
+Seizures ({\tt HP:0001250}) & 0.26 & 0.79 & 0.15 & 0.62 \\
+Visual impairment ({\tt HP:0000505}) & 0.25 & 0.21 & 0.31 & 0.87 \\
+Shallow orbits ({\tt HP:0000586}) & 0.25 & 0.16 & 0.55 & 1.0 \\
+Abnormality of bony orbit of skull ({\tt HP:3000030}) & 0.25 & 0.16 & 0.55 & 0.95 \\
+Partial agenesis of the corpus callosum ({\tt HP:0001338}) & 0.25 & 0.16 & 0.55 & 1.0 \\
+Abnormality of the corpus callosum ({\tt HP:0001273}) & 0.25 & 0.37 & 0.18 & 0.83 \\
+Abnormality of upper lip ({\tt HP:0000177}) & 0.24 & 0.47 & 0.16 & 0.69 \\
+Cerebellar malformation ({\tt HP:0002438}) & 0.24 & 0.26 & 0.23 & 0.74 \\
+Muscular hypotonia ({\tt HP:0001252}) & 0.24 & 0.95 & 0.14 & 0.8 \\
+Abnormality of the periorbital region ({\tt HP:0000606}) & 0.24 & 0.53 & 0.15 & 0.65 \\
+Deeply set eye ({\tt HP:0000490}) & 0.24 & 0.32 & 0.19 & 1.0 \\
+Abnormal tongue morphology ({\tt HP:0030809}) & 0.24 & 0.26 & 0.21 & 0.69 \\
+Abnormality of the tongue ({\tt HP:0000157}) & 0.24 & 0.26 & 0.21 & 0.65 \\
+Cerebral atrophy ({\tt HP:0002059}) & 0.23 & 0.21 & 0.26 & 0.82 \\
+Abnormality of the lip ({\tt HP:0000159}) & 0.23 & 0.53 & 0.15 & 0.62 \\
+Focal seizures ({\tt HP:0007359}) & 0.22 & 0.16 & 0.38 & 0.69 \\
+Agenesis of corpus callosum ({\tt HP:0001274}) & 0.22 & 0.16 & 0.38 & 1.0 \\
+Osteoporosis ({\tt HP:0000939}) & 0.22 & 0.16 & 0.38 & 0.92 \\
+Atrophy/Degeneration affecting the cerebrum ({\tt HP:0007369}) & 0.22 & 0.21 & 0.24 & 0.78 \\
+Ventriculomegaly ({\tt HP:0002119}) & 0.22 & 0.32 & 0.16 & 0.81 \\
+Generalized seizures ({\tt HP:0002197}) & 0.21 & 0.21 & 0.22 & 0.77 \\
+Abnormality of the external nose ({\tt HP:0010938}) & 0.21 & 0.42 & 0.14 & 0.67 \\
+Abnormality of the cerebral white matter ({\tt HP:0002500}) & 0.21 & 0.37 & 0.14 & 0.68 \\
+Abnormal nervous system electrophysiology ({\tt HP:0001311}) & 0.2 & 0.32 & 0.15 & 0.56 \\
+Abnormality of the forehead ({\tt HP:0000290}) & 0.2 & 0.53 & 0.13 & 0.7 \\
+\end{tabular}
 \begin{tabular}{p{5cm}|l|l|l|l}
 {\bf OMIM:616900 (19 members)} & {\bf r-score} & {\bf Inclusion} & {\bf Exclusion} & {\bf IC} \\
 \hline \hline
