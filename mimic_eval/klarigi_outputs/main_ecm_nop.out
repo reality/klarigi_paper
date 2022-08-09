@@ -2,9 +2,8 @@ Done loading dataset
 Done loading the ontology
 Done loading IC values
 pulmonary embolism: Scoring completed. Candidates: 20
-pneumonia: Scoring completed. Candidates: 29
 \begin{tabular}
-{\bf Class} & {\bf Power} & {\bf Inclusivity} & & {\bf Exclusivity} & {\bf Specificity} \\
+{\bf Class} & {\bf r-score} & {\bf Inclusion} & & {\bf Exclusion} & {\bf IC} \\
 \hline \hline
 Abnormal thrombosis ({\tt HP:0001977}) & 0.37 & 0.41 & 0.35 & 0.75 \\
 Venous thrombosis ({\tt HP:0004936}) & 0.35 & 0.37 & 0.34 & 0.83 \\
@@ -27,8 +26,9 @@ Thromboembolism ({\tt HP:0001907}) & 0.12 & 0.07 & 0.4 & 0.89 \\
 Hiatus hernia ({\tt HP:0002036}) & 0.11 & 0.08 & 0.18 & 1.0 \\
 Hypoesthesia ({\tt HP:0033748}) & 0.11 & 0.08 & 0.16 & 1.0 \\
 \end{tabular}
+pneumonia: Scoring completed. Candidates: 29
 \begin{tabular}
-{\bf Class} & {\bf Power} & {\bf Inclusivity} & & {\bf Exclusivity} & {\bf Specificity} \\
+{\bf Class} & {\bf r-score} & {\bf Inclusion} & & {\bf Exclusion} & {\bf IC} \\
 \hline \hline
 Renal insufficiency ({\tt HP:0000083}) & 0.22 & 0.39 & 0.15 & 0.84 \\
 Airway obstruction ({\tt HP:0006536}) & 0.2 & 0.34 & 0.14 & 0.87 \\
@@ -61,6 +61,31 @@ Abnormality of the abdominal wall ({\tt HP:0004298}) & 0.1 & 0.08 & 0.16 & 0.73 
 Abnormal pulmonary interstitial morphology ({\tt HP:0006530}) & 0.1 & 0.07 & 0.17 & 0.65 \\
 \end{tabular}
 \begin{tabular}{p{5cm}|l|l|l|l}
+{\bf pulmonary embolism (233 members)} & {\bf r-score} & {\bf Inclusion} & {\bf Exclusion} & {\bf IC} \\
+\hline \hline
+Abnormal thrombosis ({\tt HP:0001977}) & 0.37 & 0.41 & 0.35 & 0.75 \\
+Venous thrombosis ({\tt HP:0004936}) & 0.35 & 0.37 & 0.34 & 0.83 \\
+Deep venous thrombosis ({\tt HP:0002625}) & 0.33 & 0.33 & 0.34 & 1.0 \\
+Hypercoagulability ({\tt HP:0100724}) & 0.19 & 0.11 & 0.7 & 1.0 \\
+Lower limb pain ({\tt HP:0012514}) & 0.18 & 0.14 & 0.26 & 0.89 \\
+Limb pain ({\tt HP:0009763}) & 0.18 & 0.14 & 0.25 & 0.84 \\
+Pleuritic chest pain ({\tt HP:0033771}) & 0.17 & 0.15 & 0.22 & 1.0 \\
+Increased body weight ({\tt HP:0004324}) & 0.17 & 0.15 & 0.19 & 0.84 \\
+Sinus tachycardia ({\tt HP:0011703}) & 0.17 & 0.25 & 0.13 & 1.0 \\
+Obesity ({\tt HP:0001513}) & 0.15 & 0.13 & 0.17 & 0.87 \\
+Abnormality of skin adnexa physiology ({\tt HP:0025276}) & 0.12 & 0.12 & 0.13 & 0.83 \\
+Hyperhidrosis ({\tt HP:0000975}) & 0.12 & 0.12 & 0.13 & 0.95 \\
+Hypohidrosis or hyperhidrosis ({\tt HP:0007550}) & 0.12 & 0.12 & 0.13 & 0.92 \\
+Abnormal exteroceptive sensation ({\tt HP:0033747}) & 0.12 & 0.09 & 0.16 & 0.8 \\
+Somatic sensory dysfunction ({\tt HP:0003474}) & 0.12 & 0.09 & 0.16 & 0.75 \\
+Syncope ({\tt HP:0001279}) & 0.12 & 0.09 & 0.16 & 0.89 \\
+Thromboembolism ({\tt HP:0001907}) & 0.12 & 0.07 & 0.4 & 0.89 \\
+Hiatus hernia ({\tt HP:0002036}) & 0.11 & 0.08 & 0.18 & 1.0 \\
+Hypoesthesia ({\tt HP:0033748}) & 0.11 & 0.08 & 0.16 & 1.0 \\
+\hline
+{\em Overall} & - & {\em 79.4 } & - & - \\ 
+\end{tabular}
+\begin{tabular}{p{5cm}|l|l|l|l}
 {\bf pneumonia (552 members)} & {\bf r-score} & {\bf Inclusion} & {\bf Exclusion} & {\bf IC} \\
 \hline \hline
 Renal insufficiency ({\tt HP:0000083}) & 0.22 & 0.39 & 0.15 & 0.84 \\
@@ -90,35 +115,10 @@ Malaise ({\tt HP:0033834}) & 0.12 & 0.08 & 0.23 & 1.0 \\
 Hepatitis ({\tt HP:0012115}) & 0.11 & 0.09 & 0.14 & 0.81 \\
 Abnormality of the abdominal wall ({\tt HP:0004298}) & 0.1 & 0.08 & 0.16 & 0.73 \\
 \hline
-{\em Overall} & 95.47 & - & - \\ 
+{\em Overall} & - & {\em 95.47 } & - & - \\ 
 \end{tabular}
-\begin{tabular}{p{5cm}|l|l|l|l}
-{\bf pulmonary embolism (233 members)} & {\bf r-score} & {\bf Inclusion} & {\bf Exclusion} & {\bf IC} \\
-\hline \hline
-Abnormal thrombosis ({\tt HP:0001977}) & 0.37 & 0.41 & 0.35 & 0.75 \\
-Venous thrombosis ({\tt HP:0004936}) & 0.35 & 0.37 & 0.34 & 0.83 \\
-Deep venous thrombosis ({\tt HP:0002625}) & 0.33 & 0.33 & 0.34 & 1.0 \\
-Hypercoagulability ({\tt HP:0100724}) & 0.19 & 0.11 & 0.7 & 1.0 \\
-Lower limb pain ({\tt HP:0012514}) & 0.18 & 0.14 & 0.26 & 0.89 \\
-Limb pain ({\tt HP:0009763}) & 0.18 & 0.14 & 0.25 & 0.84 \\
-Pleuritic chest pain ({\tt HP:0033771}) & 0.17 & 0.15 & 0.22 & 1.0 \\
-Increased body weight ({\tt HP:0004324}) & 0.17 & 0.15 & 0.19 & 0.84 \\
-Sinus tachycardia ({\tt HP:0011703}) & 0.17 & 0.25 & 0.13 & 1.0 \\
-Obesity ({\tt HP:0001513}) & 0.15 & 0.13 & 0.17 & 0.87 \\
-Abnormality of skin adnexa physiology ({\tt HP:0025276}) & 0.12 & 0.12 & 0.13 & 0.83 \\
-Hyperhidrosis ({\tt HP:0000975}) & 0.12 & 0.12 & 0.13 & 0.95 \\
-Hypohidrosis or hyperhidrosis ({\tt HP:0007550}) & 0.12 & 0.12 & 0.13 & 0.92 \\
-Abnormal exteroceptive sensation ({\tt HP:0033747}) & 0.12 & 0.09 & 0.16 & 0.8 \\
-Somatic sensory dysfunction ({\tt HP:0003474}) & 0.12 & 0.09 & 0.16 & 0.75 \\
-Syncope ({\tt HP:0001279}) & 0.12 & 0.09 & 0.16 & 0.89 \\
-Thromboembolism ({\tt HP:0001907}) & 0.12 & 0.07 & 0.4 & 0.89 \\
-Hiatus hernia ({\tt HP:0002036}) & 0.11 & 0.08 & 0.18 & 1.0 \\
-Hypoesthesia ({\tt HP:0033748}) & 0.11 & 0.08 & 0.16 & 1.0 \\
-\hline
-{\em Overall} & 79.4 & - & - \\ 
-\end{tabular}
-Classifying 'pneumonia' using candidate set with OI: 95.4710144900
 Classifying 'pulmonary embolism' using candidate set with OI: 79.3991416300
+Classifying 'pneumonia' using candidate set with OI: 95.4710144900
 Reclassification:
 pulmonary embolism AUC: 0.7538603284194813
 pneumonia AUC: 0.8384454500217702

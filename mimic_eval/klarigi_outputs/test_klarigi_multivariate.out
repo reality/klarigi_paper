@@ -1,8 +1,8 @@
 Done loading dataset
 Done loading the ontology
 Done loading IC values
-pulmonary embolism: Scoring completed. Candidates: 475
 pneumonia: Scoring completed. Candidates: 889
+pulmonary embolism: Scoring completed. Candidates: 475
 \begin{tabular}{p{5cm}|l|l|l|l}
 {\bf pneumonia (147 members)} & {\bf r-score} & {\bf Inclusion} & {\bf Exclusion} & {\bf IC} \\
 \hline \hline
@@ -67,7 +67,7 @@ Colitis ({\tt HP:0002583}) & 0.1 & 0.07 & 0.2 & 0.87 \\
 Glaucoma ({\tt HP:0000501}) & 0.1 & 0.07 & 0.2 & 0.85 \\
 Inflammation of the large intestine ({\tt HP:0002037}) & 0.1 & 0.07 & 0.2 & 0.85 \\
 \hline
-{\em Overall} & 100.0 & - & - \\ 
+{\em Overall} & - & {\em 100.0 } & - & - \\ 
 \end{tabular}
 \begin{tabular}{p{5cm}|l|l|l|l}
 {\bf pulmonary embolism (59 members)} & {\bf r-score} & {\bf Inclusion} & {\bf Exclusion} & {\bf IC} \\
@@ -135,7 +135,7 @@ Abnormal abdomen morphology ({\tt HP:0001438}) & 0.1 & 0.22 & 0.06 & 0.78 \\
 Abnormality of the lymph nodes ({\tt HP:0002733}) & 0.1 & 0.27 & 0.06 & 0.77 \\
 Lymphadenopathy ({\tt HP:0002716}) & 0.1 & 0.27 & 0.06 & 0.84 \\
 \hline
-{\em Overall} & 98.31 & - & - \\ 
+{\em Overall} & - & {\em 98.31 } & - & - \\ 
 \end{tabular}
 Classifying 'pneumonia' using candidate set with OI: 95.2380952400
 Classifying 'pulmonary embolism' using candidate set with OI: 66.1016949200

@@ -60,7 +60,7 @@ Colitis ({\tt HP:0002583}) & 0.1 & 0.07 & 0.2 & 0.71 \\
 Glaucoma ({\tt HP:0000501}) & 0.1 & 0.07 & 0.2 & 0.62 \\
 Inflammation of the large intestine ({\tt HP:0002037}) & 0.1 & 0.07 & 0.2 & 0.68 \\
 \hline
-{\em Overall} & 100.0 & - & - \\ 
+{\em Overall} & - & {\em 100.0 } & - & - \\ 
 \end{tabular}
 \begin{tabular}{p{5cm}|l|l|l|l}
 {\bf pulmonary embolism (59 members)} & {\bf r-score} & {\bf Inclusion} & {\bf Exclusion} & {\bf IC} \\
@@ -92,7 +92,7 @@ Abnormal gallbladder physiology ({\tt HP:0012438}) & 0.11 & 0.1 & 0.11 & 0.74 \\
 Prostate cancer ({\tt HP:0012125}) & 0.1 & 0.08 & 0.13 & 0.82 \\
 Prostate neoplasm ({\tt HP:0100787}) & 0.1 & 0.08 & 0.13 & 0.77 \\
 \hline
-{\em Overall} & 96.61 & - & - \\ 
+{\em Overall} & - & {\em 96.61 } & - & - \\ 
 \end{tabular}
 Classifying 'pneumonia' using candidate set with OI: 95.2380952400
 Classifying 'pulmonary embolism' using candidate set with OI: 66.1016949200
