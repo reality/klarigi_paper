@@ -47,6 +47,6 @@ Abnormality of body weight ({\tt HP:0004323}) & 0.3 & 0.73 \\
 Tachycardia ({\tt HP:0001649}) & 0.3 & 0.74 \\
 Impairment in personality functioning ({\tt HP:0031466}) & 0.3 & 0.72 \\
 \hline
-{\em Overall} & 100.0 \\ 
+{\em Overall} & - & {\em 100.0 } & - \\ 
 \end{tabular}
 Skipping classification options because in EGL mode.
