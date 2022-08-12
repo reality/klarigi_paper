@@ -1,7 +1,7 @@
+Done loading the ontology
 Phenopackets input mode engaged
 Phenopackets loaded. Also saving a converted copy to pp_conv.tsv
 Done loading dataset
-Done loading the ontology
 Done loading IC values
 OMIM:616900: Scoring completed. Candidates: 62
 \begin{tabular}
@@ -110,7 +110,7 @@ Visual impairment ({\tt HP:0000505}) & 0.25 & 0.21 & 0.31 & 0.87 \\
 \hline
 {\em Overall} & - & {\em 100.0 } & - & - \\ 
 \end{tabular}
-Classifying 'OMIM:616900' using candidate set with OI: 100
+Classifying 19 records in 'OMIM:616900' using 34 terms using candidate set with OI: 100
 Reclassification:
-OMIM:616900 AUC: 0.9669790915645278
+OMIM:616900 AUC: 1.0
 
