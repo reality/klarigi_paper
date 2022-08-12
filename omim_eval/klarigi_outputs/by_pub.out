@@ -1,5 +1,5 @@
-Done loading dataset
 Done loading the ontology
+Done loading dataset
 Done loading IC values
 PMID:27040692-Chong-2016-TBCK: Scoring completed. Candidates: 162
 \begin{tabular}
@@ -301,8 +301,8 @@ Atrophy/Degeneration affecting the central nervous system ({\tt HP:0007367}) & 0
 Developmental regression ({\tt HP:0002376}) & 0.19 & 0.7 & 0.11 & 1.0 \\
 Abnormality of the pituitary gland ({\tt HP:0012503}) & 0.17 & 0.1 & 0.47 & 0.65 \\
 Long eyelashes ({\tt HP:0000527}) & 0.17 & 0.1 & 0.47 & 0.92 \\
-Broad toe ({\tt HP:0001837}) & 0.17 & 0.1 & 0.47 & 0.87 \\
 Abnormality of thyroid physiology ({\tt HP:0002926}) & 0.17 & 0.1 & 0.47 & 0.7 \\
+Broad toe ({\tt HP:0001837}) & 0.17 & 0.1 & 0.47 & 0.87 \\
 Abnormality of the hypothalamus-pituitary axis ({\tt HP:0000864}) & 0.17 & 0.1 & 0.47 & 0.64 \\
 Abnormality of the anterior pituitary ({\tt HP:0011747}) & 0.17 & 0.1 & 0.47 & 0.69 \\
 Impairment in personality functioning ({\tt HP:0031466}) & 0.17 & 0.1 & 0.47 & 0.72 \\
@@ -398,12 +398,12 @@ Generalized tonic-clonic seizures ({\tt HP:0002069}) & 0.72 & 1.0 & 0.56 & 0.89 
 Abnormal hand morphology ({\tt HP:0005922}) & 0.72 & 1.0 & 0.56 & 0.63 \\
 Abnormality of the knee ({\tt HP:0002815}) & 0.64 & 0.5 & 0.89 & 0.7 \\
 Contractures of the joints of the upper limbs ({\tt HP:0100360}) & 0.64 & 0.5 & 0.89 & 0.7 \\
-Abnormality of lower limb joint ({\tt HP:0100491}) & 0.64 & 0.5 & 0.89 & 0.56 \\
 Abnormality of the breast ({\tt HP:0000769}) & 0.64 & 0.5 & 0.89 & 0.71 \\
+Abnormality of lower limb joint ({\tt HP:0100491}) & 0.64 & 0.5 & 0.89 & 0.56 \\
 Abnormal tendon morphology ({\tt HP:0100261}) & 0.64 & 0.5 & 0.89 & 0.59 \\
 Elbow flexion contracture ({\tt HP:0002987}) & 0.64 & 0.5 & 0.89 & 1.0 \\
-Skin tags ({\tt HP:0010609}) & 0.64 & 0.5 & 0.89 & 1.0 \\
 Inverted nipples ({\tt HP:0003186}) & 0.64 & 0.5 & 0.89 & 1.0 \\
+Skin tags ({\tt HP:0010609}) & 0.64 & 0.5 & 0.89 & 1.0 \\
 Knee flexion contracture ({\tt HP:0006380}) & 0.64 & 0.5 & 0.89 & 1.0 \\
 Abnormality of joint mobility ({\tt HP:0011729}) & 0.64 & 0.5 & 0.89 & 0.48 \\
 Contractures of the joints of the lower limbs ({\tt HP:0005750}) & 0.64 & 0.5 & 0.89 & 0.7 \\
@@ -521,13 +521,13 @@ Abnormal palmar dermatoglyphics ({\tt HP:0001018}) & 0.94 & 1.0 & 0.89 & 0.74 \\
 \hline
 {\em Overall} & - & {\em 100.0 } & - & - \\ 
 \end{tabular}
-Classifying 'PMID:27040692-Chong-2016-TBCK' using candidate set with OI: 100
-Classifying 'PMID:30103036-Zapata-Aldana-2019-TBCK' using candidate set with OI: 100
-Classifying 'PMID:27040691-Bhoj-2016-TBCK' using candidate set with OI: 100
-Classifying 'PMID:27275012-Guerreiro-2016-TBCK' using candidate set with OI: 100
+Classifying 5 records in 'PMID:27040692-Chong-2016-TBCK' using 15 terms using candidate set with OI: 100
+Classifying 2 records in 'PMID:30103036-Zapata-Aldana-2019-TBCK' using 6 terms using candidate set with OI: 100
+Classifying 10 records in 'PMID:27040691-Bhoj-2016-TBCK' using 3 terms using candidate set with OI: 100
+Classifying 2 records in 'PMID:27275012-Guerreiro-2016-TBCK' using 9 terms using candidate set with OI: 100
 Reclassification:
 PMID:27040692-Chong-2016-TBCK AUC: 1.0
 PMID:30103036-Zapata-Aldana-2019-TBCK AUC: 1.0
-PMID:27040691-Bhoj-2016-TBCK AUC: 0.9888888888888889
+PMID:27040691-Bhoj-2016-TBCK AUC: 1.0
 PMID:27275012-Guerreiro-2016-TBCK AUC: 1.0
 
