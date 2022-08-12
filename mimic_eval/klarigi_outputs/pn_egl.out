@@ -1,5 +1,5 @@
-Done loading dataset
 Done loading the ontology
+Done loading dataset
 Done loading IC values
 pneumonia: Scoring completed. Candidates: 1741
 \begin{tabular}{p{5cm}|l|l}
@@ -16,6 +16,6 @@ Abnormality of temperature regulation ({\tt HP:0004370}) & 0.63 & 0.77 \\
 Fever ({\tt HP:0001945}) & 0.62 & 0.83 \\
 Crackles ({\tt HP:0030830}) & 0.62 & 0.92 \\
 \hline
-{\em Overall} & - & {\em 99.28 } & - \\ 
+{\em Overall} & - & {\em 99.64 } & - \\ 
 \end{tabular}
 Skipping classification options because in EGL mode.

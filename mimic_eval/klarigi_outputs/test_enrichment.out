@@ -1,5 +1,5 @@
-Done loading dataset
 Done loading the ontology
+Done loading dataset
 Done loading IC values
 pneumonia: Scoring completed. Candidates: 889
 pulmonary embolism: Scoring completed. Candidates: 475
@@ -135,11 +135,11 @@ Abnormal abdomen morphology ({\tt HP:0001438}) & 0.1 & 0.22 & 0.06 & 0.78 \\
 Abnormality of the lymph nodes ({\tt HP:0002733}) & 0.1 & 0.27 & 0.06 & 0.77 \\
 Lymphadenopathy ({\tt HP:0002716}) & 0.1 & 0.27 & 0.06 & 0.84 \\
 \hline
-{\em Overall} & - & {\em 98.31 } & - & - \\ 
+{\em Overall} & - & {\em 100.0 } & - & - \\ 
 \end{tabular}
-Classifying 'pneumonia' using candidate set with OI: 93.8775510200
-Classifying 'pulmonary embolism' using candidate set with OI: 10.1694915300
+Classifying 'pneumonia' using candidate set with OI: 99.3197278900
+Classifying 'pulmonary embolism' using candidate set with OI: 33.8983050800
 Reclassification:
-pneumonia AUC: 0.8190937391905915
-pulmonary embolism AUC: 0.6029055690072639
+pneumonia AUC: 0.9897959183673469
+pulmonary embolism AUC: 0.6694915254237288
 

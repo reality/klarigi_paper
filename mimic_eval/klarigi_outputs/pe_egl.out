@@ -1,5 +1,5 @@
-Done loading dataset
 Done loading the ontology
+Done loading dataset
 Done loading IC values
 pulmonary embolism: Scoring completed. Candidates: 1341
 \begin{tabular}{p{5cm}|l|l}
@@ -25,27 +25,6 @@ Abnormal aortic valve physiology ({\tt HP:0031652}) & 0.43 & 0.92 \\
 Nausea ({\tt HP:0002018}) & 0.42 & 1.0 \\
 Chills ({\tt HP:0025143}) & 0.42 & 1.0 \\
 Abnormal thrombosis ({\tt HP:0001977}) & 0.41 & 0.75 \\
-Aortic regurgitation ({\tt HP:0001659}) & 0.39 & 1.0 \\
-Mitral regurgitation ({\tt HP:0001653}) & 0.39 & 1.0 \\
-Abnormal mitral valve physiology ({\tt HP:0031481}) & 0.39 & 0.92 \\
-Diarrhea ({\tt HP:0002014}) & 0.39 & 0.8 \\
-Vomiting ({\tt HP:0002013}) & 0.38 & 0.92 \\
-Constipation ({\tt HP:0002019}) & 0.38 & 0.95 \\
-Venous thrombosis ({\tt HP:0004936}) & 0.37 & 0.83 \\
-Hypotension ({\tt HP:0002615}) & 0.35 & 0.87 \\
-Dermatological manifestations of systemic disorders ({\tt HP:0001005}) & 0.35 & 0.84 \\
-Abdominal pain ({\tt HP:0002027}) & 0.35 & 0.84 \\
-Abnormal cell morphology ({\tt HP:0025461}) & 0.34 & 0.73 \\
-Abnormal myeloid cell morphology ({\tt HP:0020047}) & 0.34 & 0.92 \\
-Pleural effusion ({\tt HP:0002202}) & 0.34 & 0.89 \\
-Atelectasis ({\tt HP:0100750}) & 0.33 & 0.95 \\
-Deep venous thrombosis ({\tt HP:0002625}) & 0.33 & 1.0 \\
-Hyperlipidemia ({\tt HP:0003077}) & 0.33 & 0.95 \\
-Cyanosis ({\tt HP:0000961}) & 0.32 & 0.92 \\
-Abnormal erythroid lineage cell morphology ({\tt HP:0012130}) & 0.3 & 0.92 \\
-Abnormality of body weight ({\tt HP:0004323}) & 0.3 & 0.73 \\
-Tachycardia ({\tt HP:0001649}) & 0.3 & 0.74 \\
-Impairment in personality functioning ({\tt HP:0031466}) & 0.3 & 0.72 \\
 \hline
 {\em Overall} & - & {\em 100.0 } & - \\ 
 \end{tabular}

@@ -1,5 +1,5 @@
-Done loading dataset
 Done loading the ontology
+Done loading dataset
 Done loading IC values
 pneumonia: Scoring completed. Candidates: 890
 pulmonary embolism: Scoring completed. Candidates: 476
@@ -69,6 +69,7 @@ Hemoptysis ({\tt HP:0002105}) & 0.29 & 0.29 & 0.3 & 0.75 \\
 Bloody diarrhea ({\tt HP:0025085}) & 0.26 & 0.25 & 0.27 & 0.7 \\
 Melena ({\tt HP:0002249}) & 0.25 & 0.2 & 0.31 & 0.79 \\
 Deep venous thrombosis ({\tt HP:0002625}) & 0.22 & 0.19 & 0.26 & 0.72 \\
+Gastrointestinal hemorrhage ({\tt HP:0002239}) & 0.21 & 0.22 & 0.2 & 0.68 \\
 Hematochezia ({\tt HP:0002573}) & 0.19 & 0.14 & 0.33 & 0.79 \\
 Hypercoagulability ({\tt HP:0100724}) & 0.18 & 0.1 & 0.71 & 0.72 \\
 Hepatosplenomegaly ({\tt HP:0001433}) & 0.18 & 0.14 & 0.25 & 0.79 \\
@@ -77,26 +78,39 @@ Pericardial effusion ({\tt HP:0001698}) & 0.16 & 0.36 & 0.1 & 0.7 \\
 Splenomegaly ({\tt HP:0001744}) & 0.16 & 0.15 & 0.16 & 0.76 \\
 Hepatomegaly ({\tt HP:0002240}) & 0.16 & 0.15 & 0.16 & 0.74 \\
 Left ventricular hypertrophy ({\tt HP:0001712}) & 0.16 & 0.19 & 0.14 & 0.76 \\
+Ventricular hypertrophy ({\tt HP:0001714}) & 0.15 & 0.19 & 0.12 & 0.69 \\
+Abnormal rectum morphology ({\tt HP:0002034}) & 0.15 & 0.08 & 0.55 & 0.65 \\
 Palpitations ({\tt HP:0001962}) & 0.14 & 0.32 & 0.09 & 0.77 \\
+Diabetes mellitus ({\tt HP:0000819}) & 0.14 & 0.32 & 0.09 & 0.66 \\
+Atherosclerosis ({\tt HP:0002621}) & 0.14 & 0.08 & 0.34 & 0.66 \\
 Gout ({\tt HP:0001997}) & 0.13 & 0.08 & 0.27 & 0.76 \\
 Jaundice ({\tt HP:0000952}) & 0.13 & 0.08 & 0.27 & 0.74 \\
+Cholestasis ({\tt HP:0001396}) & 0.13 & 0.08 & 0.27 & 0.66 \\
 Hypochromic anemia ({\tt HP:0001931}) & 0.13 & 0.1 & 0.18 & 0.72 \\
 Iron deficiency anemia ({\tt HP:0001891}) & 0.13 & 0.1 & 0.18 & 0.79 \\
 Conjunctival icterus ({\tt HP:0032106}) & 0.12 & 0.08 & 0.21 & 0.82 \\
 Hemorrhoids ({\tt HP:0032551}) & 0.12 & 0.07 & 0.51 & 0.81 \\
+Abnormal atrial septum morphology ({\tt HP:0011994}) & 0.11 & 0.08 & 0.17 & 0.66 \\
+Atrial septal defect ({\tt HP:0001631}) & 0.11 & 0.08 & 0.17 & 0.7 \\
+Lower limb pain ({\tt HP:0012514}) & 0.11 & 0.08 & 0.17 & 0.68 \\
 Pleuritic chest pain ({\tt HP:0033771}) & 0.11 & 0.15 & 0.09 & 0.75 \\
 Insomnia ({\tt HP:0100785}) & 0.11 & 0.14 & 0.09 & 0.7 \\
 Pallor ({\tt HP:0000980}) & 0.11 & 0.07 & 0.29 & 0.72 \\
+Neoplasm of the liver ({\tt HP:0002896}) & 0.11 & 0.07 & 0.29 & 0.67 \\
 Cholecystitis ({\tt HP:0001082}) & 0.11 & 0.1 & 0.11 & 0.81 \\
 Abnormal gallbladder physiology ({\tt HP:0012438}) & 0.11 & 0.1 & 0.11 & 0.74 \\
+Scoliosis ({\tt HP:0002650}) & 0.1 & 0.07 & 0.21 & 0.69 \\
 Prostate cancer ({\tt HP:0012125}) & 0.1 & 0.08 & 0.13 & 0.82 \\
 Prostate neoplasm ({\tt HP:0100787}) & 0.1 & 0.08 & 0.13 & 0.77 \\
+Lymphadenopathy ({\tt HP:0002716}) & 0.1 & 0.27 & 0.06 & 0.67 \\
 \hline
-{\em Overall} & - & {\em 96.61 } & - & - \\ 
+{\em Overall} & - & {\em 100.0 } & - & - \\ 
 \end{tabular}
-Classifying 'pneumonia' using candidate set with OI: 95.2380952400
-Classifying 'pulmonary embolism' using candidate set with OI: 66.1016949200
+43
+33
+Classifying 147 records in 'pneumonia' using 43 terms using candidate set with OI: 100
+Classifying 59 records in 'pulmonary embolism' using 33 terms using candidate set with OI: 88.1355932200
 Reclassification:
-pneumonia AUC: 0.8326415311887467
-pulmonary embolism AUC: 0.6717398823936355
+pneumonia AUC: 1.0
+pulmonary embolism AUC: 0.9067796610169492
 
