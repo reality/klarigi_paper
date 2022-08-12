@@ -109,25 +109,25 @@ Tip: Don't use p-values produced by this process to inform hyperparameter optimi
 \begin{tabular}{p{5cm}|l|l|l|l}
 {\bf pneumonia (552 members)} & {\bf r-score} & {\bf Inclusion} & {\bf Exclusion} & {\bf IC} \\
 \hline \hline
-Renal insufficiency ({\tt HP:0000083}) & 0.22 & 0.39 (p=0.001) & 0.15 (p=0.005) & 0.84 \\
-Airway obstruction ({\tt HP:0006536}) & 0.2 & 0.34 (p=0.001) & 0.14 (p=0.036) & 0.87 \\
+Renal insufficiency ({\tt HP:0000083}) & 0.22 & 0.39 (p=0.001) & 0.15 (p=0.007) & 0.84 \\
+Airway obstruction ({\tt HP:0006536}) & 0.2 & 0.34 (p=0.001) & 0.14 (p=0.03) & 0.87 \\
 Atrial fibrillation ({\tt HP:0005110}) & 0.2 & 0.27 (p=0.001) & 0.15 (p=0.079) & 0.95 \\
-Respiratory insufficiency ({\tt HP:0002093}) & 0.2 & 0.24 (p=0.001) & 0.17 (p=0.012) & 0.81 \\
-Chronic pulmonary obstruction ({\tt HP:0006510}) & 0.2 & 0.33 (p=0.001) & 0.14 (p=0.114) & 1.0 \\
-Respiratory distress ({\tt HP:0002098}) & 0.2 & 0.37 (p=0.001) & 0.13 (p=0.119) & 0.92 \\
-Congestive heart failure ({\tt HP:0001635}) & 0.2 & 0.32 (p=0.001) & 0.14 (p=0.113) & 0.95 \\
-Aspiration ({\tt HP:0002835}) & 0.19 & 0.29 (p=0.001) & 0.15 (p=0.094) & 1.0 \\
-Respiratory failure ({\tt HP:0002878}) & 0.19 & 0.22 (p=0.001) & 0.17 (p=0.052) & 1.0 \\
-Productive cough ({\tt HP:0031245}) & 0.19 & 0.17 (p=0.001) & 0.22 (p=0.019) & 1.0 \\
-Wheezing ({\tt HP:0030828}) & 0.19 & 0.42 (p=0.001) & 0.12 (p=0.146) & 1.0 \\
-Chronic kidney disease ({\tt HP:0012622}) & 0.18 & 0.17 (p=0.001) & 0.21 (p=0.005) & 0.87 \\
-Atrial arrhythmia ({\tt HP:0001692}) & 0.18 & 0.29 (p=0.001) & 0.13 (p=0.047) & 0.83 \\
-Rhonchi ({\tt HP:0030831}) & 0.18 & 0.27 (p=0.001) & 0.13 (p=0.137) & 1.0 \\
-Stage 5 chronic kidney disease ({\tt HP:0003774}) & 0.17 & 0.13 (p=0.001) & 0.24 (p=0.011) & 1.0 \\
-Confusion ({\tt HP:0001289}) & 0.17 & 0.18 (p=0.001) & 0.15 (p=0.082) & 1.0 \\
-Sepsis ({\tt HP:0100806}) & 0.16 & 0.17 (p=0.001) & 0.15 (p=0.083) & 1.0 \\
-Supraventricular arrhythmia ({\tt HP:0005115}) & 0.15 & 0.3 (p=0.001) & 0.1 (p=0.116) & 0.72 \\
-Respiratory tract infection ({\tt HP:0011947}) & 0.15 & 0.13 (p=0.001) & 0.18 (p=0.045) & 0.73 \\
+Respiratory insufficiency ({\tt HP:0002093}) & 0.2 & 0.24 (p=0.001) & 0.17 (p=0.01) & 0.81 \\
+Chronic pulmonary obstruction ({\tt HP:0006510}) & 0.2 & 0.33 (p=0.001) & 0.14 (p=0.107) & 1.0 \\
+Respiratory distress ({\tt HP:0002098}) & 0.2 & 0.37 (p=0.001) & 0.13 (p=0.121) & 0.92 \\
+Congestive heart failure ({\tt HP:0001635}) & 0.2 & 0.32 (p=0.001) & 0.14 (p=0.108) & 0.95 \\
+Aspiration ({\tt HP:0002835}) & 0.19 & 0.29 (p=0.001) & 0.15 (p=0.077) & 1.0 \\
+Respiratory failure ({\tt HP:0002878}) & 0.19 & 0.22 (p=0.001) & 0.17 (p=0.051) & 1.0 \\
+Productive cough ({\tt HP:0031245}) & 0.19 & 0.17 (p=0.001) & 0.22 (p=0.017) & 1.0 \\
+Wheezing ({\tt HP:0030828}) & 0.19 & 0.42 (p=0.001) & 0.12 (p=0.156) & 1.0 \\
+Chronic kidney disease ({\tt HP:0012622}) & 0.18 & 0.17 (p=0.001) & 0.21 (p=0.001) & 0.87 \\
+Atrial arrhythmia ({\tt HP:0001692}) & 0.18 & 0.29 (p=0.001) & 0.13 (p=0.041) & 0.83 \\
+Rhonchi ({\tt HP:0030831}) & 0.18 & 0.27 (p=0.001) & 0.13 (p=0.121) & 1.0 \\
+Stage 5 chronic kidney disease ({\tt HP:0003774}) & 0.17 & 0.13 (p=0.001) & 0.24 (p=0.008) & 1.0 \\
+Confusion ({\tt HP:0001289}) & 0.17 & 0.18 (p=0.001) & 0.15 (p=0.094) & 1.0 \\
+Sepsis ({\tt HP:0100806}) & 0.16 & 0.17 (p=0.001) & 0.15 (p=0.089) & 1.0 \\
+Supraventricular arrhythmia ({\tt HP:0005115}) & 0.15 & 0.3 (p=0.001) & 0.1 (p=0.101) & 0.72 \\
+Respiratory tract infection ({\tt HP:0011947}) & 0.15 & 0.13 (p=0.001) & 0.18 (p=0.054) & 0.73 \\
 \hline
 {\em Overall} & - & {\em 96.56 } & - & - \\ 
 \end{tabular}
@@ -136,32 +136,32 @@ Respiratory tract infection ({\tt HP:0011947}) & 0.15 & 0.13 (p=0.001) & 0.18 (p
 \hline \hline
 Abnormal thrombosis ({\tt HP:0001977}) & 0.37 & 0.41 (p=0.001) & 0.35 (p=0.001) & 0.75 \\
 Venous thrombosis ({\tt HP:0004936}) & 0.35 & 0.37 (p=0.001) & 0.34 (p=0.001) & 0.83 \\
-Deep venous thrombosis ({\tt HP:0002625}) & 0.33 & 0.33 (p=0.001) & 0.34 (p=0.001) & 1.0 \\
+Deep venous thrombosis ({\tt HP:0002625}) & 0.33 & 0.33 (p=0.001) & 0.34 (p=0.002) & 1.0 \\
 Abnormality of coagulation ({\tt HP:0001928}) & 0.22 & 0.15 (p=0.001) & 0.41 (p=0.001) & 0.61 \\
-Lower limb pain ({\tt HP:0012514}) & 0.18 & 0.14 (p=0.001) & 0.26 (p=0.004) & 0.89 \\
-Limb pain ({\tt HP:0009763}) & 0.18 & 0.14 (p=0.001) & 0.25 (p=0.005) & 0.84 \\
-Pleuritic chest pain ({\tt HP:0033771}) & 0.17 & 0.15 (p=0.001) & 0.22 (p=0.016) & 1.0 \\
-Increased body weight ({\tt HP:0004324}) & 0.17 & 0.15 (p=0.001) & 0.19 (p=0.017) & 0.84 \\
-Sinus tachycardia ({\tt HP:0011703}) & 0.17 & 0.25 (p=0.001) & 0.13 (p=0.065) & 1.0 \\
-Aortic regurgitation ({\tt HP:0001659}) & 0.17 & 0.39 (p=0.001) & 0.11 (p=0.102) & 1.0 \\
-Pericardial effusion ({\tt HP:0001698}) & 0.16 & 0.45 (p=0.001) & 0.09 (p=0.114) & 0.92 \\
-Abnormality of body weight ({\tt HP:0004323}) & 0.15 & 0.3 (p=0.001) & 0.1 (p=0.121) & 0.73 \\
-Abnormal pericardium morphology ({\tt HP:0001697}) & 0.15 & 0.45 (p=0.001) & 0.09 (p=0.129) & 0.76 \\
-Obesity ({\tt HP:0001513}) & 0.15 & 0.13 (p=0.001) & 0.17 (p=0.035) & 0.87 \\
-Abnormal electrophysiology of sinoatrial node origin ({\tt HP:0011702}) & 0.14 & 0.26 (p=0.001) & 0.09 (p=0.121) & 0.89 \\
-Tricuspid regurgitation ({\tt HP:0005180}) & 0.13 & 0.14 (p=0.001) & 0.12 (p=0.088) & 1.0 \\
-Abnormal tricuspid valve physiology ({\tt HP:0031651}) & 0.13 & 0.14 (p=0.001) & 0.12 (p=0.088) & 0.95 \\
-Abnormal aortic valve physiology ({\tt HP:0031652}) & 0.13 & 0.43 (p=0.001) & 0.08 (p=0.167) & 0.92 \\
-Mitral valve prolapse ({\tt HP:0001634}) & 0.13 & 0.17 (p=0.001) & 0.11 (p=0.102) & 1.0 \\
-Abnormal anatomic location of the heart ({\tt HP:0004307}) & 0.13 & 0.17 (p=0.001) & 0.11 (p=0.102) & 0.81 \\
-Abnormal cardiac septum morphology ({\tt HP:0001671}) & 0.13 & 0.15 (p=0.001) & 0.11 (p=0.094) & 0.71 \\
-Tachycardia ({\tt HP:0001649}) & 0.13 & 0.3 (p=0.001) & 0.08 (p=0.138) & 0.74 \\
-Abnormal atrioventricular valve morphology ({\tt HP:0006705}) & 0.12 & 0.18 (p=0.001) & 0.09 (p=0.143) & 0.72 \\
-Abnormal mitral valve morphology ({\tt HP:0001633}) & 0.12 & 0.18 (p=0.001) & 0.09 (p=0.143) & 0.77 \\
-Palpitations ({\tt HP:0001962}) & 0.1 & 0.28 (p=0.001) & 0.06 (p=0.204) & 1.0 \\
-Abnormal heart valve physiology ({\tt HP:0031653}) & 0.1 & 0.48 (p=0.001) & 0.06 (p=0.132) & 0.8 \\
-Abnormal heart valve morphology ({\tt HP:0001654}) & 0.1 & 0.35 (p=0.001) & 0.06 (p=0.124) & 0.64 \\
-Back pain ({\tt HP:0003418}) & 0.1 & 0.19 (p=0.001) & 0.07 (p=0.185) & 0.92 \\
+Lower limb pain ({\tt HP:0012514}) & 0.18 & 0.14 (p=0.001) & 0.26 (p=0.007) & 0.89 \\
+Limb pain ({\tt HP:0009763}) & 0.18 & 0.14 (p=0.001) & 0.25 (p=0.009) & 0.84 \\
+Pleuritic chest pain ({\tt HP:0033771}) & 0.17 & 0.15 (p=0.001) & 0.22 (p=0.012) & 1.0 \\
+Increased body weight ({\tt HP:0004324}) & 0.17 & 0.15 (p=0.001) & 0.19 (p=0.029) & 0.84 \\
+Sinus tachycardia ({\tt HP:0011703}) & 0.17 & 0.25 (p=0.001) & 0.13 (p=0.088) & 1.0 \\
+Aortic regurgitation ({\tt HP:0001659}) & 0.17 & 0.39 (p=0.001) & 0.11 (p=0.105) & 1.0 \\
+Pericardial effusion ({\tt HP:0001698}) & 0.16 & 0.45 (p=0.001) & 0.09 (p=0.121) & 0.92 \\
+Abnormality of body weight ({\tt HP:0004323}) & 0.15 & 0.3 (p=0.001) & 0.1 (p=0.119) & 0.73 \\
+Abnormal pericardium morphology ({\tt HP:0001697}) & 0.15 & 0.45 (p=0.001) & 0.09 (p=0.134) & 0.76 \\
+Obesity ({\tt HP:0001513}) & 0.15 & 0.13 (p=0.001) & 0.17 (p=0.039) & 0.87 \\
+Abnormal electrophysiology of sinoatrial node origin ({\tt HP:0011702}) & 0.14 & 0.26 (p=0.001) & 0.09 (p=0.141) & 0.89 \\
+Tricuspid regurgitation ({\tt HP:0005180}) & 0.13 & 0.14 (p=0.001) & 0.12 (p=0.08) & 1.0 \\
+Abnormal tricuspid valve physiology ({\tt HP:0031651}) & 0.13 & 0.14 (p=0.001) & 0.12 (p=0.08) & 0.95 \\
+Abnormal aortic valve physiology ({\tt HP:0031652}) & 0.13 & 0.43 (p=0.001) & 0.08 (p=0.178) & 0.92 \\
+Mitral valve prolapse ({\tt HP:0001634}) & 0.13 & 0.17 (p=0.001) & 0.11 (p=0.101) & 1.0 \\
+Abnormal anatomic location of the heart ({\tt HP:0004307}) & 0.13 & 0.17 (p=0.001) & 0.11 (p=0.101) & 0.81 \\
+Abnormal cardiac septum morphology ({\tt HP:0001671}) & 0.13 & 0.15 (p=0.001) & 0.11 (p=0.101) & 0.71 \\
+Tachycardia ({\tt HP:0001649}) & 0.13 & 0.3 (p=0.001) & 0.08 (p=0.155) & 0.74 \\
+Abnormal atrioventricular valve morphology ({\tt HP:0006705}) & 0.12 & 0.18 (p=0.001) & 0.09 (p=0.142) & 0.72 \\
+Abnormal mitral valve morphology ({\tt HP:0001633}) & 0.12 & 0.18 (p=0.001) & 0.09 (p=0.142) & 0.77 \\
+Palpitations ({\tt HP:0001962}) & 0.1 & 0.28 (p=0.001) & 0.06 (p=0.201) & 1.0 \\
+Abnormal heart valve physiology ({\tt HP:0031653}) & 0.1 & 0.48 (p=0.001) & 0.06 (p=0.138) & 0.8 \\
+Abnormal heart valve morphology ({\tt HP:0001654}) & 0.1 & 0.35 (p=0.001) & 0.06 (p=0.131) & 0.64 \\
+Back pain ({\tt HP:0003418}) & 0.1 & 0.19 (p=0.001) & 0.07 (p=0.178) & 0.92 \\
 \hline
 {\em Overall} & - & {\em 90.56 } & - & - \\ 
 \end{tabular}
