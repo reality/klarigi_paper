@@ -1,4 +1,8 @@
 Done loading the ontology
+Groupings loaded:
+  pneumonia: 552 members
+  pulmonary embolism: 233 members
+Loaded 1144 entity-term associations.
 Done loading dataset
 Done loading IC values
 pneumonia: Scoring completed. Candidates: 43
@@ -145,7 +149,7 @@ Back pain ({\tt HP:0003418}) & 0.1 & 0.19 & 0.07 & 0.92 \\
 \end{tabular}
 Classifying 552 records in 'pneumonia' using 19 terms using candidate set with OI: 96.5579710100
 Classifying 233 records in 'pulmonary embolism' using 28 terms using candidate set with OI: 90.5579399100
-Reclassification:
+Classification performance:
 pneumonia AUC: 0.9827898550724637
 pulmonary embolism AUC: 0.9527896995708155
 
