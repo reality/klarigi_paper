@@ -1,6 +1,10 @@
 Done loading the ontology
 Phenopackets input mode engaged
 Phenopackets loaded. Also saving a converted copy to pp_conv.tsv
+Groupings loaded:
+  OMIM:616900: 19 members
+  false: 365 members
+Loaded 1687 entity-term associations.
 Done loading dataset
 Done loading IC values
 OMIM:616900: Scoring completed. Candidates: 62
@@ -111,6 +115,6 @@ Visual impairment ({\tt HP:0000505}) & 0.25 & 0.21 & 0.31 & 0.87 \\
 {\em Overall} & - & {\em 100.0 } & - & - \\ 
 \end{tabular}
 Classifying 19 records in 'OMIM:616900' using 34 terms using candidate set with OI: 100
-Reclassification:
+Classification performance:
 OMIM:616900 AUC: 1.0
 
