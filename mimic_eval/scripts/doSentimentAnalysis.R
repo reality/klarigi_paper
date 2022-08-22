@@ -203,7 +203,7 @@ resPneumonia <- xEnricher1(data = pneumoniaGroup, # change this when switching t
                           annotation = d1, # and this make new for each pheno dataset 
                           g = HPGraph,
                           min.overlap = 3,
-                          test = "fisher", # change to fisher as well 
+                          test = "binomial", # change to fisher as well 
                           p.tail = "one-tail",
                           background = rownames(d1),
                           p.adjust.method = "bonferroni",
@@ -221,7 +221,7 @@ respulmonaryEmbolismGroup <- xEnricher1(data = pulmonaryEmbolismGroup,
                            annotation = d1,
                            g = HPGraph,
                            min.overlap = 3,
-                           test = "fisher",
+                           test = "binomial",
                            p.tail = "one-tail",
                            background = rownames(d1),
                            p.adjust.method = "bonferroni",
@@ -243,8 +243,8 @@ resPneumoniaDF$TermID <- rownames(resPneumoniaDF)
 
 sigResp <- respulmonaryEmbolismGroupDF[respulmonaryEmbolismGroupDF$adjp < 0.05,]
 sigPneu <- resPneumoniaDF[resPneumoniaDF$adjp < 0.05,]
-write.table(sigResp,"fisher.sigResults_enrichedPulmonaryEmbolism.tsv",row.names = F, col.names = T, quote = F, sep = "\t")
-write.table(sigPneu,"fisher.sigResults_enrichedPneumonia.tsv",row.names = F, col.names = T, quote = F, sep = "\t")
+write.table(sigResp,"binomial.sigResults_enrichedPulmonaryEmbolism.tsv",row.names = F, col.names = T, quote = F, sep = "\t")
+write.table(sigPneu,"binomial.sigResults_enrichedPneumonia.tsv",row.names = F, col.names = T, quote = F, sep = "\t")
 
 #write.table(omim_sigPneu,"binomial.omim.dianosis.tsv",row.names = F, col.names = T, quote = F, sep = "\t")
 

@@ -1,30 +1,19 @@
 Done loading the ontology
+Groupings loaded:
+  pulmonary embolism: 243 members
+Loaded 1143 entity-term associations.
 Done loading dataset
 Done loading IC values
-pulmonary embolism: Scoring completed. Candidates: 1341
+pulmonary embolism: Scoring completed. Candidates: 74
 \begin{tabular}{p{5cm}|l|l}
-{\bf pulmonary embolism (233 members)} & {\bf Inclusion} & {\bf IC} \\
+{\bf pulmonary embolism (243 members)} & {\bf Inclusion} & {\bf IC} \\
 \hline \hline
+Abnormal pattern of respiration ({\tt HP:0002793}) & 0.91 & 0.7 \\
 Dyspnea ({\tt HP:0002094}) & 0.9 & 0.83 \\
+Abnormality of fluid regulation ({\tt HP:0011032}) & 0.89 & 0.67 \\
+Edema ({\tt HP:0000969}) & 0.88 & 0.67 \\
 Chest pain ({\tt HP:0100749}) & 0.78 & 0.95 \\
-Abnormal systemic blood pressure ({\tt HP:0030972}) & 0.75 & 0.76 \\
-Increased blood pressure ({\tt HP:0032263}) & 0.66 & 0.83 \\
-Hypertension ({\tt HP:0000822}) & 0.65 & 0.89 \\
-Abnormal breath sound ({\tt HP:0030829}) & 0.6 & 0.8 \\
-Cough ({\tt HP:0012735}) & 0.51 & 0.87 \\
-Crackles ({\tt HP:0030830}) & 0.49 & 0.92 \\
-Abnormal heart valve physiology ({\tt HP:0031653}) & 0.48 & 0.8 \\
-Abnormality of temperature regulation ({\tt HP:0004370}) & 0.47 & 0.77 \\
-Nausea and vomiting ({\tt HP:0002017}) & 0.47 & 0.89 \\
-Fever ({\tt HP:0001945}) & 0.45 & 0.83 \\
-Abnormal pericardium morphology ({\tt HP:0001697}) & 0.45 & 0.76 \\
-Pericardial effusion ({\tt HP:0001698}) & 0.45 & 0.92 \\
-Abnormal pleura morphology ({\tt HP:0002103}) & 0.44 & 0.74 \\
-Abnormal atrioventricular valve physiology ({\tt HP:0031650}) & 0.43 & 0.87 \\
-Abnormal aortic valve physiology ({\tt HP:0031652}) & 0.43 & 0.92 \\
-Nausea ({\tt HP:0002018}) & 0.42 & 1.0 \\
-Chills ({\tt HP:0025143}) & 0.42 & 1.0 \\
-Abnormal thrombosis ({\tt HP:0001977}) & 0.41 & 0.75 \\
+Abnormal systemic blood pressure ({\tt HP:0030972}) & 0.77 & 0.76 \\
 \hline
 {\em Overall} & - & {\em 100.0 } & - \\ 
 \end{tabular}

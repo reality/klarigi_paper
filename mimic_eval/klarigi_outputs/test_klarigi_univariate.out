@@ -1,87 +1,100 @@
 Done loading the ontology
 Groupings loaded:
-  pneumonia: 552 members
-  pulmonary embolism: 233 members
-Loaded 1144 entity-term associations.
+  pneumonia: 564 members
+  pulmonary embolism: 243 members
+Loaded 1143 entity-term associations.
 Done loading dataset
 Done loading IC values
 pneumonia: Scoring completed. Candidates: 1974
 pulmonary embolism: Scoring completed. Candidates: 1974
 \begin{tabular}{p{5cm}|l|l|l|l}
-{\bf pneumonia (552 members)} & {\bf r-score} & {\bf Inclusion} & {\bf Exclusion} & {\bf IC} \\
+{\bf pneumonia (564 members)} & {\bf r-score} & {\bf Inclusion} & {\bf Exclusion} & {\bf IC} \\
 \hline \hline
-Atrial fibrillation ({\tt HP:0005110}) & 0.2 & 0.27 & 0.15 & 0.75 \\
-Chronic pulmonary obstruction ({\tt HP:0006510}) & 0.2 & 0.33 & 0.14 & 0.75 \\
-Respiratory distress ({\tt HP:0002098}) & 0.2 & 0.37 & 0.13 & 0.7 \\
-Aspiration ({\tt HP:0002835}) & 0.19 & 0.29 & 0.15 & 0.72 \\
+Pulmonary edema ({\tt HP:0100598}) & 0.22 & 0.29 & 0.18 & 0.77 \\
+Chronic pulmonary obstruction ({\tt HP:0006510}) & 0.22 & 0.34 & 0.16 & 0.75 \\
+Productive cough ({\tt HP:0031245}) & 0.21 & 0.18 & 0.25 & 0.75 \\
+Aspiration ({\tt HP:0002835}) & 0.21 & 0.28 & 0.16 & 0.72 \\
+Respiratory distress ({\tt HP:0002098}) & 0.2 & 0.38 & 0.14 & 0.7 \\
 Respiratory failure ({\tt HP:0002878}) & 0.19 & 0.22 & 0.17 & 0.75 \\
-Productive cough ({\tt HP:0031245}) & 0.19 & 0.17 & 0.22 & 0.75 \\
-Wheezing ({\tt HP:0030828}) & 0.19 & 0.42 & 0.12 & 0.72 \\
-Chronic kidney disease ({\tt HP:0012622}) & 0.18 & 0.17 & 0.21 & 0.72 \\
-Rhonchi ({\tt HP:0030831}) & 0.18 & 0.27 & 0.13 & 0.75 \\
-Stage 5 chronic kidney disease ({\tt HP:0003774}) & 0.17 & 0.13 & 0.24 & 0.82 \\
-Confusion ({\tt HP:0001289}) & 0.17 & 0.18 & 0.15 & 0.74 \\
-Pharyngalgia ({\tt HP:0033050}) & 0.14 & 0.11 & 0.18 & 0.79 \\
-Abnormal pharynx physiology ({\tt HP:0033152}) & 0.14 & 0.11 & 0.18 & 0.74 \\
-Acute kidney injury ({\tt HP:0001919}) & 0.13 & 0.17 & 0.11 & 0.81 \\
-Nonproductive cough ({\tt HP:0031246}) & 0.13 & 0.09 & 0.22 & 0.75 \\
-Delirium ({\tt HP:0031258}) & 0.12 & 0.1 & 0.17 & 0.79 \\
-Myocardial infarction ({\tt HP:0001658}) & 0.12 & 0.14 & 0.1 & 0.75 \\
-Tachypnea ({\tt HP:0002789}) & 0.1 & 0.13 & 0.09 & 0.72 \\
+Wheezing ({\tt HP:0030828}) & 0.19 & 0.44 & 0.12 & 0.72 \\
+Rhonchi ({\tt HP:0030831}) & 0.17 & 0.27 & 0.12 & 0.75 \\
+Atrial fibrillation ({\tt HP:0005110}) & 0.16 & 0.25 & 0.12 & 0.75 \\
+Chronic kidney disease ({\tt HP:0012622}) & 0.16 & 0.15 & 0.17 & 0.72 \\
+Confusion ({\tt HP:0001289}) & 0.16 & 0.18 & 0.14 & 0.74 \\
+Stage 5 chronic kidney disease ({\tt HP:0003774}) & 0.16 & 0.12 & 0.22 & 0.82 \\
+Nonproductive cough ({\tt HP:0031246}) & 0.14 & 0.1 & 0.23 & 0.75 \\
+Pharyngalgia ({\tt HP:0033050}) & 0.13 & 0.11 & 0.17 & 0.79 \\
+Abnormal pharynx physiology ({\tt HP:0033152}) & 0.13 & 0.11 & 0.17 & 0.74 \\
+Tachypnea ({\tt HP:0002789}) & 0.13 & 0.13 & 0.13 & 0.72 \\
+Myocardial infarction ({\tt HP:0001658}) & 0.12 & 0.14 & 0.11 & 0.75 \\
+Delirium ({\tt HP:0031258}) & 0.12 & 0.09 & 0.17 & 0.79 \\
+Abnormal blood sodium concentration ({\tt HP:0010931}) & 0.11 & 0.11 & 0.12 & 0.74 \\
+Hypoxemia ({\tt HP:0012418}) & 0.11 & 0.09 & 0.14 & 0.72 \\
+Acute kidney injury ({\tt HP:0001919}) & 0.1 & 0.16 & 0.08 & 0.81 \\
 \hline
-{\em Overall} & - & {\em 95.65 } & - & - \\ 
+{\em Overall} & - & {\em 97.52 } & - & - \\ 
 \end{tabular}
 \begin{tabular}{p{5cm}|l|l|l|l}
-{\bf pulmonary embolism (233 members)} & {\bf r-score} & {\bf Inclusion} & {\bf Exclusion} & {\bf IC} \\
+{\bf pulmonary embolism (243 members)} & {\bf r-score} & {\bf Inclusion} & {\bf Exclusion} & {\bf IC} \\
 \hline \hline
-Venous thrombosis ({\tt HP:0004936}) & 0.35 & 0.37 & 0.34 & 0.6 \\
-Deep venous thrombosis ({\tt HP:0002625}) & 0.33 & 0.33 & 0.34 & 0.72 \\
-Hypercoagulability ({\tt HP:0100724}) & 0.19 & 0.11 & 0.7 & 0.72 \\
-Lower limb pain ({\tt HP:0012514}) & 0.18 & 0.14 & 0.26 & 0.68 \\
-Limb pain ({\tt HP:0009763}) & 0.18 & 0.14 & 0.25 & 0.63 \\
-Pleuritic chest pain ({\tt HP:0033771}) & 0.17 & 0.15 & 0.22 & 0.75 \\
-Increased body weight ({\tt HP:0004324}) & 0.17 & 0.15 & 0.19 & 0.61 \\
-Sinus tachycardia ({\tt HP:0011703}) & 0.17 & 0.25 & 0.13 & 0.76 \\
-Aortic regurgitation ({\tt HP:0001659}) & 0.17 & 0.39 & 0.11 & 0.77 \\
-Pericardial effusion ({\tt HP:0001698}) & 0.16 & 0.45 & 0.09 & 0.7 \\
-Abnormal pericardium morphology ({\tt HP:0001697}) & 0.15 & 0.45 & 0.09 & 0.61 \\
-Obesity ({\tt HP:0001513}) & 0.15 & 0.13 & 0.17 & 0.66 \\
-Abnormal electrophysiology of sinoatrial node origin ({\tt HP:0011702}) & 0.14 & 0.26 & 0.09 & 0.68 \\
-Tricuspid regurgitation ({\tt HP:0005180}) & 0.13 & 0.14 & 0.12 & 0.79 \\
-Abnormal tricuspid valve physiology ({\tt HP:0031651}) & 0.13 & 0.14 & 0.12 & 0.72 \\
-Abnormal aortic valve physiology ({\tt HP:0031652}) & 0.13 & 0.43 & 0.08 & 0.68 \\
-Mitral valve prolapse ({\tt HP:0001634}) & 0.13 & 0.17 & 0.11 & 0.77 \\
-Abnormal anatomic location of the heart ({\tt HP:0004307}) & 0.13 & 0.17 & 0.11 & 0.63 \\
-Tachycardia ({\tt HP:0001649}) & 0.13 & 0.3 & 0.08 & 0.61 \\
-Hyperhidrosis ({\tt HP:0000975}) & 0.12 & 0.12 & 0.13 & 0.68 \\
-Hypohidrosis or hyperhidrosis ({\tt HP:0007550}) & 0.12 & 0.12 & 0.13 & 0.63 \\
-Abnormal exteroceptive sensation ({\tt HP:0033747}) & 0.12 & 0.09 & 0.16 & 0.61 \\
-Syncope ({\tt HP:0001279}) & 0.12 & 0.09 & 0.16 & 0.65 \\
-Thromboembolism ({\tt HP:0001907}) & 0.12 & 0.07 & 0.4 & 0.64 \\
-Abnormal atrioventricular valve morphology ({\tt HP:0006705}) & 0.12 & 0.18 & 0.09 & 0.6 \\
-Abnormal mitral valve morphology ({\tt HP:0001633}) & 0.12 & 0.18 & 0.09 & 0.65 \\
-Hiatus hernia ({\tt HP:0002036}) & 0.11 & 0.08 & 0.18 & 0.77 \\
-Hypoesthesia ({\tt HP:0033748}) & 0.11 & 0.08 & 0.16 & 0.77 \\
-Palpitations ({\tt HP:0001962}) & 0.1 & 0.28 & 0.06 & 0.77 \\
-Back pain ({\tt HP:0003418}) & 0.1 & 0.19 & 0.07 & 0.72 \\
+Pericardial effusion ({\tt HP:0001698}) & 0.18 & 0.45 & 0.11 & 0.7 \\
+Pleuritic chest pain ({\tt HP:0033771}) & 0.17 & 0.16 & 0.19 & 0.75 \\
+Abnormal pericardium morphology ({\tt HP:0001697}) & 0.17 & 0.45 & 0.11 & 0.61 \\
+Hypercoagulability ({\tt HP:0100724}) & 0.17 & 0.09 & 0.7 & 0.72 \\
+Lower limb pain ({\tt HP:0012514}) & 0.17 & 0.12 & 0.25 & 0.68 \\
+Aortic regurgitation ({\tt HP:0001659}) & 0.16 & 0.37 & 0.11 & 0.77 \\
+Limb pain ({\tt HP:0009763}) & 0.16 & 0.12 & 0.24 & 0.63 \\
+Syncope ({\tt HP:0001279}) & 0.15 & 0.12 & 0.22 & 0.65 \\
+Sinus tachycardia ({\tt HP:0011703}) & 0.14 & 0.25 & 0.09 & 0.76 \\
+Increased body weight ({\tt HP:0004324}) & 0.14 & 0.14 & 0.14 & 0.61 \\
+Abnormal cardiac septum morphology ({\tt HP:0001671}) & 0.13 & 0.14 & 0.12 & 0.58 \\
+Mitral valve prolapse ({\tt HP:0001634}) & 0.13 & 0.15 & 0.11 & 0.77 \\
+Abnormal anatomic location of the heart ({\tt HP:0004307}) & 0.13 & 0.15 & 0.11 & 0.63 \\
+Abnormal atrioventricular valve morphology ({\tt HP:0006705}) & 0.13 & 0.16 & 0.1 & 0.6 \\
+Abnormal mitral valve morphology ({\tt HP:0001633}) & 0.13 & 0.16 & 0.1 & 0.65 \\
+Dementia ({\tt HP:0000726}) & 0.13 & 0.14 & 0.12 & 0.7 \\
+Mental deterioration ({\tt HP:0001268}) & 0.12 & 0.14 & 0.11 & 0.64 \\
+Hemoptysis ({\tt HP:0002105}) & 0.12 & 0.17 & 0.09 & 0.75 \\
+Abnormality of body weight ({\tt HP:0004323}) & 0.12 & 0.27 & 0.08 & 0.53 \\
+Abnormal cardiac atrium morphology ({\tt HP:0005120}) & 0.12 & 0.12 & 0.12 & 0.58 \\
+Abnormality of skin adnexa physiology ({\tt HP:0025276}) & 0.12 & 0.12 & 0.12 & 0.57 \\
+Hyperhidrosis ({\tt HP:0000975}) & 0.12 & 0.12 & 0.12 & 0.68 \\
+Hypohidrosis or hyperhidrosis ({\tt HP:0007550}) & 0.12 & 0.12 & 0.12 & 0.63 \\
+Tachycardia ({\tt HP:0001649}) & 0.12 & 0.3 & 0.07 & 0.61 \\
+Abnormal sputum ({\tt HP:0032016}) & 0.11 & 0.17 & 0.08 & 0.65 \\
+Abnormal heart valve morphology ({\tt HP:0001654}) & 0.11 & 0.33 & 0.07 & 0.55 \\
+Abnormal aortic valve physiology ({\tt HP:0031652}) & 0.11 & 0.4 & 0.07 & 0.68 \\
+Obesity ({\tt HP:0001513}) & 0.11 & 0.12 & 0.1 & 0.66 \\
+Abnormal electrophysiology of sinoatrial node origin ({\tt HP:0011702}) & 0.11 & 0.26 & 0.07 & 0.68 \\
+Vascular dilatation ({\tt HP:0002617}) & 0.11 & 0.1 & 0.11 & 0.61 \\
+Atrial septal defect ({\tt HP:0001631}) & 0.11 & 0.1 & 0.11 & 0.7 \\
+Abnormal atrial septum morphology ({\tt HP:0011994}) & 0.11 & 0.1 & 0.11 & 0.66 \\
+Palpitations ({\tt HP:0001962}) & 0.1 & 0.29 & 0.06 & 0.77 \\
+Abnormal cardiac ventricle morphology ({\tt HP:0001713}) & 0.1 & 0.24 & 0.07 & 0.56 \\
+Gastrointestinal hemorrhage ({\tt HP:0002239}) & 0.1 & 0.18 & 0.07 & 0.68 \\
+Tricuspid regurgitation ({\tt HP:0005180}) & 0.1 & 0.13 & 0.09 & 0.79 \\
+Abnormal tricuspid valve physiology ({\tt HP:0031651}) & 0.1 & 0.13 & 0.09 & 0.72 \\
+Abnormal atrioventricular valve physiology ({\tt HP:0031650}) & 0.1 & 0.42 & 0.06 & 0.64 \\
+Bloody diarrhea ({\tt HP:0025085}) & 0.1 & 0.16 & 0.07 & 0.7 \\
+Abnormal vascular physiology ({\tt HP:0030163}) & 0.1 & 0.09 & 0.11 & 0.53 \\
 \hline
-{\em Overall} & - & {\em 90.56 } & - & - \\ 
+{\em Overall} & - & {\em 95.06 } & - & - \\ 
 \end{tabular}
-Classifying 552 records in 'pneumonia' using 43 terms using candidate set with OI: 99.8188405800
-Classifying 233 records in 'pulmonary embolism' using 30 terms using candidate set with OI: 90.9871244600
+Classifying 564 records in 'pneumonia' using 32 terms using candidate set with OI: 99.8226950400
+Classifying 243 records in 'pulmonary embolism' using 17 terms using candidate set with OI: 84.7736625500
 Classification performance:
-pneumonia AUC: 0.9990942028985508
-pulmonary embolism AUC: 0.9549356223175965
+pneumonia AUC: 0.999113475177305
+pulmonary embolism AUC: 0.9238683127572016
 
 Loading new dataset at data/test.tsv in order to classify ...
 Groupings loaded:
-  pneumonia: 147 members
-  pulmonary embolism: 59 members
-Loaded 704 entity-term associations.
+  pneumonia: 135 members
+  pulmonary embolism: 49 members
+Loaded 648 entity-term associations.
 Done loading dataset
-Classifying 147 records in 'pneumonia' using 43 terms using candidate set with OI: 100
-Classifying 59 records in 'pulmonary embolism' using 30 terms using candidate set with OI: 84.7457627100
+Classifying 135 records in 'pneumonia' using 32 terms using candidate set with OI: 100
+Classifying 49 records in 'pulmonary embolism' using 17 terms using candidate set with OI: 77.5510204100
 Classification performance:
 pneumonia AUC: 1.0
-pulmonary embolism AUC: 0.923728813559322
+pulmonary embolism AUC: 0.8877551020408163
 
