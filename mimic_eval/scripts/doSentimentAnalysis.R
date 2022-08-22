@@ -28,11 +28,11 @@ library(XGR)
 
 # working directory contains hp.obo, pulm_pneum_primaries_nodubs.csv, pp_conv.csv 
 
-dir.create("20220802")
-setwd("20220802/")
+setwd("enrichment/")
 
 # John was lazy so quick munge of obo relations to res.txt
 system("perl ./extract_rels.perl > res.txt")
+system("groovy transform.groovy > mat.lst")
 
 ############ perl extract_rels looks like:
 #	
@@ -61,10 +61,10 @@ system("perl ./extract_rels.perl > res.txt")
 
 
 # pick your poison --- load either experiment
-dat <- data.table::fread("pulm_pneum_primaries_nodubs.csv", data.table = F)
-dat <- data.table::fread("pp_conv.tsv")
+#dat <- data.table::fread("pulm_pneum_primaries_nodubs.csv", data.table = F)
+#dat <- data.table::fread("pp_conv.tsv")
 
-dat <- data.table::fread("train.tsv", data.table = F)
+dat <- data.table::fread("../data/train.tsv", data.table = F)
 # for XGR to work well (which can handle DAG-based p-val correction) 
 # we need to check structure of thier pre-loaded HPO annotations 
 ### note - probably subset theirs to HPPA and not having the pseudo-root nodes
@@ -90,17 +90,17 @@ rm(gHPO)
 #### now would be where to remove list of non- HPPA classes but John didn't do that yet
 
 # read
-myMat <- readLines("mat.lst")
+#myMat <- readLines("mat.lst")
 # rm obsolete
-myMat <- myMat[!grepl("obsolete",myMat)]
+#myMat <- myMat[!grepl("obsolete",myMat)]
 # split parent classes by ;
-myMat <- str_split(myMat, ";")
-myMat <- plyr::ldply(myMat, rbind)
+#myMat <- str_split(myMat, ";")
+#myMat <- plyr::ldply(myMat, rbind)
 # check dimensions and head  to know how many columns to add 
-dim(myMat)
-head(myMat)
+#dim(myMat)
+#head(myMat)
 # remove first row (pseudo column names)
-myMat <- myMat[-1,]
+#myMat <- myMat[-1,]
 
 # add column names for each is_a relation (parent/child)
 

@@ -167,7 +167,7 @@ res <- xEnricher1(data = OMIMGroup, # change this when switching things up
                           annotation = d1, # and this make new for each pheno dataset 
                           g = HPGraph,
                           min.overlap = 3,
-                          test = "fisher", # change to fisher as well 
+                          test = "binomial", # change to fisher as well 
                           p.tail = "one-tail",
                           background = rownames(d1),
                           p.adjust.method = "bonferroni",
@@ -175,10 +175,12 @@ res <- xEnricher1(data = OMIMGroup, # change this when switching things up
                           true.path.rule = TRUE,
                           ontology.algorithm = "pc")
 
+resDF <- xEnrichViewer(res, top_num = length(res$adjp))
+resDF$groupTested <- "OMIM:616900"
+resDF$TermID <- rownames(resDF)
 
-
-sig <- res[res$adjp < 0.05]
-write.table(sig,"fisher.sigResults_enriched.tsv",row.names = F, col.names = T, quote = F, sep = "\t")
+sig <- resDF[resDF$adjp < 0.05,]
+write.table(sig,"binomial.sigResults_enriched.tsv",row.names = F, col.names = T, quote = F, sep = "\t")
 
 #write.table(omim_sigPneu,"binomial.omim.dianosis.tsv",row.names = F, col.names = T, quote = F, sep = "\t")
 
