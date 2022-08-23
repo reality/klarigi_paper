@@ -1,12 +1,12 @@
 name	nAnno	nOverlap	fc	zscore	pvalue	adjp	or	CIl	CIu	groupTested	TermID
-Cough	563	438	1.05	7.23	1.2e-12	8.1e-10	1.21	0.745	2.01	pneumonia	HP:0012735
-Airway obstruction	231	199	1	6.26	4.9e-11	3.3e-08	0	0	Inf	pneumonia	HP:0006536
-Respiratory distress	259	217	0.661	5.93	7.3e-10	4.9e-07	0.364	0.0998	1.28	pneumonia	HP:0002098
-Pulmonary edema	185	162	1.24	5.76	1e-09	6.9e-07	3.71	2.3	6.22	pneumonia	HP:0100598
-Aspiration	182	157	1.01	5.37	1.3e-08	9.1e-06	1.03	0.66	1.63	pneumonia	HP:0002835
-Respiratory insufficiency	164	143	1.24	5.32	1.5e-08	1e-05	3.52	2.14	6.04	pneumonia	HP:0002093
-Abnormal breath sound	595	448	1.07	5.35	1.3e-07	8.9e-05	2.46	1.74	3.49	pneumonia	HP:0030829
-Productive cough	107	101	1.2	4.59	3.8e-07	0.00026	4.25	1.52	16.5	pneumonia	HP:0031245
-Congestive heart failure	205	170	0.429	4.72	8.1e-07	0.00054	0.181	0.0299	0.801	pneumonia	HP:0001635
-Abnormality of temperature regulation	460	352	1.08	4.32	1.2e-05	0.008	3.16	0.61	31.6	pneumonia	HP:0004370
-Abnormal lung morphology	550	418	1	4.13	5e-05	0.033	0	0	Inf	pneumonia	HP:0002088
+Cough	440	381	1.2	10.2	1.1e-24	6.7e-22	5.66	3.95	8.2	pneumonia	HP:0012735
+Congestive heart failure	191	168	1.24	5.93	3e-10	1.8e-07	3.82	2.37	6.39	pneumonia	HP:0001635
+Respiratory distress	222	191	0.705	5.72	2.6e-09	1.6e-06	0.403	0.107	1.53	pneumonia	HP:0002098
+Abnormal breath sound	500	394	1.09	5.45	5.6e-08	3.4e-05	2.44	1.74	3.43	pneumonia	HP:0030829
+Airway obstruction	209	178	1.18	4.85	3.6e-07	0.00022	2.75	1.79	4.34	pneumonia	HP:0006536
+Chills	178	152	1.2	4.81	3.9e-07	0.00024	2.9	1.83	4.73	pneumonia	HP:0025143
+Respiratory insufficiency	163	142	1.2	4.74	4.6e-07	0.00028	3.12	1.89	5.37	pneumonia	HP:0002093
+Abnormal respiratory system morphology	576	440	1.01	4.83	1.7e-06	0.001	1.04	0.643	1.73	pneumonia	HP:0012252
+Abnormality of temperature regulation	339	275	0.995	4.54	3.6e-06	0.0022	0	0	14	pneumonia	HP:0004370
+Aspiration	121	106	1.21	4.08	1.2e-05	0.0074	3.1	1.74	5.88	pneumonia	HP:0002835
+Pulmonary edema	143	124	1.17	3.99	2.4e-05	0.014	2.79	1.64	4.99	pneumonia	HP:0100598

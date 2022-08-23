@@ -1,3 +1,2 @@
 name	nAnno	nOverlap	fc	zscore	pvalue	adjp	or	CIl	CIu	groupTested	TermID
-Abnormality of coagulation	50	33	1.06	5.7	6.8e-08	4.2e-05	1.09	0.659	1.78	pulmonaryEmbolism	HP:0001928
-Hypercoagulability	23	23	1.1	4.64	8.6e-07	0.00053	1.18	0.638	2.12	pulmonaryEmbolism	HP:0100724
+Abnormality of coagulation	36	23	2.2	4.71	9.3e-06	0.0051	4.68	2.23	10.3	pulmonaryEmbolism	HP:0001928

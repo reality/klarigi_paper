@@ -54,7 +54,7 @@ def allStrip = STRIP.collect { hp ->
 
 println "Full list of strips: ${allStrip.join(',')}"
 
-def r = new Random(1242069420)
+def r = new Random(42069420137)
 
 def train = []
 def test = []

@@ -1,2 +1,2 @@
 name	nAnno	nOverlap	fc	zscore	pvalue	adjp	or	CIl	CIu	groupTested	TermID
-Cough	563	438	1.05	7.23	2e-05	0.015	1.21	0.745	2.01	pneumonia	HP:0012735
+Cough	440	381	1.2	10.2	1.9e-08	1.3e-05	5.66	3.95	8.2	pneumonia	HP:0012735

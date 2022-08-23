@@ -2,7 +2,7 @@
 import org.apache.commons.csv.CSVParser;
 import static org.apache.commons.csv.CSVFormat.*;
 
-def DATA_PATH = 'results'
+def DATA_PATH = '.'
 def HEADER = '''
     \\begin{tabular}{p{8cm}|l|l|l|l|l|l}
      & \\multicolumn{3}{c|}{Binomial} & \\multicolumn{2}{c}{Fisher} \\\\
@@ -62,10 +62,10 @@ printTable(pr)*/
 
 //new File('omimclas.tsv').text = pr.collect { k, v -> "$k\tOMIM:616900" }.join('\n')
 
-def PE_PN_REMOVE = ['HP:0100598', 'HP:0100598', 'HP:0002090', 'HP:0011949', 'HP:0011951', 'HP:0011952', 'HP:0002100', 'HP:0006532', 'HP:0033214']
+def PE_PN_REMOVE = []
 
 def pe = [:]
-new File('data/enrichment/binomial.sigResults_enrichedPulmonaryEmbolism.tsv').withReader { reader ->
+new File('enrichment/binomial.sigResults_enrichedPulmonaryEmbolism.tsv').withReader { reader ->
   CSVParser csv = new CSVParser(reader, TDF.withHeader())
   for(record in csv.iterator()) {
     if(!PE_PN_REMOVE.contains(record['TermID'])) {
@@ -73,7 +73,7 @@ new File('data/enrichment/binomial.sigResults_enrichedPulmonaryEmbolism.tsv').wi
     } else { println ':)'}
   }
 }
-new File('data/enrichment/fisher.sigResults_enrichedPulmonaryEmbolism.tsv').withReader { reader ->
+new File('enrichment/fisher.sigResults_enrichedPulmonaryEmbolism.tsv').withReader { reader ->
   CSVParser csv = new CSVParser(reader, TDF.withHeader())
   for(record in csv.iterator()) {
     if(!PE_PN_REMOVE.contains(record['TermID'])) {
@@ -84,7 +84,7 @@ new File('data/enrichment/fisher.sigResults_enrichedPulmonaryEmbolism.tsv').with
 printTable(pe)
 
 def pn = [:]
-new File('data/enrichment/binomial.sigResults_enrichedPneumonia.tsv').withReader { reader ->
+new File('enrichment/binomial.sigResults_enrichedPneumonia.tsv').withReader { reader ->
   CSVParser csv = new CSVParser(reader, TDF.withHeader())
   for(record in csv.iterator()) {
     if(!PE_PN_REMOVE.contains(record['TermID'])) {
@@ -92,7 +92,7 @@ new File('data/enrichment/binomial.sigResults_enrichedPneumonia.tsv').withReader
     }
   }
 }
-new File('data/enrichment/fisher.sigResults_enrichedPneumonia.tsv').withReader { reader ->
+new File('enrichment/fisher.sigResults_enrichedPneumonia.tsv').withReader { reader ->
   CSVParser csv = new CSVParser(reader, TDF.withHeader())
   for(record in csv.iterator()) {
     if(!PE_PN_REMOVE.contains(record['TermID'])) {
