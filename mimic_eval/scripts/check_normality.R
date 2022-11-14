@@ -10,4 +10,4 @@ HP_0031652 <- read.delim("~/Projects/klarigi_paper/mimic_eval/data/scores_exampl
 hist(HP_0031652$V3)
 
 library(ggpubr)
-ggqqplot(HP_0031652$V2)
+ggqqplot(HP_0001635$V1)

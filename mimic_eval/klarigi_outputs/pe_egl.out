@@ -3,21 +3,3 @@ Groupings loaded:
   pulmonary embolism: 232 members
 Loaded 1069 entity-term associations.
 Done loading dataset
-Done loading IC values
-pulmonary embolism: Scoring completed. Candidates: 39
-\begin{tabular}{p{5cm}|l|l}
-{\bf pulmonary embolism (232 members)} & {\bf Inclusion} & {\bf IC} \\
-\hline \hline
-Pain ({\tt HP:0012531}) & 0.81 & 0.63 \\
-Abnormal pattern of respiration ({\tt HP:0002793}) & 0.77 & 0.7 \\
-Abnormal systemic blood pressure ({\tt HP:0030972}) & 0.76 & 0.76 \\
-Dyspnea ({\tt HP:0002094}) & 0.75 & 0.83 \\
-Increased blood pressure ({\tt HP:0032263}) & 0.66 & 0.83 \\
-Hypertension ({\tt HP:0000822}) & 0.66 & 0.89 \\
-Abnormality of fluid regulation ({\tt HP:0011032}) & 0.63 & 0.67 \\
-Edema ({\tt HP:0000969}) & 0.62 & 0.67 \\
-Arrhythmia ({\tt HP:0011675}) & 0.61 & 0.64 \\
-\hline
-{\em Overall} & - & {\em 100.0 } & - \\ 
-\end{tabular}
-Skipping classification options because in EGL mode.
